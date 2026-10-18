@@ -47,6 +47,7 @@ def main():
     result=scan(files)
     for n,data in files.items():
         dest=out/n;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
+        if n=='PLAY-WINDOWED.command':dest.chmod(0o755)
     manifest=dict(source_checkpoint=checkpoint,role='HWVIS1/PUBLISH2 independent export; no original .git/history/private configuration',files={n:dict(sha256=sha(d),bytes=len(d)) for n,d in sorted(files.items())},scan=result,excluded='Historical large evidence and private configs, ROMs, owner reference bitmaps/untracked work, save disks, internal test ATRs. Some preserved historical reports link archival local-only evidence.')
     (out/'EXPORT-MANIFEST.json').write_text(json.dumps(manifest,indent=2)+'\n')
     (ROOT/'docs/hwvis1/export-scan.json').write_text(json.dumps(result,indent=2)+'\n')
