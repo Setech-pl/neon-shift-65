@@ -1,0 +1,43 @@
+; Physical reservations appear in the actual ld65 map, with no XEX payload.
+; Menu and BFS overlays use these same physical regions in stopped phases.
+.segment "COMPOSE"
+.res $320
+.segment "MUSICRAM"
+.res $800
+.segment "CSTACK"
+.res $800
+.segment "SCREENRAM"
+.res $3c0
+.segment "BANK0"
+.res $400
+.segment "HUDRAM"
+.res $400
+.segment "HUDSTAGING"
+.res $198
+.segment "BASERAM"
+.res $370
+.segment "PACKHEADER"
+.res $90
+.segment "SECTORRAM"
+.res $80
+.segment "DESCRIPTOR"
+.res $180
+.segment "DISPLAYLIST"
+.res $98
+.segment "THEMERAM"
+.res $08
+.segment "BANK1"
+.res $400
+.segment "BANK2"
+.res $400
+.segment "BANK3"
+.res $400
+.segment "BANK4"
+.res $400
+.segment "ROBOTSOURCE"
+.res $500
+.segment "CANDIDATESTATE"
+.res $319
+
+.segment "STATUSRAM"
+.res $e0

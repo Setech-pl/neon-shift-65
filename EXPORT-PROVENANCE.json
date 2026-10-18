@@ -1,0 +1,9 @@
+{
+  "source_checkpoint": "a9448bfb887fd4a2c35182cb8a54a4ea2cb7a1ea",
+  "source_branch": "fix/hwvis1-publish2",
+  "previous_product_checkpoint": "600d934310b5ffb8e3fbf73a205f15a589a4efa6",
+  "previous_packaging_checkpoint": "154560ddd49f35d037e90d2141a363cd49306cb3",
+  "export_commit": "Resolve git rev-parse HEAD in this independent repository; original workspace records actual mapping in docs/hwvis1/publication.json.",
+  "role": "Independent initial export authorized by owner; original source repository/history/evidence preserved",
+  "normal_atr_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d"
+}

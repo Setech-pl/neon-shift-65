@@ -1,0 +1,291 @@
+{
+  "formatVersion": 2,
+  "reference": {
+    "path": "assets/graphics/loader.png",
+    "sha256": "f77650dc0c388497143584f2af779949cdd34d87f1559f7ed7d66c3f75e38248",
+    "width": 1402,
+    "height": 1122
+  },
+  "bitmap": {
+    "width": 320,
+    "height": 192,
+    "bytesPerRow": 40,
+    "bitOrder": "msb-left",
+    "address": "$4010",
+    "secondLmsLine": 102,
+    "secondLmsAddress": "$5000"
+  },
+  "timing": {
+    "palFrames": 250,
+    "palHz": 50
+  },
+  "paletteZones": [
+    {
+      "name": "title",
+      "displayMode": "ANTIC F",
+      "foregroundPixel": 1,
+      "startLine": 0,
+      "endLine": 39,
+      "foreground": "$1E",
+      "registers": {
+        "COLBK": "$00",
+        "COLPF1": "$1E",
+        "COLPF2": "$10"
+      }
+    },
+    {
+      "name": "ship",
+      "displayMode": "ANTIC F",
+      "foregroundPixel": 1,
+      "startLine": 40,
+      "endLine": 156,
+      "foreground": "$8A",
+      "registers": {
+        "COLBK": "$00",
+        "COLPF1": "$8A",
+        "COLPF2": "$80"
+      }
+    },
+    {
+      "name": "studio",
+      "displayMode": "ANTIC E",
+      "foregroundPixel": 2,
+      "startLine": 157,
+      "endLine": 191,
+      "foreground": "$D8",
+      "registers": {
+        "COLBK": "$00",
+        "COLPF1": "$D8",
+        "COLPF2": "$D0"
+      }
+    }
+  ],
+  "patterns": {
+    "solid": ["1"],
+    "dense": ["1111", "1011", "1111", "1110"],
+    "medium": ["1010", "0101"],
+    "sparse": ["1000", "0010", "1000", "0001"],
+    "horizontal": ["1111", "0000"],
+    "vertical": ["10"]
+  },
+  "fonts": {
+    "military5x7": {
+      "letterSpacing": 1,
+      "spaceAdvance": 3,
+      "glyphs": {
+        "(": ["00010", "00100", "01000", "01000", "01000", "00100", "00010"],
+        ")": ["01000", "00100", "00010", "00010", "00010", "00100", "01000"],
+        "0": ["01110", "10001", "10001", "10001", "10001", "10001", "01110"],
+        "2": ["11110", "00001", "00001", "01110", "10000", "10000", "11110"],
+        "5": ["11111", "10000", "10000", "11110", "00001", "00001", "11110"],
+        "6": ["01111", "10000", "10000", "11110", "10001", "10001", "01110"],
+        "A": ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
+        "B": ["11110", "10001", "10001", "11110", "10001", "10001", "11110"],
+        "C": ["01111", "10000", "10000", "10000", "10000", "10000", "01111"],
+        "D": ["11110", "10001", "10001", "10001", "10001", "10001", "11110"],
+        "E": ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
+        "F": ["11111", "10000", "10000", "11110", "10000", "10000", "10000"],
+        "G": ["01111", "10000", "10000", "10111", "10001", "10001", "01110"],
+        "H": ["10001", "10001", "10001", "11111", "10001", "10001", "10001"],
+        "I": ["11111", "00100", "00100", "00100", "00100", "00100", "11111"],
+        "K": ["10001", "10010", "10100", "11000", "10100", "10010", "10001"],
+        "M": ["10001", "11011", "10101", "10101", "10001", "10001", "10001"],
+        "O": ["01110", "10001", "10001", "10001", "10001", "10001", "01110"],
+        "R": ["11110", "10001", "10001", "11110", "10100", "10010", "10001"],
+        "S": ["01111", "10000", "10000", "01110", "00001", "00001", "11110"],
+        "T": ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
+        "U": ["10001", "10001", "10001", "10001", "10001", "10001", "01110"],
+        "V": ["10001", "10001", "10001", "10001", "10001", "01010", "00100"]
+      }
+    },
+    "anticE3x7Bold": {
+      "letterSpacing": 2,
+      "spaceAdvance": 3,
+      "glyphs": {
+        "(": ["010", "100", "100", "100", "100", "100", "010"],
+        ")": ["010", "001", "001", "001", "001", "001", "010"],
+        "0": ["111", "101", "101", "101", "101", "101", "111"],
+        "2": ["110", "001", "001", "010", "100", "100", "111"],
+        "6": ["011", "100", "100", "111", "101", "101", "111"],
+        "A": ["010", "101", "101", "111", "101", "101", "101"],
+        "C": ["011", "100", "100", "100", "100", "100", "011"],
+        "D": ["110", "101", "101", "101", "101", "101", "110"],
+        "E": ["111", "100", "100", "110", "100", "100", "111"],
+        "G": ["011", "100", "100", "101", "101", "101", "011"],
+        "H": ["101", "101", "101", "111", "101", "101", "101"],
+        "I": ["111", "010", "010", "010", "010", "010", "111"],
+        "M": ["101", "111", "111", "101", "101", "101", "101"],
+        "O": ["0110", "1001", "1001", "1001", "1001", "1001", "0110"],
+        "S": ["011", "100", "100", "010", "001", "001", "110"],
+        "T": ["111", "010", "010", "010", "010", "010", "010"],
+        "U": ["101", "101", "101", "101", "101", "101", "111"]
+      }
+    }
+  },
+  "elements": [
+    {
+      "kind": "stars",
+      "pattern": "solid",
+      "points": [[8, 3], [77, 4], [186, 3], [300, 5], [15, 39], [311, 35], [4, 48], [95, 45], [213, 46], [304, 51], [10, 155], [91, 151], [224, 153], [307, 149]]
+    },
+    {
+      "kind": "pixelText",
+      "name": "title",
+      "text": "VOID STRIKE 65",
+      "font": "military5x7",
+      "x": 36,
+      "y": 7,
+      "scaleX": 3,
+      "scaleY": 4,
+      "pattern": "solid"
+    },
+    {"kind": "rect", "x": 33, "y": 18, "width": 4, "height": 2, "value": 0},
+    {"kind": "rect", "x": 83, "y": 28, "width": 5, "height": 2, "value": 0},
+    {"kind": "rect", "x": 125, "y": 12, "width": 3, "height": 2, "value": 0},
+    {"kind": "rect", "x": 181, "y": 26, "width": 4, "height": 2, "value": 0},
+    {"kind": "rect", "x": 238, "y": 13, "width": 5, "height": 2, "value": 0},
+    {"kind": "rect", "x": 278, "y": 25, "width": 4, "height": 2, "value": 0},
+
+    {
+      "kind": "polygon",
+      "name": "upper engine plume",
+      "points": [[13, 62], [24, 58], [33, 60], [38, 65], [31, 71], [20, 69]],
+      "pattern": "medium",
+      "outline": true
+    },
+    {
+      "kind": "polygon",
+      "name": "middle engine plume",
+      "points": [[10, 89], [22, 83], [34, 84], [40, 96], [33, 108], [20, 106], [10, 101]],
+      "pattern": "dense",
+      "outline": true
+    },
+    {
+      "kind": "polygon",
+      "name": "lower engine plume",
+      "points": [[14, 127], [25, 122], [34, 124], [39, 132], [31, 140], [19, 138]],
+      "pattern": "medium",
+      "outline": true
+    },
+
+    {
+      "kind": "polygon",
+      "name": "upper flight pod",
+      "points": [[30, 57], [40, 53], [104, 52], [112, 56], [131, 57], [138, 61], [157, 64], [164, 69], [156, 74], [137, 74], [128, 78], [38, 77], [30, 72]],
+      "pattern": "dense",
+      "outline": true
+    },
+    {
+      "kind": "polygon",
+      "name": "middle engine body",
+      "points": [[29, 79], [128, 77], [138, 81], [144, 88], [148, 95], [144, 105], [136, 112], [31, 112], [24, 106], [23, 87]],
+      "pattern": "dense",
+      "outline": true
+    },
+    {
+      "kind": "polygon",
+      "name": "lower flight pod",
+      "points": [[32, 115], [136, 113], [144, 118], [158, 122], [167, 130], [159, 136], [143, 137], [133, 142], [39, 143], [31, 137]],
+      "pattern": "dense",
+      "outline": true
+    },
+
+    {"kind": "rect", "x": 24, "y": 61, "width": 9, "height": 10, "pattern": "solid"},
+    {"kind": "rect", "x": 26, "y": 63, "width": 5, "height": 6, "value": 0},
+    {"kind": "rect", "x": 22, "y": 88, "width": 12, "height": 17, "pattern": "solid"},
+    {"kind": "rect", "x": 25, "y": 91, "width": 7, "height": 11, "value": 0},
+    {"kind": "rect", "x": 25, "y": 126, "width": 9, "height": 10, "pattern": "solid"},
+    {"kind": "rect", "x": 27, "y": 128, "width": 5, "height": 6, "value": 0},
+
+    {
+      "kind": "polygon",
+      "name": "main hull",
+      "points": [[103, 70], [130, 69], [143, 74], [231, 75], [243, 78], [258, 83], [270, 91], [273, 103], [268, 113], [256, 120], [242, 124], [145, 124], [132, 120], [105, 119]],
+      "pattern": "medium",
+      "outline": true
+    },
+    {"kind": "polygon", "points": [[111, 76], [140, 76], [149, 81], [242, 82], [252, 87], [253, 94], [146, 93], [136, 88], [111, 87]], "pattern": "dense"},
+    {"kind": "polygon", "points": [[111, 102], [137, 102], [147, 98], [253, 99], [253, 109], [242, 117], [148, 117], [137, 113], [111, 113]], "pattern": "sparse"},
+    {"kind": "rect", "x": 137, "y": 95, "width": 118, "height": 4, "value": 0},
+    {"kind": "rect", "x": 145, "y": 96, "width": 104, "height": 1, "pattern": "solid"},
+
+    {"kind": "repeatLine", "x": 146, "y1": 80, "y2": 118, "count": 13, "stepX": 8, "width": 1, "pattern": "solid"},
+    {"kind": "repeatLine", "x": 150, "y1": 84, "y2": 114, "count": 12, "stepX": 8, "width": 1, "value": 0},
+    {"kind": "line", "points": [[136, 84], [247, 85]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[137, 112], [245, 115]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[137, 89], [245, 91]], "width": 1, "value": 0},
+    {"kind": "line", "points": [[139, 106], [247, 108]], "width": 1, "value": 0},
+
+    {"kind": "rect", "x": 44, "y": 61, "width": 59, "height": 3, "value": 0},
+    {"kind": "rect", "x": 48, "y": 65, "width": 72, "height": 2, "pattern": "solid"},
+    {"kind": "rect", "x": 39, "y": 70, "width": 88, "height": 3, "value": 0},
+    {"kind": "repeatLine", "x": 50, "y1": 56, "y2": 75, "count": 8, "stepX": 9, "width": 1, "pattern": "solid"},
+    {"kind": "rect", "x": 42, "y": 86, "width": 88, "height": 20, "value": 0},
+    {"kind": "polygon", "points": [[47, 89], [119, 87], [130, 94], [121, 103], [50, 103], [42, 97]], "pattern": "medium", "outline": true},
+    {"kind": "rect", "x": 56, "y": 92, "width": 54, "height": 8, "value": 0},
+    {"kind": "rect", "x": 60, "y": 94, "width": 46, "height": 4, "pattern": "sparse"},
+    {"kind": "repeatLine", "x": 45, "y1": 83, "y2": 108, "count": 10, "stepX": 9, "width": 1, "pattern": "solid"},
+    {"kind": "rect", "x": 43, "y": 121, "width": 91, "height": 3, "value": 0},
+    {"kind": "rect", "x": 48, "y": 126, "width": 83, "height": 2, "pattern": "solid"},
+    {"kind": "rect", "x": 40, "y": 134, "width": 95, "height": 3, "value": 0},
+    {"kind": "repeatLine", "x": 51, "y1": 117, "y2": 140, "count": 9, "stepX": 10, "width": 1, "pattern": "solid"},
+
+    {
+      "kind": "polygon",
+      "name": "layered bow",
+      "points": [[239, 76], [270, 76], [277, 79], [288, 82], [294, 87], [303, 91], [309, 97], [308, 103], [301, 109], [293, 113], [287, 119], [270, 122], [241, 122], [249, 114], [252, 105], [252, 88]],
+      "pattern": "dense",
+      "outline": true
+    },
+    {"kind": "polygon", "points": [[250, 79], [271, 79], [278, 82], [287, 84], [292, 88], [265, 88], [254, 91], [247, 87]], "pattern": "solid"},
+    {"kind": "polygon", "points": [[258, 108], [301, 102], [298, 109], [288, 113], [282, 118], [251, 119]], "pattern": "sparse", "outline": true},
+    {"kind": "line", "points": [[276, 84], [302, 94], [307, 99]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[280, 116], [299, 108], [306, 102]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[246, 110], [284, 110], [299, 104]], "width": 2, "value": 0},
+    {"kind": "repeatLine", "x": 263, "y1": 112, "y2": 120, "count": 5, "stepX": 6, "width": 2, "value": 0},
+    {"kind": "polygon", "name": "bow plate", "points": [[253, 88], [291, 88], [295, 102], [287, 108], [252, 106]], "pattern": "solid"},
+
+    {"kind": "line", "points": [[107, 67], [113, 48], [116, 67]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[113, 48], [124, 48]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[132, 121], [140, 151], [146, 124]], "width": 1, "pattern": "solid"},
+    {"kind": "line", "points": [[140, 151], [154, 151]], "width": 1, "pattern": "solid"},
+    {"kind": "stars", "pattern": "solid", "points": [[177, 56], [217, 134], [299, 132], [187, 145]]},
+
+    {
+      "kind": "pixelText",
+      "name": "copyright",
+      "text": "(C) 2026",
+      "font": "anticE3x7Bold",
+      "x": 130,
+      "y": 157,
+      "scaleX": 2,
+      "scaleY": 2,
+      "letterSpacing": 2,
+      "pattern": "solid"
+    },
+    {
+      "kind": "pixelText",
+      "name": "studio",
+      "text": "SETECH GAME STUDIO",
+      "font": "anticE3x7Bold",
+      "x": 90,
+      "y": 173,
+      "scaleX": 2,
+      "scaleY": 2,
+      "letterSpacing": 2,
+      "pattern": "solid"
+    }
+  ],
+  "landmarks": {
+    "title": {"x": 36, "y": 7, "width": 231, "height": 28},
+    "ship": {"x": 10, "y": 48, "width": 299, "height": 104},
+    "engineBands": [
+      {"x": 10, "y": 52, "width": 154, "height": 26},
+      {"x": 10, "y": 77, "width": 138, "height": 36},
+      {"x": 14, "y": 113, "width": 153, "height": 39}
+    ],
+    "copyright": {"x": 130, "y": 157, "width": 60, "height": 14},
+    "studio": {"x": 90, "y": 173, "width": 140, "height": 14},
+    "footer": {"x": 90, "y": 157, "width": 140, "height": 30}
+  }
+}

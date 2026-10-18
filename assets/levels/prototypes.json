@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "name": "REACTOR STORE",
+      "rows": [
+        "#############",
+        "#.   .      #",
+        "#  $   $    #",
+        "#     $     #",
+        "#.   @      #",
+        "#############"
+      ],
+      "origin": "Adapted from inherited level14 (Piatka), unchanged puzzle, baseline8056a70; prototype only",
+      "track": 0
+    },
+    {
+      "name": "FOUNDRY BAY",
+      "rows": [
+        "####################",
+        "#                  #",
+        "# **   ** *   ***  #",
+        "#   ###    ###     #",
+        "#                  #",
+        "#                  #",
+        "#   ###    ###     #",
+        "#                  #",
+        "#   +$             #",
+        "####################"
+      ],
+      "origin": "Original M1 visual/control stress scene; not a campaign difficulty slot",
+      "track": 1
+    },
+    {
+      "name": "FIRST DOCK",
+      "rows": [
+        "######",
+        "#.$@ #",
+        "######"
+      ],
+      "origin": "Inherited level1, unchanged puzzle, baseline8056a70; fast solved/undo/fresh FIRE smoke",
+      "track": 0
+    }
+  ]
+}

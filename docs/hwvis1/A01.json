@@ -1,0 +1,935 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "audit-witness-proof",
+      "shift": 0,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/audit-witness-proof"
+    },
+    {
+      "name": "sweep-win-0",
+      "shift": -600,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-0"
+    },
+    {
+      "name": "sweep-win-75",
+      "shift": -525,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-75"
+    },
+    {
+      "name": "sweep-win-150",
+      "shift": -450,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-150"
+    },
+    {
+      "name": "sweep-win-225",
+      "shift": -375,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-225"
+    },
+    {
+      "name": "sweep-win-300",
+      "shift": -300,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-300"
+    },
+    {
+      "name": "sweep-win-375",
+      "shift": -225,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-375"
+    },
+    {
+      "name": "sweep-win-450",
+      "shift": -150,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-450"
+    },
+    {
+      "name": "sweep-win-525",
+      "shift": -75,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-525"
+    },
+    {
+      "name": "sweep-win-600",
+      "shift": 0,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-600"
+    },
+    {
+      "name": "sweep-win-675",
+      "shift": 75,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-675"
+    },
+    {
+      "name": "sweep-win-750",
+      "shift": 150,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-750"
+    },
+    {
+      "name": "sweep-win-825",
+      "shift": 225,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-825"
+    },
+    {
+      "name": "sweep-win-900",
+      "shift": 300,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-900"
+    },
+    {
+      "name": "sweep-win-975",
+      "shift": 375,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-975"
+    },
+    {
+      "name": "sweep-win-1050",
+      "shift": 450,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-1050"
+    },
+    {
+      "name": "sweep-win-1125",
+      "shift": 525,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-1125"
+    },
+    {
+      "name": "sweep-win-1200",
+      "shift": 600,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          3,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 1,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-win-1200"
+    },
+    {
+      "name": "nonwinning-proof",
+      "shift": 0,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          1
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ]
+        ],
+        "moves": 1,
+        "pushes": 0,
+        "undo": 1,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/nonwinning-proof"
+    },
+    {
+      "name": "sweep-block-0",
+      "shift": -600,
+      "fire": 4400,
+      "accepted": 0,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ]
+        ],
+        "moves": 0,
+        "pushes": 0,
+        "undo": 0,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-block-0"
+    },
+    {
+      "name": "sweep-block-300",
+      "shift": -300,
+      "fire": 4400,
+      "accepted": 0,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ]
+        ],
+        "moves": 0,
+        "pushes": 0,
+        "undo": 0,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-block-300"
+    },
+    {
+      "name": "sweep-block-600",
+      "shift": 0,
+      "fire": 4400,
+      "accepted": 0,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ]
+        ],
+        "moves": 0,
+        "pushes": 0,
+        "undo": 0,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-block-600"
+    },
+    {
+      "name": "sweep-block-900",
+      "shift": 300,
+      "fire": 4400,
+      "accepted": 0,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ]
+        ],
+        "moves": 0,
+        "pushes": 0,
+        "undo": 0,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-block-900"
+    },
+    {
+      "name": "sweep-block-1200",
+      "shift": 600,
+      "fire": 4400,
+      "accepted": 0,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 0,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ]
+        ],
+        "moves": 0,
+        "pushes": 0,
+        "undo": 0,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 136,
+        "_save_error": 0,
+        "_save_valid": 0,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/sweep-block-1200"
+    },
+    {
+      "name": "fresh-fire-after-ready",
+      "shift": 0,
+      "fire": 4400,
+      "accepted": 1,
+      "undos": 1,
+      "final": {
+        "phase": 1,
+        "scene": 1,
+        "error": 0,
+        "loaded": 1,
+        "player": [
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "moves": 0,
+        "pushes": 0,
+        "undo": 0,
+        "overflow": 0,
+        "publication_overflow": 0,
+        "late": 0,
+        "vcount": 137,
+        "_save_error": 0,
+        "_save_valid": 1,
+        "_save_complete": 0,
+        "_eng4_busy": 0,
+        "_hud_dirty": 0,
+        "_asset_loading": 0
+      },
+      "out": "build/hwvis1/final/fresh-fire-after-ready"
+    }
+  ],
+  "method": "Original audit pin witness, 17 direction phases around first DLI, five blocked phases, full fetch-raster proof, fresh FIRE after ready"
+}

@@ -1,0 +1,16 @@
+*.o
+*.xex
+*.atr
+*.lst
+*.map
+*.lbl
+.DS_Store
+__pycache__/
+
+/build/
+/docs/audit/evidence-*/
+/.claude/
+/references/
+
+# The only tracked current distribution image
+!/dist/neon-shift65-v1.0.0.atr

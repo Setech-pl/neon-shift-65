@@ -1,0 +1,10 @@
+{
+  "status": "PREPARED",
+  "source_checkpoint": "a9448bfb887fd4a2c35182cb8a54a4ea2cb7a1ea",
+  "target_repository": "Setech-pl/neon-shift-65",
+  "private": true,
+  "candidate_status": "OWNER_PENDING",
+  "rights": "OPEN",
+  "stable_release": false,
+  "final_tag": false
+}

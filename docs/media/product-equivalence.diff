@@ -1,0 +1,124 @@
+--- normal/campaign.c
++++ test-1/campaign.c
+@@ -18,7 +18,7 @@
+ {
+     unsigned char i,j,x,y;
+     if(memcmp(sector_buffer,"NSAV",4) || sector_buffer[4]!=1 || sector_buffer[5]>=60 ||
+-        memcmp(sector_buffer+10,campaign_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
++        memcmp(sector_buffer+10,save_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
+         sector_buffer[6]>3 || sector_buffer[7]>1 || sector_buffer[16]>=16 || sector_buffer[17]>=8 ||
+         !sector_buffer[18] || sector_buffer[18]>10)return 0;
+     for(i=0;i<sector_buffer[18];i++){
+@@ -112,7 +112,7 @@
+     target=save_valid?(save_slot^1):0;next=save_valid?save_generation+1:1;
+     memset(save_record,0,128);memcpy(save_record,"NSAV",4);
+     save_record[4]=1;save_record[5]=scene;save_record[6]=music_enabled|(sfx_enabled<<1);save_record[7]=save_complete;
+-    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,campaign_id,4);
++    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,save_id,4);
+     save_record[14]=level_crc;save_record[15]=level_crc>>8;save_record[16]=gs.player.x;save_record[17]=gs.player.y;
+     save_record[18]=gs.box_count;memcpy(save_record+19,gs.boxes,20);memcpy(save_record+39,&gs.moves,4);memcpy(save_record+43,&gs.pushes,4);
+     next=checksum(save_record);save_record[126]=next;save_record[127]=next>>8;
+--- normal/main.c
++++ test-1/main.c
+@@ -66,7 +66,7 @@
+     unsigned char clock,moved,pushed,was;
+     signed char dx,dy;
+     InputAction action;
+-    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();clock=input_clock;
++    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();if(phase!=6){continue_saved(0);input_rearm();}clock=input_clock;
+     for(;;){
+         input_wait(clock);clock=input_clock;frame_begin();moved=pushed=0;action=input_read();was=phase;
+         if((phase==1 || phase==2) && action!=INPUT_NONE)hud_invalidate();
+--- normal/campaign.c
++++ test-16/campaign.c
+@@ -18,7 +18,7 @@
+ {
+     unsigned char i,j,x,y;
+     if(memcmp(sector_buffer,"NSAV",4) || sector_buffer[4]!=1 || sector_buffer[5]>=60 ||
+-        memcmp(sector_buffer+10,campaign_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
++        memcmp(sector_buffer+10,save_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
+         sector_buffer[6]>3 || sector_buffer[7]>1 || sector_buffer[16]>=16 || sector_buffer[17]>=8 ||
+         !sector_buffer[18] || sector_buffer[18]>10)return 0;
+     for(i=0;i<sector_buffer[18];i++){
+@@ -112,7 +112,7 @@
+     target=save_valid?(save_slot^1):0;next=save_valid?save_generation+1:1;
+     memset(save_record,0,128);memcpy(save_record,"NSAV",4);
+     save_record[4]=1;save_record[5]=scene;save_record[6]=music_enabled|(sfx_enabled<<1);save_record[7]=save_complete;
+-    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,campaign_id,4);
++    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,save_id,4);
+     save_record[14]=level_crc;save_record[15]=level_crc>>8;save_record[16]=gs.player.x;save_record[17]=gs.player.y;
+     save_record[18]=gs.box_count;memcpy(save_record+19,gs.boxes,20);memcpy(save_record+39,&gs.moves,4);memcpy(save_record+43,&gs.pushes,4);
+     next=checksum(save_record);save_record[126]=next;save_record[127]=next>>8;
+--- normal/main.c
++++ test-16/main.c
+@@ -66,7 +66,7 @@
+     unsigned char clock,moved,pushed,was;
+     signed char dx,dy;
+     InputAction action;
+-    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();clock=input_clock;
++    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();if(phase!=6){continue_saved(15);input_rearm();}clock=input_clock;
+     for(;;){
+         input_wait(clock);clock=input_clock;frame_begin();moved=pushed=0;action=input_read();was=phase;
+         if((phase==1 || phase==2) && action!=INPUT_NONE)hud_invalidate();
+--- normal/campaign.c
++++ test-31/campaign.c
+@@ -18,7 +18,7 @@
+ {
+     unsigned char i,j,x,y;
+     if(memcmp(sector_buffer,"NSAV",4) || sector_buffer[4]!=1 || sector_buffer[5]>=60 ||
+-        memcmp(sector_buffer+10,campaign_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
++        memcmp(sector_buffer+10,save_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
+         sector_buffer[6]>3 || sector_buffer[7]>1 || sector_buffer[16]>=16 || sector_buffer[17]>=8 ||
+         !sector_buffer[18] || sector_buffer[18]>10)return 0;
+     for(i=0;i<sector_buffer[18];i++){
+@@ -112,7 +112,7 @@
+     target=save_valid?(save_slot^1):0;next=save_valid?save_generation+1:1;
+     memset(save_record,0,128);memcpy(save_record,"NSAV",4);
+     save_record[4]=1;save_record[5]=scene;save_record[6]=music_enabled|(sfx_enabled<<1);save_record[7]=save_complete;
+-    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,campaign_id,4);
++    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,save_id,4);
+     save_record[14]=level_crc;save_record[15]=level_crc>>8;save_record[16]=gs.player.x;save_record[17]=gs.player.y;
+     save_record[18]=gs.box_count;memcpy(save_record+19,gs.boxes,20);memcpy(save_record+39,&gs.moves,4);memcpy(save_record+43,&gs.pushes,4);
+     next=checksum(save_record);save_record[126]=next;save_record[127]=next>>8;
+--- normal/main.c
++++ test-31/main.c
+@@ -66,7 +66,7 @@
+     unsigned char clock,moved,pushed,was;
+     signed char dx,dy;
+     InputAction action;
+-    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();clock=input_clock;
++    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();if(phase!=6){continue_saved(30);input_rearm();}clock=input_clock;
+     for(;;){
+         input_wait(clock);clock=input_clock;frame_begin();moved=pushed=0;action=input_read();was=phase;
+         if((phase==1 || phase==2) && action!=INPUT_NONE)hud_invalidate();
+--- normal/campaign.c
++++ test-46/campaign.c
+@@ -18,7 +18,7 @@
+ {
+     unsigned char i,j,x,y;
+     if(memcmp(sector_buffer,"NSAV",4) || sector_buffer[4]!=1 || sector_buffer[5]>=60 ||
+-        memcmp(sector_buffer+10,campaign_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
++        memcmp(sector_buffer+10,save_id,4) || checksum(sector_buffer)!=word(sector_buffer+126) ||
+         sector_buffer[6]>3 || sector_buffer[7]>1 || sector_buffer[16]>=16 || sector_buffer[17]>=8 ||
+         !sector_buffer[18] || sector_buffer[18]>10)return 0;
+     for(i=0;i<sector_buffer[18];i++){
+@@ -112,7 +112,7 @@
+     target=save_valid?(save_slot^1):0;next=save_valid?save_generation+1:1;
+     memset(save_record,0,128);memcpy(save_record,"NSAV",4);
+     save_record[4]=1;save_record[5]=scene;save_record[6]=music_enabled|(sfx_enabled<<1);save_record[7]=save_complete;
+-    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,campaign_id,4);
++    save_record[8]=next;save_record[9]=next>>8;memcpy(save_record+10,save_id,4);
+     save_record[14]=level_crc;save_record[15]=level_crc>>8;save_record[16]=gs.player.x;save_record[17]=gs.player.y;
+     save_record[18]=gs.box_count;memcpy(save_record+19,gs.boxes,20);memcpy(save_record+39,&gs.moves,4);memcpy(save_record+43,&gs.pushes,4);
+     next=checksum(save_record);save_record[126]=next;save_record[127]=next>>8;
+--- normal/main.c
++++ test-46/main.c
+@@ -66,7 +66,7 @@
+     unsigned char clock,moved,pushed,was;
+     signed char dx,dy;
+     InputAction action;
+-    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();clock=input_clock;
++    hardware_init();input_init();undo_configure(256);phase=scene=selected=0;save_error=save_valid=save_complete=0;startup();if(phase!=6){continue_saved(45);input_rearm();}clock=input_clock;
+     for(;;){
+         input_wait(clock);clock=input_clock;frame_begin();moved=pushed=0;action=input_read();was=phase;
+         if((phase==1 || phase==2) && action!=INPUT_NONE)hud_invalidate();

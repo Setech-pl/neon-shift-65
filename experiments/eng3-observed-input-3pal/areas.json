@@ -1,0 +1,57 @@
+{
+  "abi": 1,
+  "areas": [
+    {
+      "id": 1,
+      "slug": "energy-service-bay",
+      "name": "ENERGY SERVICE BAY",
+      "palette": [
+        238,
+        156,
+        34,
+        42,
+        0
+      ],
+      "geometry": "industrial service rails, cabinets and independent fans"
+    },
+    {
+      "id": 2,
+      "slug": "hydroponic-lab",
+      "name": "HYDROPONIC LAB",
+      "palette": [
+        190,
+        188,
+        178,
+        186,
+        0
+      ],
+      "geometry": "double fluid rails, glass reservoirs, ribbed nutrient tanks"
+    },
+    {
+      "id": 3,
+      "slug": "neon-data-hub",
+      "name": "NEON DATA HUB",
+      "palette": [
+        78,
+        76,
+        66,
+        74,
+        0
+      ],
+      "geometry": "segmented cable trays, server drawers and optical panels"
+    },
+    {
+      "id": 4,
+      "slug": "reactor-core",
+      "name": "REACTOR CORE",
+      "palette": [
+        60,
+        56,
+        50,
+        58,
+        0
+      ],
+      "geometry": "thick graphite shields, valves, power manifolds and warning strips"
+    }
+  ]
+}

@@ -1,0 +1,4882 @@
+{
+  "sha": "ef1924d9690fad3b15f4f9de0474f33140b26799",
+  "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/ef1924d9690fad3b15f4f9de0474f33140b26799",
+  "tree": [
+    {
+      "path": ".agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d01453c16c6ed725a58acbff5205b9be6678a25",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/5d01453c16c6ed725a58acbff5205b9be6678a25"
+    },
+    {
+      "path": ".agents/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3810c934d70faebd8eac650b4af87397e630b969",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/3810c934d70faebd8eac650b4af87397e630b969"
+    },
+    {
+      "path": ".agents/skills/vs65-feature",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9992a84022f81a9d7b8401ec228dc9380136e9de",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/9992a84022f81a9d7b8401ec228dc9380136e9de"
+    },
+    {
+      "path": ".agents/skills/vs65-feature/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b72fb3fe16c0cd043cdf218a07d178946fdd8461",
+      "size": 302,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b72fb3fe16c0cd043cdf218a07d178946fdd8461"
+    },
+    {
+      "path": ".agents/skills/vs65-hybrid-c-port",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5065f6149f573b00aba8d4764ef809664a49f02",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/a5065f6149f573b00aba8d4764ef809664a49f02"
+    },
+    {
+      "path": ".agents/skills/vs65-hybrid-c-port/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79283424ed3bfc5d8314c1d16521db3cfe12c9fc",
+      "size": 334,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/79283424ed3bfc5d8314c1d16521db3cfe12c9fc"
+    },
+    {
+      "path": ".agents/skills/vs65-pal-verify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6bff388404399823ab785f8aeb75cbac73a470b",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/f6bff388404399823ab785f8aeb75cbac73a470b"
+    },
+    {
+      "path": ".agents/skills/vs65-pal-verify/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4afd70c2c6d07778ef409aca7800db58276c3a4",
+      "size": 261,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f4afd70c2c6d07778ef409aca7800db58276c3a4"
+    },
+    {
+      "path": ".agents/skills/vs65-small-fix",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e92ed11a8a6d91ba2c8709e19a164ae8d371bd5",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/6e92ed11a8a6d91ba2c8709e19a164ae8d371bd5"
+    },
+    {
+      "path": ".agents/skills/vs65-small-fix/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4515e8705859cd2842c20f822a7cf5e84a6828",
+      "size": 313,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7d4515e8705859cd2842c20f822a7cf5e84a6828"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "228fb40048a89b8b96442babcfe543f2ef5c5eaa",
+      "size": 251,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/228fb40048a89b8b96442babcfe543f2ef5c5eaa"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518450f4ee048bf78cc0c15ca06750765f2d9de1",
+      "size": 64,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/518450f4ee048bf78cc0c15ca06750765f2d9de1"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31166e8709ed568fd209da554aa4122fa3df2366",
+      "size": 12501,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/31166e8709ed568fd209da554aa4122fa3df2366"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "size": 11,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/43c994c2d3617f947bcb5adf1933e21dabe46bb5"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb07cd53bfb55f2448fdd11fff8121da78b25300",
+      "size": 1095,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/eb07cd53bfb55f2448fdd11fff8121da78b25300"
+    },
+    {
+      "path": "LICENSE-ASSETS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ffd0ca7441295aa143a0811f4c99235045f5b03",
+      "size": 5813,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8ffd0ca7441295aa143a0811f4c99235045f5b03"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6ab0e47e19025441ff489ca2d4c7c109380552",
+      "size": 148,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/dc6ab0e47e19025441ff489ca2d4c7c109380552"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0989822f8bbe1fa6eeac53686c08c4ae62448632",
+      "size": 15688,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0989822f8bbe1fa6eeac53686c08c4ae62448632"
+    },
+    {
+      "path": "README.pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0854b4816967c09a3e3e705ce90c6a4bbf125a18",
+      "size": 17007,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0854b4816967c09a3e3e705ce90c6a4bbf125a18"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c78b257921824afe56cabe8ab330b1686791dd7",
+      "size": 8547,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2c78b257921824afe56cabe8ab330b1686791dd7"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7af7d0e372e2408a8c84e5f6d0599fad1943bbc8",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/7af7d0e372e2408a8c84e5f6d0599fad1943bbc8"
+    },
+    {
+      "path": "assets/audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b98881161d4e57e26379f8842c1253be27812c0",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/6b98881161d4e57e26379f8842c1253be27812c0"
+    },
+    {
+      "path": "assets/audio/boot-splash.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3208d7cb72315e3bb5d144560366f6c33d0f8bbc",
+      "size": 1228,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3208d7cb72315e3bb5d144560366f6c33d0f8bbc"
+    },
+    {
+      "path": "assets/graphics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b11fa0da47b5b97a773844145fa7255cb1cfb08a",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/b11fa0da47b5b97a773844145fa7255cb1cfb08a"
+    },
+    {
+      "path": "assets/graphics/Aegis Escort.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d54e8a3b81c16668feb6993d9eecd728b46cb2",
+      "size": 110013,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/54d54e8a3b81c16668feb6993d9eecd728b46cb2"
+    },
+    {
+      "path": "assets/graphics/Hostile Interceptor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "851a9963c963127a8948d8d405e556a5f1994e2c",
+      "size": 90203,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/851a9963c963127a8948d8d405e556a5f1994e2c"
+    },
+    {
+      "path": "assets/graphics/Hydra Missile Carrier.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411ea4df028aaa3b5c63af45969e535ac5294588",
+      "size": 95264,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/411ea4df028aaa3b5c63af45969e535ac5294588"
+    },
+    {
+      "path": "assets/graphics/Leech Drone.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ecf624492f516580bf617f76f46213f693cac38",
+      "size": 120065,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2ecf624492f516580bf617f76f46213f693cac38"
+    },
+    {
+      "path": "assets/graphics/Nemesis Command Interceptor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90deb0e7b01e3835e4bd2e4059d8323acf89c016",
+      "size": 147316,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/90deb0e7b01e3835e4bd2e4059d8323acf89c016"
+    },
+    {
+      "path": "assets/graphics/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f9955a5ec700c932d25de436dd170a0795e00e",
+      "size": 3511,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/06f9955a5ec700c932d25de436dd170a0795e00e"
+    },
+    {
+      "path": "assets/graphics/Reaper Gunship.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c27265e0c39d75f33784c8c8b4b33c15b7114e6f",
+      "size": 145544,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c27265e0c39d75f33784c8c8b4b33c15b7114e6f"
+    },
+    {
+      "path": "assets/graphics/Scythe Bomber.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7efee3eff302be443e4a6356858b3f9a0acf163a",
+      "size": 83703,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7efee3eff302be443e4a6356858b3f9a0acf163a"
+    },
+    {
+      "path": "assets/graphics/Specter Scout.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "155a331f7779f51b28a021b2fcd41586497700fe",
+      "size": 57726,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/155a331f7779f51b28a021b2fcd41586497700fe"
+    },
+    {
+      "path": "assets/graphics/Stalker Hunter.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3382b765532aeae069d4196a7950552b35c457c1",
+      "size": 62612,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3382b765532aeae069d4196a7950552b35c457c1"
+    },
+    {
+      "path": "assets/graphics/Talon Interceptor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1587f118721c0d6b91d9519d15b0cc07ade4ae3d",
+      "size": 71848,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1587f118721c0d6b91d9519d15b0cc07ade4ae3d"
+    },
+    {
+      "path": "assets/graphics/boss-regions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcd71c97839c9c1b658f3e26886f4a911b36632c",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/dcd71c97839c9c1b658f3e26886f4a911b36632c"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "317aeed5d1159c36c932d3ab2c6e17dcc077e820",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/317aeed5d1159c36c932d3ab2c6e17dcc077e820"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion/band.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381609b180ed0b57f81e40ea34dff7f0b1b10608",
+      "size": 988,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/381609b180ed0b57f81e40ea34dff7f0b1b10608"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion/broken.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c41f8bc17c68457fab14427217d0b1e7346dae8",
+      "size": 634,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3c41f8bc17c68457fab14427217d0b1e7346dae8"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion/cracked.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50d8facf40ff2162533cec1c0256535f2b80e75",
+      "size": 653,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f50d8facf40ff2162533cec1c0256535f2b80e75"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion/extras.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eced1a92378daabf0d5ee402fc571cdf94a3c679",
+      "size": 274,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/eced1a92378daabf0d5ee402fc571cdf94a3c679"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion/modules.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9511909a0c52ef425159cb181614eb4b10a43d1e",
+      "size": 3306,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9511909a0c52ef425159cb181614eb4b10a43d1e"
+    },
+    {
+      "path": "assets/graphics/boss-regions/bastion/open.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "566fda51452fe735ba4496eb44671d7b6cd8927e",
+      "size": 983,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/566fda51452fe735ba4496eb44671d7b6cd8927e"
+    },
+    {
+      "path": "assets/graphics/boss-regions/placeholders.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a0b4b44a5abcb5fe0476a7a2162687fb601ebd",
+      "size": 832,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/80a0b4b44a5abcb5fe0476a7a2162687fb601ebd"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13a847d3f08a5321e1323e7ef7e265a149bac5e9",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/13a847d3f08a5321e1323e7ef7e265a149bac5e9"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/band.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d63d2e56c7a29dfa1f2542d296d41890b6ab50",
+      "size": 1968,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c4d63d2e56c7a29dfa1f2542d296d41890b6ab50"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/broken.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa2dad933f6e3952b8ed86f43686b5a5701a05a3",
+      "size": 1812,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fa2dad933f6e3952b8ed86f43686b5a5701a05a3"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/cracked.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4bc71670243ee48af02f41e3152f3dbbdc9383e",
+      "size": 1883,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a4bc71670243ee48af02f41e3152f3dbbdc9383e"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/emitter.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11abf06c216c59f0ac0b63059864de98aee5a676",
+      "size": 327,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/11abf06c216c59f0ac0b63059864de98aee5a676"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/extras.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6549ca01c9bef9beb2c06ca2f34ed3963d11a3de",
+      "size": 255,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6549ca01c9bef9beb2c06ca2f34ed3963d11a3de"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/modules.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9980e990a831f41352ce46e7db0effc7ff3c02d7",
+      "size": 10553,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9980e990a831f41352ce46e7db0effc7ff3c02d7"
+    },
+    {
+      "path": "assets/graphics/boss-regions/region-1/open.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8288cb6b17d4fa9f77e543ea4366d2856ad650a",
+      "size": 1953,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a8288cb6b17d4fa9f77e543ea4366d2856ad650a"
+    },
+    {
+      "path": "assets/graphics/capital-hulls-antic2-prototype.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed40665fe910df0e420c8cd450bd11897f424657",
+      "size": 4753,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ed40665fe910df0e420c8cd450bd11897f424657"
+    },
+    {
+      "path": "assets/graphics/capital-hulls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fb7bb9679b8ece7065bd28e17a286574fcc15d",
+      "size": 69175,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d9fb7bb9679b8ece7065bd28e17a286574fcc15d"
+    },
+    {
+      "path": "assets/graphics/enemy-roster.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbada488ad102d34d7aeb1689ffbaaaa0a215eb3",
+      "size": 8485,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/dbada488ad102d34d7aeb1689ffbaaaa0a215eb3"
+    },
+    {
+      "path": "assets/graphics/entity-effects.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a30377a5dc687e6ed25c736869fb710512026a",
+      "size": 4943,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/01a30377a5dc687e6ed25c736869fb710512026a"
+    },
+    {
+      "path": "assets/graphics/fighter-weapons.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1932df3af90a669c1d570454decb18e4c9c56c",
+      "size": 3853,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4a1932df3af90a669c1d570454decb18e4c9c56c"
+    },
+    {
+      "path": "assets/graphics/frontend-h31.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c9965d77c18f5fb897761d5fde767fc7446463",
+      "size": 4059,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f9c9965d77c18f5fb897761d5fde767fc7446463"
+    },
+    {
+      "path": "assets/graphics/hull-drafts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fe261b1cd2ee92bb5c0640ba8138c74e9e208d9",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/7fe261b1cd2ee92bb5c0640ba8138c74e9e208d9"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/allied_lines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "166c26fc5e9a2f8c35e242340d53e0b860030527",
+      "size": 2034,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/166c26fc5e9a2f8c35e242340d53e0b860030527"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/export_mass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b8649ce4da569aa0b88a07407ee858bc08a8c3",
+      "size": 2557,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f6b8649ce4da569aa0b88a07407ee858bc08a8c3"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/export_set.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c9a15408b78e8d35feacd10c31accbfedc78d49",
+      "size": 2303,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0c9a15408b78e8d35feacd10c31accbfedc78d49"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/final_set.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81429d04cc9d09836373c5a5f327eba5fcfdc948",
+      "size": 9049,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/81429d04cc9d09836373c5a5f327eba5fcfdc948"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/hull-set-v1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "940229e7179abb5a7fde2aedf36dadec8c2c9bdd",
+      "size": 17042,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/940229e7179abb5a7fde2aedf36dadec8c2c9bdd"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/hull-set-v2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b87008af79f6332b6854dae9fb894473d8b39f",
+      "size": 17714,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/81b87008af79f6332b6854dae9fb894473d8b39f"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/mass_set.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bfb94cf26793d87a41fb5b3d0897a479bb11fc2",
+      "size": 4667,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3bfb94cf26793d87a41fb5b3d0897a479bb11fc2"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/set-B-sheet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd0921e25fafa8d684c22b6cd98031858488f16d",
+      "size": 31576,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bd0921e25fafa8d684c22b6cd98031858488f16d"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/set-MASS-sheet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "635ac02191b6303a597609cc69ace65219a40a46",
+      "size": 31597,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/635ac02191b6303a597609cc69ace65219a40a46"
+    },
+    {
+      "path": "assets/graphics/hull-drafts/set_b.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65eab17b7a7f767375fc800454e0de8cca23f8e1",
+      "size": 1597,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/65eab17b7a7f767375fc800454e0de8cca23f8e1"
+    },
+    {
+      "path": "assets/graphics/level-summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce11818d9b00a2b82582df474bd8d04ad88d5c74",
+      "size": 1886,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ce11818d9b00a2b82582df474bd8d04ad88d5c74"
+    },
+    {
+      "path": "assets/graphics/loader-bitmap.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca3efe22684f7c9a50a0d0589b7c748657e78eba",
+      "size": 12672,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ca3efe22684f7c9a50a0d0589b7c748657e78eba"
+    },
+    {
+      "path": "assets/graphics/loader.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd194ad064a28c5a1d0e79bf2b8bd4900c39579",
+      "size": 1236058,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/dfd194ad064a28c5a1d0e79bf2b8bd4900c39579"
+    },
+    {
+      "path": "assets/graphics/mainmenu.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e49fd3c9d5d52bf41001cbc2d56c5f46bc67a7",
+      "size": 1020739,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b6e49fd3c9d5d52bf41001cbc2d56c5f46bc67a7"
+    },
+    {
+      "path": "assets/graphics/playfield.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8023a1801a26a4daac22b4236588eb9c192fe0b5",
+      "size": 173,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8023a1801a26a4daac22b4236588eb9c192fe0b5"
+    },
+    {
+      "path": "assets/graphics/starfield.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb20eec1acb9d006f79bcdf15810ab5c1374cfe",
+      "size": 865,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3bb20eec1acb9d006f79bcdf15810ab5c1374cfe"
+    },
+    {
+      "path": "assets/graphics/void-strike-65-banner-03-retro-box-art.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "722bc36c152f776a652403b16eebdc5a3c80d5c5",
+      "size": 2271517,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/722bc36c152f776a652403b16eebdc5a3c80d5c5"
+    },
+    {
+      "path": "assets/graphics/void-strike-65-screen-concept-v1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ab706e7f538110ebc9108c3847c9e8c3a09eb00",
+      "size": 778973,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2ab706e7f538110ebc9108c3847c9e8c3a09eb00"
+    },
+    {
+      "path": "assets/levels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "304ff03ab9ef6506ec3f9ef6d875e795ac03a129",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/304ff03ab9ef6506ec3f9ef6d875e795ac03a129"
+    },
+    {
+      "path": "assets/levels/level-01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47acd1cd8ad78e7bcbb762a1308d662478bbf002",
+      "size": 15875,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/47acd1cd8ad78e7bcbb762a1308d662478bbf002"
+    },
+    {
+      "path": "assets/levels/level-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a34addc93f7eba846607f4520c9ccb12d5f0c31",
+      "size": 13957,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0a34addc93f7eba846607f4520c9ccb12d5f0c31"
+    },
+    {
+      "path": "assets/music",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10daa5adf8fdffdca06b863bae8bcffbc78b76cf",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/10daa5adf8fdffdca06b863bae8bcffbc78b76cf"
+    },
+    {
+      "path": "assets/music/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2cbfde5b0db45378bf7a14b51d213e3f01e4062",
+      "size": 10540,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c2cbfde5b0db45378bf7a14b51d213e3f01e4062"
+    },
+    {
+      "path": "assets/music/boss-theme.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a9b8caf3c3a30dc41a6e40eb591ca769bc84036",
+      "size": 9444,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5a9b8caf3c3a30dc41a6e40eb591ca769bc84036"
+    },
+    {
+      "path": "assets/music/gameplay-theme.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80c9fb94df45d8119d3e01128da6ae51bf4f15f",
+      "size": 11079,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f80c9fb94df45d8119d3e01128da6ae51bf4f15f"
+    },
+    {
+      "path": "assets/music/menu-theme.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c6de80c6d41261404cf01cfdad02f480aacfdb",
+      "size": 13504,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e1c6de80c6d41261404cf01cfdad02f480aacfdb"
+    },
+    {
+      "path": "assets/music/preview",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8576c394753089d16f1145089812e404943dd57",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/b8576c394753089d16f1145089812e404943dd57"
+    },
+    {
+      "path": "assets/music/preview/pokey_synth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23cfac0f7ac1d7ccea19dc064f518e398f55a06",
+      "size": 6728,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e23cfac0f7ac1d7ccea19dc064f518e398f55a06"
+    },
+    {
+      "path": "assets/music/preview/render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56fb4a5bf4fc8093a3421c87a5896aa26412fa4d",
+      "size": 5752,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/56fb4a5bf4fc8093a3421c87a5896aa26412fa4d"
+    },
+    {
+      "path": "assets/music/preview/sketches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f54c595b134af0b7984a407996f35a2ffe97ff9",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/3f54c595b134af0b7984a407996f35a2ffe97ff9"
+    },
+    {
+      "path": "assets/music/preview/sketches/build_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa34b8adda96d46629f5e76d74eba38a6f23d96",
+      "size": 11800,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/afa34b8adda96d46629f5e76d74eba38a6f23d96"
+    },
+    {
+      "path": "assets/music/preview/sketches/gameplay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54947a6ae1378d0849815f7de88ae632d42fd6cf",
+      "size": 3876,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/54947a6ae1378d0849815f7de88ae632d42fd6cf"
+    },
+    {
+      "path": "assets/music/v2-drafts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4e5d599257e83ade93930f96009ff482b43e8df",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/b4e5d599257e83ade93930f96009ff482b43e8df"
+    },
+    {
+      "path": "assets/music/v2-drafts/GRA-2-z-pliku.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e8c55ba94d24b51e2101dc728aadce0faf40e9",
+      "size": 983919,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/85e8c55ba94d24b51e2101dc728aadce0faf40e9"
+    },
+    {
+      "path": "assets/music/v2-drafts/MENU-B-z-pliku.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dbc633f486934cb423dce225d6f4e0063a2c44f",
+      "size": 492399,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5dbc633f486934cb423dce225d6f4e0063a2c44f"
+    },
+    {
+      "path": "assets/sfx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b07fce1d55ab1e71f1eb6015f9ea33dd459cf710",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/b07fce1d55ab1e71f1eb6015f9ea33dd459cf710"
+    },
+    {
+      "path": "assets/sfx/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b79454b593db437a47c5c2e002533a14c8fde9a",
+      "size": 93,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0b79454b593db437a47c5c2e002533a14c8fde9a"
+    },
+    {
+      "path": "assets/text",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "074c3ef5e910ab3e9d38d8a01346ec2274755d92",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/074c3ef5e910ab3e9d38d8a01346ec2274755d92"
+    },
+    {
+      "path": "assets/text/loader-ai-lines.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9925932761ed4bb7ce32f112c849f0eb48fdf2b2",
+      "size": 672,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9925932761ed4bb7ce32f112c849f0eb48fdf2b2"
+    },
+    {
+      "path": "cfg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fae98b320d11d9a7b67f6a97651c681111f7b176",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/fae98b320d11d9a7b67f6a97651c681111f7b176"
+    },
+    {
+      "path": "cfg/atari-boot.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c8ff5a347616a3cbbbe6922893a6dfd07edafaf",
+      "size": 3142,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6c8ff5a347616a3cbbbe6922893a6dfd07edafaf"
+    },
+    {
+      "path": "cfg/boss.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e65af67c3e693561527256d55b83ac3f1a3998d0",
+      "size": 4673,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e65af67c3e693561527256d55b83ac3f1a3998d0"
+    },
+    {
+      "path": "cfg/capital-player-collision.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4cfe06dd453989a126c5b6b058e8051d8ef4908",
+      "size": 162,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c4cfe06dd453989a126c5b6b058e8051d8ef4908"
+    },
+    {
+      "path": "cfg/encounter-director-asm.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b52051c55782f15c54de22ca3286693b33ec402",
+      "size": 448,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7b52051c55782f15c54de22ca3286693b33ec402"
+    },
+    {
+      "path": "cfg/encounter-director.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f028a74e42f4047a4b3247a4a087964341bb34",
+      "size": 9951,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/45f028a74e42f4047a4b3247a4a087964341bb34"
+    },
+    {
+      "path": "cfg/gameplay-music.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa90efb315a1d5d1543b3edc1dc7918b769db392",
+      "size": 1252,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/aa90efb315a1d5d1543b3edc1dc7918b769db392"
+    },
+    {
+      "path": "cfg/integration-glue.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bff71378f8e8ab19e0c8d78c9c1660dbbcebe2d",
+      "size": 147,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6bff71378f8e8ab19e0c8d78c9c1660dbbcebe2d"
+    },
+    {
+      "path": "cfg/level-summary.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366655b98f04b3376a1015f1b4bbafb0a80be5e7",
+      "size": 1010,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/366655b98f04b3376a1015f1b4bbafb0a80be5e7"
+    },
+    {
+      "path": "cfg/light-kernel.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "065329d101bfeaadfb5b498ebd62397e14275b6d",
+      "size": 1680,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/065329d101bfeaadfb5b498ebd62397e14275b6d"
+    },
+    {
+      "path": "cfg/sector-reader.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a473a1759c81bc3321fd6947b37481e96141ba8",
+      "size": 1858,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0a473a1759c81bc3321fd6947b37481e96141ba8"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f1a094a8c93a33f2832505d5a197d3b7e64d52b",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/6f1a094a8c93a33f2832505d5a197d3b7e64d52b"
+    },
+    {
+      "path": "dist/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "dist/void-strike-65-boot.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb26f3f01213f408d49114534ff90a13c93bbd0c",
+      "size": 27264,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fb26f3f01213f408d49114534ff90a13c93bbd0c"
+    },
+    {
+      "path": "dist/void-strike-65-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ec5fc7444aa90b85372507e31cd27926fca644",
+      "size": 918846,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/87ec5fc7444aa90b85372507e31cd27926fca644"
+    },
+    {
+      "path": "dist/void-strike-65.atr",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319e96c52c473771d4e2a43839774e68037700b9",
+      "size": 92176,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/319e96c52c473771d4e2a43839774e68037700b9"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f977b834371712534950d073f91c136b241a8edc",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/f977b834371712534950d073f91c136b241a8edc"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b2dc19e2f58136981d3b12fc36a708eec9c3fd4",
+      "size": 5892,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4b2dc19e2f58136981d3b12fc36a708eec9c3fd4"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61aac820c79a0ffb860e89085d5326fba3db15ef",
+      "size": 535368,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/61aac820c79a0ffb860e89085d5326fba3db15ef"
+    },
+    {
+      "path": "docs/agent-workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fe44d880e42ee9e55fbdbd40aa7c5be7ff9679b",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/4fe44d880e42ee9e55fbdbd40aa7c5be7ff9679b"
+    },
+    {
+      "path": "docs/agent-workflows/feature.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "451d183f897b9c4fe45479bb8bd997a04a89c193",
+      "size": 1362,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/451d183f897b9c4fe45479bb8bd997a04a89c193"
+    },
+    {
+      "path": "docs/agent-workflows/hybrid-c-port.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aac3e3992ad2142402616f1c32aa48f920280ba",
+      "size": 1010,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6aac3e3992ad2142402616f1c32aa48f920280ba"
+    },
+    {
+      "path": "docs/agent-workflows/pal-verify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b914983d871a54b6d974b3267fc4e9e99d1ba42f",
+      "size": 694,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b914983d871a54b6d974b3267fc4e9e99d1ba42f"
+    },
+    {
+      "path": "docs/agent-workflows/small-fix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b44ae80ec039a276c95fa387c7e38ede303d801",
+      "size": 860,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1b44ae80ec039a276c95fa387c7e38ede303d801"
+    },
+    {
+      "path": "docs/architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ac0b3650bb4c34dda9c751491ae0839c38d580d",
+      "size": 38295,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3ac0b3650bb4c34dda9c751491ae0839c38d580d"
+    },
+    {
+      "path": "docs/art-direction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a282ee65645c5f6a2ba2bd5bdcdfde4a0dda4ff4",
+      "size": 15370,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a282ee65645c5f6a2ba2bd5bdcdfde4a0dda4ff4"
+    },
+    {
+      "path": "docs/audits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90f0a9b98afb769f939aeb6415a8c85f78cf98e7",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/90f0a9b98afb769f939aeb6415a8c85f78cf98e7"
+    },
+    {
+      "path": "docs/audits/2026-10-06-pre-m5.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1ecd4023a0f9443bd85ce7f1e4577798973520",
+      "size": 28204,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7e1ecd4023a0f9443bd85ce7f1e4577798973520"
+    },
+    {
+      "path": "docs/audits/2026-10-08-lights.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c6e603b4de3ef84806784da2aca73ed42f2124",
+      "size": 33367,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/52c6e603b4de3ef84806784da2aca73ed42f2124"
+    },
+    {
+      "path": "docs/audits/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87eca1ca6127db918cda25bbdb527a6cd249140d",
+      "size": 8408,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/87eca1ca6127db918cda25bbdb527a6cd249140d"
+    },
+    {
+      "path": "docs/boot-deadline-baseline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34feb718317d96c59f7df0e0c01370e9afe99fb3",
+      "size": 1819,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/34feb718317d96c59f7df0e0c01370e9afe99fb3"
+    },
+    {
+      "path": "docs/boss-concepts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1d11513f071c0bd1d09791c31b0bcc6750bb1fd",
+      "size": 3043,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f1d11513f071c0bd1d09791c31b0bcc6750bb1fd"
+    },
+    {
+      "path": "docs/capital-player-collision-trace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f84361b22b5b65f5edd53793e830ff3a9b876b",
+      "size": 78641,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/40f84361b22b5b65f5edd53793e830ff3a9b876b"
+    },
+    {
+      "path": "docs/decisions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54abc90f0b7c057ce04fdb89ca86591942c9a391",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/54abc90f0b7c057ce04fdb89ca86591942c9a391"
+    },
+    {
+      "path": "docs/decisions/ADR-001-portable-toolchain.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06cd40823c7c5f8a1fdd2d073f45be6b63bf793f",
+      "size": 1296,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/06cd40823c7c5f8a1fdd2d073f45be6b63bf793f"
+    },
+    {
+      "path": "docs/decisions/ADR-002-gameplay-screen.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d42241aa529c1fac1868e890fcec7ac975d497e6",
+      "size": 2068,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d42241aa529c1fac1868e890fcec7ac975d497e6"
+    },
+    {
+      "path": "docs/decisions/ADR-003-loader-screen.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da98d3e1790b65097a73ddd2627e1aa3dc18205c",
+      "size": 6002,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/da98d3e1790b65097a73ddd2627e1aa3dc18205c"
+    },
+    {
+      "path": "docs/decisions/ADR-004-single-resident-gameplay.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee702303aa7b7ddfcbfedcb0e34905c2bc98afb",
+      "size": 2228,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cee702303aa7b7ddfcbfedcb0e34905c2bc98afb"
+    },
+    {
+      "path": "docs/design-4.6-data-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52d0ebc41970a436f52743411b6baffaca9ac18e",
+      "size": 58609,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/52d0ebc41970a436f52743411b6baffaca9ac18e"
+    },
+    {
+      "path": "docs/diagnostics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "133274776a3611832c0c2a3c73c657169005aa21",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/133274776a3611832c0c2a3c73c657169005aa21"
+    },
+    {
+      "path": "docs/diagnostics/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce6cebb67bb833002b81066ef0b923caadc14f0a",
+      "size": 651,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ce6cebb67bb833002b81066ef0b923caadc14f0a"
+    },
+    {
+      "path": "docs/diagnostics/atr-basic-enabled-boot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7826d0f25c8966eb157a40fa300d230b2adc557",
+      "size": 12284,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b7826d0f25c8966eb157a40fa300d230b2adc557"
+    },
+    {
+      "path": "docs/diagnostics/atr-boot-deadline-rebasing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf752288284d4d51432b02c2c81bb543f818fd10",
+      "size": 16553,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cf752288284d4d51432b02c2c81bb543f818fd10"
+    },
+    {
+      "path": "docs/diagnostics/boss-handoff-clause-2026-09-28.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cb0e98caeca8a3367b6418b3be130d90739dc17",
+      "size": 6807,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3cb0e98caeca8a3367b6418b3be130d90739dc17"
+    },
+    {
+      "path": "docs/diagnostics/hardware-audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed18bfd1faa6aed3f9b1163690c39716f7a73dad",
+      "size": 17408,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ed18bfd1faa6aed3f9b1163690c39716f7a73dad"
+    },
+    {
+      "path": "docs/diagnostics/hardware-boot-2026-10-09.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b5848a1f2dd9d0b5a246c3ee73ec345ddd82ba1",
+      "size": 19706,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8b5848a1f2dd9d0b5a246c3ee73ec345ddd82ba1"
+    },
+    {
+      "path": "docs/diagnostics/hardware-boot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00145f416b4af28288d5b0879a06cfcdae0f44b",
+      "size": 25736,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b00145f416b4af28288d5b0879a06cfcdae0f44b"
+    },
+    {
+      "path": "docs/diagnostics/hybrid-c-director-behavior-ab.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b444eb0ae41cd4c3d6070846bae42cdcdcb2ec75",
+      "size": 6726,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b444eb0ae41cd4c3d6070846bae42cdcdcb2ec75"
+    },
+    {
+      "path": "docs/diagnostics/hybrid-c-director-native-control-flow-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d603eab80373b1938c2f80082996c6d41a9f9f5a",
+      "size": 5014,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d603eab80373b1938c2f80082996c6d41a9f9f5a"
+    },
+    {
+      "path": "docs/diagnostics/hybrid-c-director-pal-ab.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8f7a56329535965f9468ca004736d32b07655ad",
+      "size": 2429,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d8f7a56329535965f9468ca004736d32b07655ad"
+    },
+    {
+      "path": "docs/diagnostics/hybrid-c-lifecycle-enemy-archetype-foundation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fceb150097325cc9088a338abd9b123113b76331",
+      "size": 5357,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fceb150097325cc9088a338abd9b123113b76331"
+    },
+    {
+      "path": "docs/diagnostics/level-1-baseline-timeline-probe.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a689b8b66f710ceab1b00895ce4f1376950e284",
+      "size": 183555,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8a689b8b66f710ceab1b00895ce4f1376950e284"
+    },
+    {
+      "path": "docs/diagnostics/level-1-baseline-timeline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "354f7dfcd6245fa4e57285926ad0f518481b6823",
+      "size": 13973,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/354f7dfcd6245fa4e57285926ad0f518481b6823"
+    },
+    {
+      "path": "docs/diagnostics/level-2-timing-2026-09-30.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7c6f74968d0aa3d1436c76cdca9fcedf6bacca",
+      "size": 11061,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2a7c6f74968d0aa3d1436c76cdca9fcedf6bacca"
+    },
+    {
+      "path": "docs/diagnostics/level-data-boot-smoke-2026-09-23.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1711a007f8443328d72028c4684535fb0d1c2e91",
+      "size": 65953,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1711a007f8443328d72028c4684535fb0d1c2e91"
+    },
+    {
+      "path": "docs/diagnostics/level-data-pal-audit-2026-09-23.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60395a91746be93870e7c55954d6c166ded65801",
+      "size": 16082,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/60395a91746be93870e7c55954d6c166ded65801"
+    },
+    {
+      "path": "docs/diagnostics/level-order-pal-audit-2026-09-28.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99482ed7322ecb90c89028f53bdd138210232a9a",
+      "size": 18267,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/99482ed7322ecb90c89028f53bdd138210232a9a"
+    },
+    {
+      "path": "docs/diagnostics/light-multiplicity-pal-audit-2026-09-21.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0fc4928a9ad0a5658f93d8c926f79e67e019cc9",
+      "size": 54469,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c0fc4928a9ad0a5658f93d8c926f79e67e019cc9"
+    },
+    {
+      "path": "docs/diagnostics/light-population-m1-2026-09-21.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f9846e62b72d0621ae25b5ca546b871da644a0e",
+      "size": 33118,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0f9846e62b72d0621ae25b5ca546b871da644a0e"
+    },
+    {
+      "path": "docs/diagnostics/light-rotate-gate-pal-audit-2026-09-21.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d50ec5394f588b4c1cc9195e92d1bae60e5bbac3",
+      "size": 54473,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d50ec5394f588b4c1cc9195e92d1bae60e5bbac3"
+    },
+    {
+      "path": "docs/diagnostics/low-ram-0700-1fff-2026-10-03.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d26bc6cdb29daba0540e7f3420242f0a37babaa",
+      "size": 3649,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0d26bc6cdb29daba0540e7f3420242f0a37babaa"
+    },
+    {
+      "path": "docs/diagnostics/menu-stars-alternative-a-boot-sectors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4a7b6e38d691cb4150216fc12617c5d70405458",
+      "size": 15458,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b4a7b6e38d691cb4150216fc12617c5d70405458"
+    },
+    {
+      "path": "docs/diagnostics/menu-stars-resident-space.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b187d9e0d7589050c5a856c9dd0c615a2b3e3ecc",
+      "size": 9789,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b187d9e0d7589050c5a856c9dd0c615a2b3e3ecc"
+    },
+    {
+      "path": "docs/diagnostics/menu-title-colour-run-two-cells-short.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b3fdabb07a35672a4c923cd2eddbe456a88e27c",
+      "size": 5107,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1b3fdabb07a35672a4c923cd2eddbe456a88e27c"
+    },
+    {
+      "path": "docs/diagnostics/owner-decision-b-basic-window.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd1883482cb847ecdd1661ced306fb6721a339c",
+      "size": 10419,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2fd1883482cb847ecdd1661ced306fb6721a339c"
+    },
+    {
+      "path": "docs/diagnostics/parallax-cadence-debris-clause-2026-09-29.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34f4388032b94de4e9b11a306a9164fd5f02add8",
+      "size": 13096,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/34f4388032b94de4e9b11a306a9164fd5f02add8"
+    },
+    {
+      "path": "docs/diagnostics/pickup-boost-colour-2026-09-29.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa5d2b3546076c36c689342bd63f27e3d95c3eaf",
+      "size": 16693,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/aa5d2b3546076c36c689342bd63f27e3d95c3eaf"
+    },
+    {
+      "path": "docs/diagnostics/pickup-booster-clauses-2026-09-28.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5730ce93c3d7e95d1a6c829f978aba9cfde5f9cc",
+      "size": 22713,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5730ce93c3d7e95d1a6c829f978aba9cfde5f9cc"
+    },
+    {
+      "path": "docs/diagnostics/pickup-traversal-clause-2026-09-28.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4597099941774b7405ae86047e2f52779526aa",
+      "size": 6222,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ce4597099941774b7405ae86047e2f52779526aa"
+    },
+    {
+      "path": "docs/diagnostics/recorded-failures-review-2026-10.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ba8dc2d75cc46d05ad8cc133b38da2d11a4e550",
+      "size": 77740,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8ba8dc2d75cc46d05ad8cc133b38da2d11a4e550"
+    },
+    {
+      "path": "docs/diagnostics/release-gate-and-pin-conversion-injection-proof.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a53cfc4b144f2f268eaa452cd0280e18e13090e",
+      "size": 3522,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6a53cfc4b144f2f268eaa452cd0280e18e13090e"
+    },
+    {
+      "path": "docs/diagnostics/runtime-wall-trace-report-regeneration-blocked.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14003cd90bb187a7493a1a6bfd02374f47988910",
+      "size": 118524,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/14003cd90bb187a7493a1a6bfd02374f47988910"
+    },
+    {
+      "path": "docs/diagnostics/s5-1-stress-spawn-blocked.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae9c1018e75924c9545675575abe63df1ae0b47",
+      "size": 9135,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fae9c1018e75924c9545675575abe63df1ae0b47"
+    },
+    {
+      "path": "docs/diagnostics/sio-boot-smoke-gate-2026-09-20.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d558d750575262615e7ee9e9400dbbce79d8bed1",
+      "size": 5023,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d558d750575262615e7ee9e9400dbbce79d8bed1"
+    },
+    {
+      "path": "docs/diagnostics/sio-protocol-facts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675bed58dedf1fba559bc8d6dc466856c9261f80",
+      "size": 13569,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/675bed58dedf1fba559bc8d6dc466856c9261f80"
+    },
+    {
+      "path": "docs/diagnostics/sio-register-probe-2026-09-20.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f9f7af944f2ca0dba5412544950f82e72b16618",
+      "size": 8673,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3f9f7af944f2ca0dba5412544950f82e72b16618"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f17ca28e54794238b5b64224907ecb64d605c3d",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/0f17ca28e54794238b5b64224907ecb64d605c3d"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p1-band-fix-f123-128.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82adad56d3c93715a5b65213d99c874e2d2a4c29",
+      "size": 4462,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/82adad56d3c93715a5b65213d99c874e2d2a4c29"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p1-band-main-f123-128.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36cba3e5b91fc1f8d7989cccc662fac01c4075d",
+      "size": 4410,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f36cba3e5b91fc1f8d7989cccc662fac01c4075d"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p3-level-end-fix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d468aaeff41a6ffb08e8d60b3c052d5cdb7556d",
+      "size": 1940,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4d468aaeff41a6ffb08e8d60b3c052d5cdb7556d"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p3-level-end-main.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d4a142e960f84d1a81a839498034dbb7618b3fd",
+      "size": 2142,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0d4a142e960f84d1a81a839498034dbb7618b3fd"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p3-start-game-fix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e6b366539dd7b063e602d5fae932eb789d8eb5",
+      "size": 1385,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/02e6b366539dd7b063e602d5fae932eb789d8eb5"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p3-start-game-main.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d92fe66175418375f322bfd565bce3ba68df706",
+      "size": 2005,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1d92fe66175418375f322bfd565bce3ba68df706"
+    },
+    {
+      "path": "docs/diagnostics/smoke-2026-10-07/p3-warning-main-and-fix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4b813dce4c11769d4a5e882857267abd85eb3f",
+      "size": 808,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2e4b813dce4c11769d4a5e882857267abd85eb3f"
+    },
+    {
+      "path": "docs/diagnostics/spread-debug-route-2026-09-30.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c5bd3bd04c1bcf095ac72e52c306db4fa5a0c24",
+      "size": 9662,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3c5bd3bd04c1bcf095ac72e52c306db4fa5a0c24"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b0-double-buffer-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a865625019a6b474fa86ccc0de38e6e026de477e",
+      "size": 6197,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a865625019a6b474fa86ccc0de38e6e026de477e"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b1-fixed-sync-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb3af34a15bb2d9ec6d2d37172fd34e37a5db50",
+      "size": 11294,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/deb3af34a15bb2d9ec6d2d37172fd34e37a5db50"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2-projectile-publication-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f6511029e1e567566e905b3cd22bc48c84d2258",
+      "size": 13099,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9f6511029e1e567566e905b3cd22bc48c84d2258"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-14-static-far-slow-near-final-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d0ddb2012c537ca10dc9a60159c463a259668c",
+      "size": 6215,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/39d0ddb2012c537ca10dc9a60159c463a259668c"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-authoritative-pal-gameplay-clock-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ef3ae69f30bffc6e3cf5f80899682a6977e4e5",
+      "size": 16002,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/46ef3ae69f30bffc6e3cf5f80899682a6977e4e5"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-background-ring-25hz-staggered-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b91ca1c8172f1ce2b46ffaf37f9d35f0b2d64443",
+      "size": 11014,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b91ca1c8172f1ce2b46ffaf37f9d35f0b2d64443"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-booster-admission-final-diagnostic.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdf9b8b7dbf1636f9bb6af899b82e8332f93716c",
+      "size": 112267,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fdf9b8b7dbf1636f9bb6af899b82e8332f93716c"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-capital-speed-restore-clock-verify.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b178526396973bc5ae4bd5937dc1eb93b418d197",
+      "size": 8466,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b178526396973bc5ae4bd5937dc1eb93b418d197"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-cold-pickup-record-fit-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d48980e1ba34c6e7c2c712d13b5de3ee1e7d9992",
+      "size": 8601,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d48980e1ba34c6e7c2c712d13b5de3ee1e7d9992"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-combined-ownership-writer-hooks-native-trace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79bd5be8dab2c3bcf9f88748e1340c2da5c6713e",
+      "size": 9295,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/79bd5be8dab2c3bcf9f88748e1340c2da5c6713e"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-combined-pmg-lower-cell-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e537727296886d88f0fd901068d4ee2c99561fb3",
+      "size": 9117,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e537727296886d88f0fd901068d4ee2c99561fb3"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-debris-25hz-slot03-feasibility.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d71298f8f4deb3893ce860297d110248ed188fcd",
+      "size": 22490,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d71298f8f4deb3893ce860297d110248ed188fcd"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-debris-abi-native-slot0-baseline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4cc6dcfc4fd672aa6d4dd8e6324a938df4feae",
+      "size": 11737,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7d4cc6dcfc4fd672aa6d4dd8e6324a938df4feae"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-effects-25hz-staggered-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f1e4c9c5ec877d5a29664d4b8440a2d96bfcd9",
+      "size": 9568,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b1f1e4c9c5ec877d5a29664d4b8440a2d96bfcd9"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-final-remaining-raider-remnant-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71fadf9b89d3880206f076ed850ca40f0a7a77a9",
+      "size": 10624,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/71fadf9b89d3880206f076ed850ca40f0a7a77a9"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-gameplay-speed-tuning-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258e77d656593b577f585a4f277c44db17af052d",
+      "size": 7985,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/258e77d656593b577f585a4f277c44db17af052d"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-light-wingman-2heavy-1light.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e05cd470b1671a00f80045819246707481d61b83",
+      "size": 4158,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e05cd470b1671a00f80045819246707481d61b83"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-light-wingman-late-publication.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943de29d1ff09d967f2de13d3dea00d46fe98fc5",
+      "size": 4548,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/943de29d1ff09d967f2de13d3dea00d46fe98fc5"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-near-star-visibility-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff87c7c61c8974d9ad38029b9873e83f1930db6",
+      "size": 8805,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6ff87c7c61c8974d9ad38029b9873e83f1930db6"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-offscreen-spawn-raider-debris-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c0c613520d0c85e32634ee1db9ae87bb4065a5",
+      "size": 11105,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/33c0c613520d0c85e32634ee1db9ae87bb4065a5"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-pairshot-final-single-ghost-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a552f789c7556fe1dc4a774242a6bc623062fd8c",
+      "size": 6724,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a552f789c7556fe1dc4a774242a6bc623062fd8c"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-pairshot-foundation-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd37b91c67c4a6e2eaafc82e18290e06798178f2",
+      "size": 14465,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fd37b91c67c4a6e2eaafc82e18290e06798178f2"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-pairshot-stale-cell-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4674002caeafde7e232767aafc6d172f06f4124",
+      "size": 9044,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b4674002caeafde7e232767aafc6d172f06f4124"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-player-fire-cadence-audio-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb469cc3e552f00669b425693212b4519920ee3",
+      "size": 9401,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/dfb469cc3e552f00669b425693212b4519920ee3"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-player-pairshot-capital-reentry-diagnostic.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b79fa6cfdf8e9ab3f043ab1a9017f98b0701c38",
+      "size": 8249,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4b79fa6cfdf8e9ab3f043ab1a9017f98b0701c38"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-player-pairshot-variable-speed-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07602e1757d51220ad8a08b7626114c588f935db",
+      "size": 7082,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/07602e1757d51220ad8a08b7626114c588f935db"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-pmg-pickup-visibility-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff4f69fe3b5fbbc6a700926ee610038001dda99",
+      "size": 1827,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6ff4f69fe3b5fbbc6a700926ee610038001dda99"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-post-raider-native-first-writer-inconclusive.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c64bd8ac47d1c68a0d3906e7e64b4b04451164",
+      "size": 4993,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f0c64bd8ac47d1c68a0d3906e7e64b4b04451164"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-raider-character-effects-removal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c4d50d2e747566ab6daab1837c08adaad286ba",
+      "size": 4208,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d0c4d50d2e747566ab6daab1837c08adaad286ba"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-raider-destruction-fragment-wrong-origin-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "075e39ebbb367214623aac79574d5694a3e272aa",
+      "size": 8473,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/075e39ebbb367214623aac79574d5694a3e272aa"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-raider-destruction-remnant-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ababc8f04a2dec55830985938122ac5d0a6fb4cd",
+      "size": 8730,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ababc8f04a2dec55830985938122ac5d0a6fb4cd"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-raider-projectile-emitter-cleanup.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd6d2587070560bff53a3be7f8c07501f9411e1",
+      "size": 4949,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1cd6d2587070560bff53a3be7f8c07501f9411e1"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-raider-transient-breakup-fragments-removal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c3b89e79d6e851b3e83dbc6021a16a66ccd5c4",
+      "size": 4842,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/95c3b89e79d6e851b3e83dbc6021a16a66ccd5c4"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-raider-wreck-gameplay-debris-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3768f72085fb4dc0dfe708e22a840afceaed066b",
+      "size": 10733,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3768f72085fb4dc0dfe708e22a840afceaed066b"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-remaining-mid-screen-debris-remnant-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d7028832a7941c25771493f39cbd9a8d5526d0d",
+      "size": 8087,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0d7028832a7941c25771493f39cbd9a8d5526d0d"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-row-baked-far-stars-visual-prototype.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56179cf2a67d7e6f67cdf6d9725915537a620384",
+      "size": 12784,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/56179cf2a67d7e6f67cdf6d9725915537a620384"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-sector-clock-capital-shot-timing-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b118d4b86846ea318add73d7bad32341e0a3477f",
+      "size": 13012,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b118d4b86846ea318add73d7bad32341e0a3477f"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-static-far-slow-near-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d263d6389aacc213a5e19c087e11e82e06c05076",
+      "size": 5790,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d263d6389aacc213a5e19c087e11e82e06c05076"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-static-far-stars-feasibility.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148e9b7142bebd0bbf0e075bda40160cb2839707",
+      "size": 14315,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/148e9b7142bebd0bbf0e075bda40160cb2839707"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-two-heavy-overlap-black-mask-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eccb2be521a48c292478ed48a02783cac174d0d3",
+      "size": 9307,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/eccb2be521a48c292478ed48a02783cac174d0d3"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-two-layer-starfield-visual-parallax-fix.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fdbb86c851a00ab4646af2e792b7bfc20034b82",
+      "size": 11945,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3fdbb86c851a00ab4646af2e792b7bfc20034b82"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-unified-fighter-visual-commit-feasibility.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d69349215c05fdee653f6f596c5c10d895593f4",
+      "size": 15038,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8d69349215c05fdee653f6f596c5c10d895593f4"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-visible-ring-ownership-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f349dd8ca8802642762775bf671a3ad1b78d53b7",
+      "size": 15416,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f349dd8ca8802642762775bf671a3ad1b78d53b7"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2b-white-only-slow-starfield-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd969f96ad903e43b02c6d86c8b57d539f76584",
+      "size": 8455,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fdd969f96ad903e43b02c6d86c8b57d539f76584"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2c-interceptor-blocked-placement.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79bbcf5d7c963c2b5c3fb01ae6ef9580951a4d75",
+      "size": 6315,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/79bbcf5d7c963c2b5c3fb01ae6ef9580951a4d75"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2d-pickup-raster-invisibility.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34d742ee59ada7c8eee9b6c9a89a702910f7f42c",
+      "size": 6793,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/34d742ee59ada7c8eee9b6c9a89a702910f7f42c"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2e-pickup-capsule-silhouettes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8c42c9958a1f9fbfb0e662c9eb58131d424ceb",
+      "size": 7319,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1f8c42c9958a1f9fbfb0e662c9eb58131d424ceb"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2f-resident-capacity-glue-window.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56704bfeb7f74eb8fe0bb8fca96aa6de008d02b",
+      "size": 8843,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c56704bfeb7f74eb8fe0bb8fca96aa6de008d02b"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2f-step43-post-capital-debris-ab.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d7707082dffcdcc1d52a39703b2a7936a9758b",
+      "size": 8203,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d1d7707082dffcdcc1d52a39703b2a7936a9758b"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2g-debris-late-publication.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "804e9a0e8ce28b7ee7243b5fd9517969482c0a6d",
+      "size": 17772,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/804e9a0e8ce28b7ee7243b5fd9517969482c0a6d"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2h-light-interceptor.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de62709f67aecfc3811d9a5453d950f8bba0f4b9",
+      "size": 24204,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/de62709f67aecfc3811d9a5453d950f8bba0f4b9"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2i-heavy-window-placement.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c861d17e113be213b0a133feb2f936186a5b7513",
+      "size": 6378,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c861d17e113be213b0a133feb2f936186a5b7513"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2j-bomber-blocked-placement.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4706e2756397784f266fa3aac37ae82d57c92f01",
+      "size": 7952,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4706e2756397784f266fa3aac37ae82d57c92f01"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2k-starfield-staging-swap.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e9cf4207e192bac63bb0849f1aa8fc5b7d24d8e",
+      "size": 12924,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1e9cf4207e192bac63bb0849f1aa8fc5b7d24d8e"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2l-cold-record-relocation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c1e20ffe824f8999ebc1c826d7cee3b2f6b10c",
+      "size": 17369,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/33c1e20ffe824f8999ebc1c826d7cee3b2f6b10c"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2m-hybrid-c-arena.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fc23b192ffb5d1a635f22d00b161c6da7b2a3be",
+      "size": 13037,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4fc23b192ffb5d1a635f22d00b161c6da7b2a3be"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2n-hostile-shot-emitter-independence.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04db394da42efc285b2dd496e1958571d044c98e",
+      "size": 7924,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/04db394da42efc285b2dd496e1958571d044c98e"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2o-bomber-arena.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5168dce03437556c82d01c3386e3db0d7fddb65a",
+      "size": 11549,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5168dce03437556c82d01c3386e3db0d7fddb65a"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2p-enemy-identity-freeze-report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57695d54bc899e14ffd2ea43a6b453d82cac3e8e",
+      "size": 6127,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/57695d54bc899e14ffd2ea43a6b453d82cac3e8e"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2p-enemy-identity-freeze.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a96142692fb99384f32f292ff1dc6a4b16eb56a",
+      "size": 7689,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8a96142692fb99384f32f292ff1dc6a4b16eb56a"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2q-pal-timing-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90de6d6bd332421c160a9af51cd4114a15640fba",
+      "size": 8203,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/90de6d6bd332421c160a9af51cd4114a15640fba"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2r-death-frame-deferral.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8b95fdee6f3d65e38cbb02325f12d5a457702f",
+      "size": 9740,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fa8b95fdee6f3d65e38cbb02325f12d5a457702f"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2s-respawn-double-image.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba06ee0fd6883bb0a39b86412da18386b54d4c05",
+      "size": 8548,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ba06ee0fd6883bb0a39b86412da18386b54d4c05"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2t-option-d-standing-cost.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84896fe270529500ba7b72fcc2bdac08276c4685",
+      "size": 6613,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/84896fe270529500ba7b72fcc2bdac08276c4685"
+    },
+    {
+      "path": "docs/diagnostics/stage-2b2t-segment-neighbour-guards.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaccdb2c131345d406cc47ef83aeae602a0e3392",
+      "size": 7208,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/aaccdb2c131345d406cc47ef83aeae602a0e3392"
+    },
+    {
+      "path": "docs/diagrams",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ce94e625849e47028a8ec4e9f4d215a24950907",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/2ce94e625849e47028a8ec4e9f4d215a24950907"
+    },
+    {
+      "path": "docs/diagrams/development-workflow.mmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77845d6a36ea025d64e5b69c46334f4d012705b0",
+      "size": 518,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/77845d6a36ea025d64e5b69c46334f4d012705b0"
+    },
+    {
+      "path": "docs/diagrams/git-feature-lifecycle.mmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d579fb9d081fd6df9a08819d4e7356546a28f0cb",
+      "size": 251,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d579fb9d081fd6df9a08819d4e7356546a28f0cb"
+    },
+    {
+      "path": "docs/game-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ab64b6f46b7e5dd01254fcadd65df599a56588",
+      "size": 40764,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/08ab64b6f46b7e5dd01254fcadd65df599a56588"
+    },
+    {
+      "path": "docs/hardware-testing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c4c27dc20d569baeaf2d7bbf353a51cabbff4ff",
+      "size": 56922,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2c4c27dc20d569baeaf2d7bbf353a51cabbff4ff"
+    },
+    {
+      "path": "docs/history",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cf36662535550a7bc2a6beb60ac2b4cb8fb5ac7",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/7cf36662535550a7bc2a6beb60ac2b4cb8fb5ac7"
+    },
+    {
+      "path": "docs/history/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91bfac681a1343d0db29580b9914ea6e0b392a4f",
+      "size": 2241,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/91bfac681a1343d0db29580b9914ea6e0b392a4f"
+    },
+    {
+      "path": "docs/history/antic2-spike.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5f0d38af2178d720dee678e020baacfca969e3",
+      "size": 625,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4e5f0d38af2178d720dee678e020baacfca969e3"
+    },
+    {
+      "path": "docs/history/enemy-roster-v2-pre-hybrid-proposal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7570095b108741fd7986d963530784d8a8d3d57",
+      "size": 44251,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e7570095b108741fd7986d963530784d8a8d3d57"
+    },
+    {
+      "path": "docs/history/hardware-testing-pre-hybrid-2026-09-15.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f49298f110bb88b7d01aff80c8e41dc781f882",
+      "size": 11670,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/91f49298f110bb88b7d01aff80c8e41dc781f882"
+    },
+    {
+      "path": "docs/history/memory-checkpoints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2308642103022121ef7584c51ea085199f38ee30",
+      "size": 1051,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2308642103022121ef7584c51ea085199f38ee30"
+    },
+    {
+      "path": "docs/history/plan-realizacji-v4.12-2026-09-15.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0433a4f667afc7ca6ee6dd4b812e622d4e5c99",
+      "size": 107719,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2b0433a4f667afc7ca6ee6dd4b812e622d4e5c99"
+    },
+    {
+      "path": "docs/history/plan-realizacji-v4.12-uncommitted-owner-sections.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c704bc7c474f782160270f7c1b505202e900dae0",
+      "size": 2766,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c704bc7c474f782160270f7c1b505202e900dae0"
+    },
+    {
+      "path": "docs/history/reguly-projektu-v2.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c6856e1a8bdbf265a67bd1bbb2755c7d8bcb125",
+      "size": 5749,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5c6856e1a8bdbf265a67bd1bbb2755c7d8bcb125"
+    },
+    {
+      "path": "docs/history/roadmap-2026-09-15.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "320604e4379b720520f170c85c1970c995bdc77b",
+      "size": 5043,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/320604e4379b720520f170c85c1970c995bdc77b"
+    },
+    {
+      "path": "docs/history/roadmap-checkpoints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5144a0b45aae6e277bc6e402e1335a3cf61f30",
+      "size": 864,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4e5144a0b45aae6e277bc6e402e1335a3cf61f30"
+    },
+    {
+      "path": "docs/history/runtime-baseline-34132.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff5307226997867aeeb4f4ceb2d0a5f22ddb72c",
+      "size": 3590,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0ff5307226997867aeeb4f4ceb2d0a5f22ddb72c"
+    },
+    {
+      "path": "docs/history/runtime-checkpoints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd1638f8f4be5c22676460e11ade02cfb22f927b",
+      "size": 1323,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fd1638f8f4be5c22676460e11ade02cfb22f927b"
+    },
+    {
+      "path": "docs/history/runtime-headroom-layout-d2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd2b595e23137d8060b02e1b78bf4d658421e7f",
+      "size": 14383,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9fd2b595e23137d8060b02e1b78bf4d658421e7f"
+    },
+    {
+      "path": "docs/how-to-play.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59febbeef0e0c7ed2d948e69bbbb8c9f94c8f085",
+      "size": 6221,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/59febbeef0e0c7ed2d948e69bbbb8c9f94c8f085"
+    },
+    {
+      "path": "docs/how-to-play.pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a119d5eb3119065d9f72e8d1836cb5818e08480c",
+      "size": 6884,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a119d5eb3119065d9f72e8d1836cb5818e08480c"
+    },
+    {
+      "path": "docs/hybrid-c-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a7dfa0fc2697081f647a16285167ad0c15e3f3c",
+      "size": 24350,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5a7dfa0fc2697081f647a16285167ad0c15e3f3c"
+    },
+    {
+      "path": "docs/level-authoring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ee08ad3a1d84963dcc63a226b1ae66bfe926cd",
+      "size": 28210,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/47ee08ad3a1d84963dcc63a226b1ae66bfe926cd"
+    },
+    {
+      "path": "docs/level-data-howto.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a6ce9be91d788def2ed316a02082185b3cb9fa",
+      "size": 12380,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/26a6ce9be91d788def2ed316a02082185b3cb9fa"
+    },
+    {
+      "path": "docs/making-of.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e8d2483bced36f05b8c51b5b9671a1ec5cfe5d",
+      "size": 31078,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/08e8d2483bced36f05b8c51b5b9671a1ec5cfe5d"
+    },
+    {
+      "path": "docs/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28621ba0cca49eefb89056bd4bd78f26a3e068df",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/28621ba0cca49eefb89056bd4bd78f26a3e068df"
+    },
+    {
+      "path": "docs/media/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ee98267ea018cb630ec7426009cdf7d29e05283",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/6ee98267ea018cb630ec7426009cdf7d29e05283"
+    },
+    {
+      "path": "docs/media/assets/capital-ship-modules.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1eecd73481f90ffe4f3a2ab2a27bc538862d603",
+      "size": 11125,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f1eecd73481f90ffe4f3a2ab2a27bc538862d603"
+    },
+    {
+      "path": "docs/media/assets/debris-and-pickups.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b04a465621830920f990f15c65cdeb08acfe5a09",
+      "size": 5783,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b04a465621830920f990f15c65cdeb08acfe5a09"
+    },
+    {
+      "path": "docs/media/assets/fighter-and-enemies.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4afccd35273065182182775e192d29156c662227",
+      "size": 4498,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4afccd35273065182182775e192d29156c662227"
+    },
+    {
+      "path": "docs/media/assets/weapons-and-effects.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d80052335a01fb9227eed8a05bc35070dd0730",
+      "size": 6996,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/95d80052335a01fb9227eed8a05bc35070dd0730"
+    },
+    {
+      "path": "docs/media/concepts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a489f847d7e6186642abbeb54f2cae8e59cc4e9e",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/a489f847d7e6186642abbeb54f2cae8e59cc4e9e"
+    },
+    {
+      "path": "docs/media/concepts/void-strike-65-boss-01-blockade-breaker.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34e24f0fcca4126a5aa692c3eb4bfb3b71f7028e",
+      "size": 1646011,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/34e24f0fcca4126a5aa692c3eb4bfb3b71f7028e"
+    },
+    {
+      "path": "docs/media/concepts/void-strike-65-boss-02-siege-spine.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d7bffcbefa11c00f006cdbb5ac20f5de806ef8",
+      "size": 1348169,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/77d7bffcbefa11c00f006cdbb5ac20f5de806ef8"
+    },
+    {
+      "path": "docs/media/concepts/void-strike-65-boss-03-void-citadel.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f20dc5213c2aba43a76a87ef0a4da54dc138cf5",
+      "size": 1646106,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9f20dc5213c2aba43a76a87ef0a4da54dc138cf5"
+    },
+    {
+      "path": "docs/media/concepts/void-strike-65-concept-from-floppy-to-stars.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ac80fab25eeb3a08fd17d744622b7ea56f5d6c",
+      "size": 195408,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/54ac80fab25eeb3a08fd17d744622b7ea56f5d6c"
+    },
+    {
+      "path": "docs/media/concepts/void-strike-65-concept-gauntlet-run.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c79d50ec6acb9af4c0db065e84696be44909f51",
+      "size": 241007,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4c79d50ec6acb9af4c0db065e84696be44909f51"
+    },
+    {
+      "path": "docs/media/frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72556ffe1e2290429e661a7a9dff3850e17d8eb7",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/72556ffe1e2290429e661a7a9dff3850e17d8eb7"
+    },
+    {
+      "path": "docs/media/frontend/game-over.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "101a8a3fdf3144d2ead4828b8944b7f57c9707c5",
+      "size": 1262,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/101a8a3fdf3144d2ead4828b8944b7f57c9707c5"
+    },
+    {
+      "path": "docs/media/frontend/main-menu.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27af5da40c4b8591ff1dcf8927adef015e9bd8d5",
+      "size": 2672,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/27af5da40c4b8591ff1dcf8927adef015e9bd8d5"
+    },
+    {
+      "path": "docs/media/gameplay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28789628db1770684e1326fe51520098858b0e5c",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/28789628db1770684e1326fe51520098858b0e5c"
+    },
+    {
+      "path": "docs/media/gameplay/01-title-loader.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d2d74c844fd619858b7290d18c3716ac63b2f9",
+      "size": 2710,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/12d2d74c844fd619858b7290d18c3716ac63b2f9"
+    },
+    {
+      "path": "docs/media/gameplay/02-standard-combat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67175fb911da0c9e6250cf6d480c835ed51bb34",
+      "size": 947,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a67175fb911da0c9e6250cf6d480c835ed51bb34"
+    },
+    {
+      "path": "docs/media/gameplay/03-heavy-breakup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373a64ad09ebe11f688476e279fb382e3d45da8a",
+      "size": 1061,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/373a64ad09ebe11f688476e279fb382e3d45da8a"
+    },
+    {
+      "path": "docs/media/gameplay/04-debris-breakup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30efb8d6260a4bb1a983686b08fa3b178422b443",
+      "size": 1708,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/30efb8d6260a4bb1a983686b08fa3b178422b443"
+    },
+    {
+      "path": "docs/media/gameplay/05-rapid-fire-pickup.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee3ab7ff98a191b073bc7afbe644ecc8cb5e994",
+      "size": 1129,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3ee3ab7ff98a191b073bc7afbe644ecc8cb5e994"
+    },
+    {
+      "path": "docs/media/gameplay/06-rapid-fire-active.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74c5406338081281a92208ecfcfe640241226006",
+      "size": 1092,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/74c5406338081281a92208ecfcfe640241226006"
+    },
+    {
+      "path": "docs/media/gameplay/07-capital-broadside.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "defd898162d433aa1f5a44fea25b4395e5b8d183",
+      "size": 1699,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/defd898162d433aa1f5a44fea25b4395e5b8d183"
+    },
+    {
+      "path": "docs/media/gameplay/08-capital-engines.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97bdbe03447bbeb8f068e641ffe77dc7c395c428",
+      "size": 1513,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/97bdbe03447bbeb8f068e641ffe77dc7c395c428"
+    },
+    {
+      "path": "docs/media/gameplay/09-spread-shot-active.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235a80fd3d24b2ee10c8e04d585b7ef832b7f675",
+      "size": 1063,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/235a80fd3d24b2ee10c8e04d585b7ef832b7f675"
+    },
+    {
+      "path": "docs/media/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15018638776b2ee9ed8024e9d0662d616dfd48a4",
+      "size": 9740,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/15018638776b2ee9ed8024e9d0662d616dfd48a4"
+    },
+    {
+      "path": "docs/media/showcase",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f876400f42d7bed9efac81605a0508cbe0ca57f8",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/f876400f42d7bed9efac81605a0508cbe0ca57f8"
+    },
+    {
+      "path": "docs/media/showcase/broadside.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a680b091099734a9908148ea2115d0fd023ece7c",
+      "size": 3127,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a680b091099734a9908148ea2115d0fd023ece7c"
+    },
+    {
+      "path": "docs/media/showcase/capital-ship-sector.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0077cf7f784da3cc23a885e39caaa9d9bfc98d5d",
+      "size": 3194,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0077cf7f784da3cc23a885e39caaa9d9bfc98d5d"
+    },
+    {
+      "path": "docs/media/showcase/timing-history.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba58f66d8b368ad4862abd798f243496c1b6a68",
+      "size": 14124,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/dba58f66d8b368ad4862abd798f243496c1b6a68"
+    },
+    {
+      "path": "docs/media/showcase/void-strike-65-level-1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40a85cfdfa778837443a0f1599c7b5c7eafa5cfb",
+      "size": 392077,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/40a85cfdfa778837443a0f1599c7b5c7eafa5cfb"
+    },
+    {
+      "path": "docs/media/timing-history.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a2f449e9ed9f5b939f36e3ccfa00491fc9c248",
+      "size": 11585,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/51a2f449e9ed9f5b939f36e3ccfa00491fc9c248"
+    },
+    {
+      "path": "docs/memory-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d1081cbb868bbc141bc8301f4a3c33d16907d22",
+      "size": 229592,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4d1081cbb868bbc141bc8301f4a3c33d16907d22"
+    },
+    {
+      "path": "docs/menu-raster-trace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7296aca4ce042e91cfc5cee6998f911d283ea8ea",
+      "size": 63874,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7296aca4ce042e91cfc5cee6998f911d283ea8ea"
+    },
+    {
+      "path": "docs/owner-decisions-2026-09-11.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb8a899fbe19cfbb24f485cffa5beec7fde2887",
+      "size": 106315,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7cb8a899fbe19cfbb24f485cffa5beec7fde2887"
+    },
+    {
+      "path": "docs/plan-4.3-sector-reader.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec994b17a27fc42d00a8570a946e8dff884ad142",
+      "size": 81767,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ec994b17a27fc42d00a8570a946e8dff884ad142"
+    },
+    {
+      "path": "docs/plan-4.6-placement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60e18e3c4fbe40fc66006840ef27f38524392bb",
+      "size": 50275,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d60e18e3c4fbe40fc66006840ef27f38524392bb"
+    },
+    {
+      "path": "docs/plan-boot-splash-cassette.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04332aff03058dd89fae1b8aae869bc58c14861c",
+      "size": 31744,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/04332aff03058dd89fae1b8aae869bc58c14861c"
+    },
+    {
+      "path": "docs/plan-light-multiplicity.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46b5721526bdab9507ab09b8c2a2b6d3a90473c7",
+      "size": 70975,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/46b5721526bdab9507ab09b8c2a2b6d3a90473c7"
+    },
+    {
+      "path": "docs/plan-music-v2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025cc69d289c6a8009c5fa518e2c8f8ec2b6b39c",
+      "size": 41893,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/025cc69d289c6a8009c5fa518e2c8f8ec2b6b39c"
+    },
+    {
+      "path": "docs/plan-realizacji.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e1a7a76be9f1ef864614914b2fb619ff8458ec",
+      "size": 41825,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/53e1a7a76be9f1ef864614914b2fb619ff8458ec"
+    },
+    {
+      "path": "docs/plans",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91b93e06873d591deca5d8731158a6682e4750f2",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/91b93e06873d591deca5d8731158a6682e4750f2"
+    },
+    {
+      "path": "docs/plans/atr-only-build.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2172d274d827ef79fb438fc4d591f2a14ed8ecf",
+      "size": 30874,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b2172d274d827ef79fb438fc4d591f2a14ed8ecf"
+    },
+    {
+      "path": "docs/plans/audit-hardening.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178d3f3a01d75dd42a6c884f252442eec939c300",
+      "size": 29277,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/178d3f3a01d75dd42a6c884f252442eec939c300"
+    },
+    {
+      "path": "docs/plans/boot-loading-blank-screen.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf5393976048ed4a2f315145378771a9ec01ab2",
+      "size": 17335,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ccf5393976048ed4a2f315145378771a9ec01ab2"
+    },
+    {
+      "path": "docs/plans/boot-xex-reclaim.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0855923668cbf125b9f3534b9dc6ee93e2094781",
+      "size": 13702,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0855923668cbf125b9f3534b9dc6ee93e2094781"
+    },
+    {
+      "path": "docs/plans/boss-escort-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8006ec6bee72e3d7bc310e21b869f7cda709dd43",
+      "size": 27396,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8006ec6bee72e3d7bc310e21b869f7cda709dd43"
+    },
+    {
+      "path": "docs/plans/boss-lasers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d69b96eeca9fc9ee5c01ec56d806f117883e810",
+      "size": 109740,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2d69b96eeca9fc9ee5c01ec56d806f117883e810"
+    },
+    {
+      "path": "docs/plans/boss-r1-tuning.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e165b6df619380eea0cae0a1b30bae2c17a87ab",
+      "size": 18874,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5e165b6df619380eea0cae0a1b30bae2c17a87ab"
+    },
+    {
+      "path": "docs/plans/budget-1.0.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a605cf7ed31d0097545e4e7b6f9604c2d63e909a",
+      "size": 66467,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a605cf7ed31d0097545e4e7b6f9604c2d63e909a"
+    },
+    {
+      "path": "docs/plans/contact-scenario-redesign.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89354059a6f0b4a9b65f38191146b0ca23174a62",
+      "size": 18766,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/89354059a6f0b4a9b65f38191146b0ca23174a62"
+    },
+    {
+      "path": "docs/plans/director-4.6.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca355b2312f89fe393b82440d3f85eeff86d676a",
+      "size": 93353,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ca355b2312f89fe393b82440d3f85eeff86d676a"
+    },
+    {
+      "path": "docs/plans/evidence-integrity.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c429c7892b69ad38e2f1fbdd526164ada8cae7b0",
+      "size": 8184,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c429c7892b69ad38e2f1fbdd526164ada8cae7b0"
+    },
+    {
+      "path": "docs/plans/gameplay-variety.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f84e083dba3fd6c1f117b16cae4a66031f9c872",
+      "size": 111746,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4f84e083dba3fd6c1f117b16cae4a66031f9c872"
+    },
+    {
+      "path": "docs/plans/hull-set-v1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eecfc69f521439715c347e810e934176c8b7ea37",
+      "size": 50007,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/eecfc69f521439715c347e810e934176c8b7ea37"
+    },
+    {
+      "path": "docs/plans/m3-waves-heavy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02862f205f77a745f4289ac319f473697c87e65c",
+      "size": 102747,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/02862f205f77a745f4289ac319f473697c87e65c"
+    },
+    {
+      "path": "docs/plans/m5-loading-boss.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9971b0f73d3bf2857d24fe9312bc39b414fcae",
+      "size": 292272,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9c9971b0f73d3bf2857d24fe9312bc39b414fcae"
+    },
+    {
+      "path": "docs/plans/pickup-colour.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2167624c91760a473812178b54f3e7fe5ce7842",
+      "size": 50951,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b2167624c91760a473812178b54f3e7fe5ce7842"
+    },
+    {
+      "path": "docs/plans/plasma-fx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382b95311f1955ee65971ce7861faa6127fb2dff",
+      "size": 67697,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/382b95311f1955ee65971ce7861faa6127fb2dff"
+    },
+    {
+      "path": "docs/plans/s5-boss-regions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03a46a665341dd7cfc783a647d2231e487fca6fe",
+      "size": 74560,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/03a46a665341dd7cfc783a647d2231e487fca6fe"
+    },
+    {
+      "path": "docs/plans/sector-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4afab3a9e9d6b81f580295f22235f114cd92a901",
+      "size": 33808,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4afab3a9e9d6b81f580295f22235f114cd92a901"
+    },
+    {
+      "path": "docs/plans/showcase-atr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1774666b97cbcf147a3c0b9160649199d9a993f0",
+      "size": 10254,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1774666b97cbcf147a3c0b9160649199d9a993f0"
+    },
+    {
+      "path": "docs/plans/smoke-2026-10-07.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2d7c1d64d0c2ca5b4e2766cec8d6b8681b7d14",
+      "size": 30339,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2d2d7c1d64d0c2ca5b4e2766cec8d6b8681b7d14"
+    },
+    {
+      "path": "docs/plans/spread-volley-fix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d4849f5f2059f6f41f7e71a3cc4abef71009233",
+      "size": 16949,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0d4849f5f2059f6f41f7e71a3cc4abef71009233"
+    },
+    {
+      "path": "docs/plans/trace-clause-repairs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c9eb80173a99f6ef2184f86378de8b1b7d07c8",
+      "size": 19885,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/22c9eb80173a99f6ef2184f86378de8b1b7d07c8"
+    },
+    {
+      "path": "docs/plans/w2-lights.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a92d0e8baf89e722f7062d0368a2c7dde8cf10a0",
+      "size": 42200,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a92d0e8baf89e722f7062d0368a2c7dde8cf10a0"
+    },
+    {
+      "path": "docs/project-overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16729a1b4ebd7938e658143685aa80b45ccd008",
+      "size": 91851,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d16729a1b4ebd7938e658143685aa80b45ccd008"
+    },
+    {
+      "path": "docs/recorded-gate-failures.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e22185fb1217b0c9f1887f0eab572bc7d5b125b8",
+      "size": 13143,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e22185fb1217b0c9f1887f0eab572bc7d5b125b8"
+    },
+    {
+      "path": "docs/recorded-test-failures.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718f287265a38ed3244b341a9e3dba3c37cbe744",
+      "size": 73986,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/718f287265a38ed3244b341a9e3dba3c37cbe744"
+    },
+    {
+      "path": "docs/reguly-projektu.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df12ef9da5781bd98beee39d117b35cdc2222a1d",
+      "size": 9713,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/df12ef9da5781bd98beee39d117b35cdc2222a1d"
+    },
+    {
+      "path": "docs/releases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d60615c3aec709b74da90f01bf4d731e6d2fea6",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/5d60615c3aec709b74da90f01bf4d731e6d2fea6"
+    },
+    {
+      "path": "docs/releases/v0.2.3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9683b87e2ae17cf6aa7022e417af3fa8b332c76b",
+      "size": 3835,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9683b87e2ae17cf6aa7022e417af3fa8b332c76b"
+    },
+    {
+      "path": "docs/runtime-wall-trace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d761a8bd07dfc245696cb22513063a50372c85d",
+      "size": 425952,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1d761a8bd07dfc245696cb22513063a50372c85d"
+    },
+    {
+      "path": "docs/windows-quick-start.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428dfe52f99d691e84727546056eda7db52132b1",
+      "size": 6256,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/428dfe52f99d691e84727546056eda7db52132b1"
+    },
+    {
+      "path": "levels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8d19b2412961a651a2d72c34890281011e8267b",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/f8d19b2412961a651a2d72c34890281011e8267b"
+    },
+    {
+      "path": "levels/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60bbf1a8723104b6cf0f081ff050c16865285ba",
+      "size": 500,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e60bbf1a8723104b6cf0f081ff050c16865285ba"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "affd4af906d47be3d36ddf716a4477ec0efa0dfd",
+      "size": 712,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/affd4af906d47be3d36ddf716a4477ec0efa0dfd"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1710921bf8b47907c8d4dba53e61e004b2a83059",
+      "size": 2701,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1710921bf8b47907c8d4dba53e61e004b2a83059"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42803af44b24bba6e6874631e64c165d4df8a218",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/42803af44b24bba6e6874631e64c165d4df8a218"
+    },
+    {
+      "path": "scripts/artifact-launch.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d02b1d9b003f540c5830526beb121558c5f4180",
+      "size": 5695,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2d02b1d9b003f540c5830526beb121558c5f4180"
+    },
+    {
+      "path": "scripts/atari800-capacity-watch.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d29cb7665ac51ffa97bbbec44fb1a4e0f85edf50",
+      "size": 24284,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d29cb7665ac51ffa97bbbec44fb1a4e0f85edf50"
+    },
+    {
+      "path": "scripts/atari800-machine.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1c1c499c04d8107b2f3f0550b71cbe6fa7cb8a",
+      "size": 3964,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3d1c1c499c04d8107b2f3f0550b71cbe6fa7cb8a"
+    },
+    {
+      "path": "scripts/atari800-sio-diag.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb0d9ad8783859ac753383771499803d8830449",
+      "size": 8413,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5fb0d9ad8783859ac753383771499803d8830449"
+    },
+    {
+      "path": "scripts/atari800-trace-freshness.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ea4d2e2560e813fa56bb71b5893e85ad10cd611",
+      "size": 1127,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0ea4d2e2560e813fa56bb71b5893e85ad10cd611"
+    },
+    {
+      "path": "scripts/atari800-wall-trace.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c213ed606c6a1a73d175dca93431507329d9268d",
+      "size": 368439,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c213ed606c6a1a73d175dca93431507329d9268d"
+    },
+    {
+      "path": "scripts/booster-admission-diagnostic.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb6d521320c5b17ffad33dbeb0f453b82ef68fa5",
+      "size": 17395,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bb6d521320c5b17ffad33dbeb0f453b82ef68fa5"
+    },
+    {
+      "path": "scripts/boot-splash-assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "912d8f2992c03e4ec2381eee8efec31df774662c",
+      "size": 7205,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/912d8f2992c03e4ec2381eee8efec31df774662c"
+    },
+    {
+      "path": "scripts/boss-assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf49d3f60e51d993169c9bcfbb8097c1bda25e33",
+      "size": 65278,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cf49d3f60e51d993169c9bcfbb8097c1bda25e33"
+    },
+    {
+      "path": "scripts/boss-coverage.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e373d167e5672a3f49278bedbd695a255506ce4",
+      "size": 12408,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0e373d167e5672a3f49278bedbd695a255506ce4"
+    },
+    {
+      "path": "scripts/boss-escort-variants.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fce3dc613521bdc58fe64514f7f0d057effa5281",
+      "size": 3596,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fce3dc613521bdc58fe64514f7f0d057effa5281"
+    },
+    {
+      "path": "scripts/boss-preview.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83564e51f9995e0825f56d4e43fdfa1a6f95c773",
+      "size": 9538,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/83564e51f9995e0825f56d4e43fdfa1a6f95c773"
+    },
+    {
+      "path": "scripts/boss-r1-variants.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d0e4825a7e3bffd8697c8b0067052bcfc3125b",
+      "size": 9546,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/83d0e4825a7e3bffd8697c8b0067052bcfc3125b"
+    },
+    {
+      "path": "scripts/broadside-lzss.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45dddd5b9a29cc30f16a282d32e1f04b4664f8b",
+      "size": 3251,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d45dddd5b9a29cc30f16a282d32e1f04b4664f8b"
+    },
+    {
+      "path": "scripts/broadside.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "953bb40ef844b1d1e321cbd249608d757f23281e",
+      "size": 36060,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/953bb40ef844b1d1e321cbd249608d757f23281e"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8363d20e04d4bada615279797ec25b283ff16104",
+      "size": 297981,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8363d20e04d4bada615279797ec25b283ff16104"
+    },
+    {
+      "path": "scripts/capacity-window-watch.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f85c8553dfb8c69ec0e36858600cb843ae7a81",
+      "size": 21705,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f3f85c8553dfb8c69ec0e36858600cb843ae7a81"
+    },
+    {
+      "path": "scripts/capital-hulls-antic2.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c059b51b4bdde144f33a38b385993ce9dceabfe",
+      "size": 5636,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2c059b51b4bdde144f33a38b385993ce9dceabfe"
+    },
+    {
+      "path": "scripts/capital-hulls.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7014927f26fc9a165c094a9aabc14d086acc44c4",
+      "size": 78455,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7014927f26fc9a165c094a9aabc14d086acc44c4"
+    },
+    {
+      "path": "scripts/capital-speed-clock-verify-native.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "334a05de2050cb813757f15eeb380c81ba554c21",
+      "size": 13899,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/334a05de2050cb813757f15eeb380c81ba554c21"
+    },
+    {
+      "path": "scripts/chunk-loader.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "988d5becc96817b952c1fec0eedbe2601d4db202",
+      "size": 21528,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/988d5becc96817b952c1fec0eedbe2601d4db202"
+    },
+    {
+      "path": "scripts/clean.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c379f639eb25f4c31ed01d6a91b3868e06a9b23",
+      "size": 1098,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1c379f639eb25f4c31ed01d6a91b3868e06a9b23"
+    },
+    {
+      "path": "scripts/debris-destruction-runtime.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b32a91113f5e3789c1863a1a7546a9ce6dd0fd",
+      "size": 55612,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c6b32a91113f5e3789c1863a1a7546a9ce6dd0fd"
+    },
+    {
+      "path": "scripts/debris-visibility-gate.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "550529453e2bd281f1427256aee8f54443105d15",
+      "size": 12262,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/550529453e2bd281f1427256aee8f54443105d15"
+    },
+    {
+      "path": "scripts/disk-guard.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4a34cebbfe0914dd2ac43469de3eda09dbb2fb",
+      "size": 4199,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cf4a34cebbfe0914dd2ac43469de3eda09dbb2fb"
+    },
+    {
+      "path": "scripts/enemy-combat.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "107bcc83759db63626b0cc3b2369f2c3bcd7ec1d",
+      "size": 19152,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/107bcc83759db63626b0cc3b2369f2c3bcd7ec1d"
+    },
+    {
+      "path": "scripts/enemy-roster.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0306b3eb940b597f6bbc6f1e05add20214974fce",
+      "size": 20615,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0306b3eb940b597f6bbc6f1e05add20214974fce"
+    },
+    {
+      "path": "scripts/entity-effects.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3448ef746dd583f0ae96c117d032df79d5b0095f",
+      "size": 29928,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3448ef746dd583f0ae96c117d032df79d5b0095f"
+    },
+    {
+      "path": "scripts/fighter-weapons.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e5636b928d3037b861f774d6da4fc5bd28eaecd",
+      "size": 28999,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8e5636b928d3037b861f774d6da4fc5bd28eaecd"
+    },
+    {
+      "path": "scripts/focused-pal-acceptance.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12287008d482c1492f446bcd9ea99a1f44c19b6",
+      "size": 1250,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f12287008d482c1492f446bcd9ea99a1f44c19b6"
+    },
+    {
+      "path": "scripts/formats.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f46ca2bc0b6fb332900737c9058faed1d2967b58",
+      "size": 22191,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f46ca2bc0b6fb332900737c9058faed1d2967b58"
+    },
+    {
+      "path": "scripts/frontend-h31-assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a55eee47c5b8a9d425b94e8ba79c1d39d0e97e45",
+      "size": 11201,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a55eee47c5b8a9d425b94e8ba79c1d39d0e97e45"
+    },
+    {
+      "path": "scripts/gameplay-speed-tuning-native.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3ae0e205a22d5149879d3362b6a0a3f6be04891",
+      "size": 8482,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a3ae0e205a22d5149879d3362b6a0a3f6be04891"
+    },
+    {
+      "path": "scripts/github-showcase.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65859de3755d1fedc8c087ac51be355cc7cd63ef",
+      "size": 28923,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/65859de3755d1fedc8c087ac51be355cc7cd63ef"
+    },
+    {
+      "path": "scripts/hull-set-import.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a2e55d0b9dd69df395aa16dff73534e5ed4983",
+      "size": 14498,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/13a2e55d0b9dd69df395aa16dff73534e5ed4983"
+    },
+    {
+      "path": "scripts/hybrid-director-ab.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74636938e483c6b1aa20e6aa14bd1a99f3adae7f",
+      "size": 13211,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/74636938e483c6b1aa20e6aa14bd1a99f3adae7f"
+    },
+    {
+      "path": "scripts/level-compiler.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76dadcd500289b12c1250ebcd288bd8a97bcb2c2",
+      "size": 53063,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/76dadcd500289b12c1250ebcd288bd8a97bcb2c2"
+    },
+    {
+      "path": "scripts/level-preview.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f65853059bd170ef769816deacbcefcdada71e7",
+      "size": 3862,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8f65853059bd170ef769816deacbcefcdada71e7"
+    },
+    {
+      "path": "scripts/level-summary-assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "666d49c2794eb8224db2b3a289dddf54cdd6e9bd",
+      "size": 9076,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/666d49c2794eb8224db2b3a289dddf54cdd6e9bd"
+    },
+    {
+      "path": "scripts/level-timeline.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb40208918b10f878302534ef94948e5eb360bb",
+      "size": 21442,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5eb40208918b10f878302534ef94948e5eb360bb"
+    },
+    {
+      "path": "scripts/level-timing-by-sector.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0fe6492d106d41c549c896d48e9e1568f82aa4",
+      "size": 4192,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2f0fe6492d106d41c549c896d48e9e1568f82aa4"
+    },
+    {
+      "path": "scripts/loader-ai-lines.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c07837e835ad06ab0e5992f53891e535aa50b6",
+      "size": 1925,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e1c07837e835ad06ab0e5992f53891e535aa50b6"
+    },
+    {
+      "path": "scripts/loader-assets.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792b07949402eaa62ba8c62ba7b5ad461a33bedf",
+      "size": 24190,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/792b07949402eaa62ba8c62ba7b5ad461a33bedf"
+    },
+    {
+      "path": "scripts/master-pal-clock-native.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d5ebfb8468c0df8dff9781ddcfa39789ab524a",
+      "size": 9827,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e5d5ebfb8468c0df8dff9781ddcfa39789ab524a"
+    },
+    {
+      "path": "scripts/measure-boss-fight.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1203021eaffd276813339f55f5e1977ba94ad616",
+      "size": 4976,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1203021eaffd276813339f55f5e1977ba94ad616"
+    },
+    {
+      "path": "scripts/measure-breakup-rotate-frames.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14af66971dedd1774d7ff9e217cc3c0475677d17",
+      "size": 8915,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/14af66971dedd1774d7ff9e217cc3c0475677d17"
+    },
+    {
+      "path": "scripts/measure-dead-time.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92ae57a28ef20f054d01d16a7ef81057d54a1b1",
+      "size": 10791,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c92ae57a28ef20f054d01d16a7ef81057d54a1b1"
+    },
+    {
+      "path": "scripts/measure-frame-profile.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38ee13c8e20980eca4be19a81a663b195488a662",
+      "size": 7678,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/38ee13c8e20980eca4be19a81a663b195488a662"
+    },
+    {
+      "path": "scripts/measure-frame-profile.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ed61e0bcc52103f15f847154fb3f37892433aca",
+      "size": 4708,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6ed61e0bcc52103f15f847154fb3f37892433aca"
+    },
+    {
+      "path": "scripts/measure-frame-stage-calibration.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70be39181bb6575c87c5b89300245f36cd84bad",
+      "size": 1398,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b70be39181bb6575c87c5b89300245f36cd84bad"
+    },
+    {
+      "path": "scripts/measure-heavy-body-copy-skip.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97c858d610070395b59e27e9d8697e03a11168bf",
+      "size": 2715,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/97c858d610070395b59e27e9d8697e03a11168bf"
+    },
+    {
+      "path": "scripts/measure-heavy-member-costs.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c129e0f7759e4ca064363000a91384775ba700",
+      "size": 6988,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f2c129e0f7759e4ca064363000a91384775ba700"
+    },
+    {
+      "path": "scripts/measure-hostile-slot-split.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e483dbc05184307da22d2b0074e82ee9ea814dc6",
+      "size": 1521,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e483dbc05184307da22d2b0074e82ee9ea814dc6"
+    },
+    {
+      "path": "scripts/measure-light-population-native.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b8859005209d3fd2170461ac0333db19baf856",
+      "size": 5725,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/45b8859005209d3fd2170461ac0333db19baf856"
+    },
+    {
+      "path": "scripts/measure-population-cost-deltas.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c8877f5454a562d8e18b5b716410ffd37db0b9a",
+      "size": 2692,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7c8877f5454a562d8e18b5b716410ffd37db0b9a"
+    },
+    {
+      "path": "scripts/measure-population-cost-distribution.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09fb61b81abcdd4fa4cb7459b1c1214e4c4e411e",
+      "size": 1894,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/09fb61b81abcdd4fa4cb7459b1c1214e4c4e411e"
+    },
+    {
+      "path": "scripts/measure-population-drive.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e9f077456cef364c8537fb6a3e9293012e4bc5",
+      "size": 1336,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/31e9f077456cef364c8537fb6a3e9293012e4bc5"
+    },
+    {
+      "path": "scripts/measure-population-harness-smoke.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ac3f9310a9929e4363a27d0eac11a6a16c45c8",
+      "size": 685,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/14ac3f9310a9929e4363a27d0eac11a6a16c45c8"
+    },
+    {
+      "path": "scripts/measure-population-harness.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2327084c7023c504bf9af1f4072a66deea80cc",
+      "size": 4574,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fe2327084c7023c504bf9af1f4072a66deea80cc"
+    },
+    {
+      "path": "scripts/measure-resident-data.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbef40a3aaedcc50257f5be1b20f89b3c891b256",
+      "size": 11723,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cbef40a3aaedcc50257f5be1b20f89b3c891b256"
+    },
+    {
+      "path": "scripts/measure-routine-call-costs.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860c1a99c7c46a864118613e98e241418ab46e40",
+      "size": 2080,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/860c1a99c7c46a864118613e98e241418ab46e40"
+    },
+    {
+      "path": "scripts/measure-stage-profile-from-trace.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240b51f13266e803c6dfd79d5888a14c9ba7e319",
+      "size": 2352,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/240b51f13266e803c6dfd79d5888a14c9ba7e319"
+    },
+    {
+      "path": "scripts/measure-starfield-row-cost.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e261c13a5fb15e292f1c568b017853bc58d435",
+      "size": 882,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c6e261c13a5fb15e292f1c568b017853bc58d435"
+    },
+    {
+      "path": "scripts/measure-stress-run.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8afc6105c03b3cc60c1e63503508c16c0b8b7599",
+      "size": 2939,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8afc6105c03b3cc60c1e63503508c16c0b8b7599"
+    },
+    {
+      "path": "scripts/memory-map-report.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2420728ab6a6948b6b7e3e1ef41245ebfaccabb",
+      "size": 64743,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e2420728ab6a6948b6b7e3e1ef41245ebfaccabb"
+    },
+    {
+      "path": "scripts/menu-raster-stars.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3291f2afd0f44d2a6d816e1cf3058d2147fe1bdd",
+      "size": 7554,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3291f2afd0f44d2a6d816e1cf3058d2147fe1bdd"
+    },
+    {
+      "path": "scripts/music-oracle.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283f483591a319db7cb4c28f71dcac15fa0a9874",
+      "size": 4347,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/283f483591a319db7cb4c28f71dcac15fa0a9874"
+    },
+    {
+      "path": "scripts/music.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c83777556885f6f3b55ea337f8bdb0edb4707129",
+      "size": 38471,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c83777556885f6f3b55ea337f8bdb0edb4707129"
+    },
+    {
+      "path": "scripts/nmos6502.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69d054b4f95cbd7a42d64da8d48729c4dc5a3583",
+      "size": 14391,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/69d054b4f95cbd7a42d64da8d48729c4dc5a3583"
+    },
+    {
+      "path": "scripts/package-release.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fce968c2de3c358ce0ba029cb3812a4ff1bf961",
+      "size": 4700,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4fce968c2de3c358ce0ba029cb3812a4ff1bf961"
+    },
+    {
+      "path": "scripts/pairshot-proof.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e461432c7d93e4fcdc1b35182a896f31e1e5539",
+      "size": 6742,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6e461432c7d93e4fcdc1b35182a896f31e1e5539"
+    },
+    {
+      "path": "scripts/pairshot-stale-runtime.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a10369cba3c2aaebf16285747043c9b27e13131",
+      "size": 15404,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3a10369cba3c2aaebf16285747043c9b27e13131"
+    },
+    {
+      "path": "scripts/pal-timing-audit.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d6dbdd3e2fa57774ed153b89eb8e9e815b023ff",
+      "size": 16640,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4d6dbdd3e2fa57774ed153b89eb8e9e815b023ff"
+    },
+    {
+      "path": "scripts/player-fire-audio-trace.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5377504a27a067d5b9c6d3db7f870c111accd870",
+      "size": 14267,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5377504a27a067d5b9c6d3db7f870c111accd870"
+    },
+    {
+      "path": "scripts/player-pairshot-reentry-analysis.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f340ff832531ca2c06fea793229b5fbe8426517",
+      "size": 9953,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9f340ff832531ca2c06fea793229b5fbe8426517"
+    },
+    {
+      "path": "scripts/player-pairshot-speed-analysis.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bcd87f688a648d4d5384691e61b132b2776ba3b",
+      "size": 8269,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1bcd87f688a648d4d5384691e61b132b2776ba3b"
+    },
+    {
+      "path": "scripts/playfield.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2b178a082d295cfefd8b11c135fe0fc2982111",
+      "size": 1804,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7e2b178a082d295cfefd8b11c135fe0fc2982111"
+    },
+    {
+      "path": "scripts/preview.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1448e9601921735b5735a3b0eac4890cc7753dc8",
+      "size": 266661,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1448e9601921735b5735a3b0eac4890cc7753dc8"
+    },
+    {
+      "path": "scripts/raider-first-writer-analysis.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45301b51c64c39bc3748c864504810bfc844d66c",
+      "size": 12013,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/45301b51c64c39bc3748c864504810bfc844d66c"
+    },
+    {
+      "path": "scripts/raider-projectile-persistence-runtime.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c8defa9de550a800ba9d0abe67410d1ec327e4",
+      "size": 12954,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a8c8defa9de550a800ba9d0abe67410d1ec327e4"
+    },
+    {
+      "path": "scripts/reconcile-failures.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e06f19d074b6e7d9d7d3e041107d8ca584d73d",
+      "size": 11058,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/85e06f19d074b6e7d9d7d3e041107d8ca584d73d"
+    },
+    {
+      "path": "scripts/runtime-cycles.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca9f2f513d1b8e683b7ba8ce8ed972340cd6e0e",
+      "size": 52979,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bca9f2f513d1b8e683b7ba8ce8ed972340cd6e0e"
+    },
+    {
+      "path": "scripts/runtime-evidence.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f43112f0e17c480daa42c2dd73290c85ad3b83a3",
+      "size": 7492,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f43112f0e17c480daa42c2dd73290c85ad3b83a3"
+    },
+    {
+      "path": "scripts/runtime-image.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2da7e02e2eba64df921473c85119fa0af70da09",
+      "size": 11312,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a2da7e02e2eba64df921473c85119fa0af70da09"
+    },
+    {
+      "path": "scripts/runtime-wall-trace.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f9f4121dd358fde399c4253185ddb70ff971de7",
+      "size": 505167,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1f9f4121dd358fde399c4253185ddb70ff971de7"
+    },
+    {
+      "path": "scripts/showcase-gif.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "759e8608f5aad3bcd7469e4a85f48c6e8fc040bf",
+      "size": 13472,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/759e8608f5aad3bcd7469e4a85f48c6e8fc040bf"
+    },
+    {
+      "path": "scripts/showcase-timing-chart.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa84cd00b414e1f1a92eb10c987fe8c5a842d74f",
+      "size": 12126,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/aa84cd00b414e1f1a92eb10c987fe8c5a842d74f"
+    },
+    {
+      "path": "scripts/sio-boot-repro.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e4d242565b3fdfd2aac21e3b554c103d0acf7d",
+      "size": 18793,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/95e4d242565b3fdfd2aac21e3b554c103d0acf7d"
+    },
+    {
+      "path": "scripts/starfield-preview.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9fdd9c806a6bf5bec4db393b8409cb37fe80fe4",
+      "size": 5219,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a9fdd9c806a6bf5bec4db393b8409cb37fe80fe4"
+    },
+    {
+      "path": "scripts/starfield.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "080333ead6496572632858ccef58f0d2d0da3781",
+      "size": 10743,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/080333ead6496572632858ccef58f0d2d0da3781"
+    },
+    {
+      "path": "scripts/trace-artifacts.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ac89c2caf4580e6f93d360e97bae1b11851ed7",
+      "size": 3031,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/23ac89c2caf4580e6f93d360e97bae1b11851ed7"
+    },
+    {
+      "path": "scripts/trace-clause-observers.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb305e5ced01212173871724e8b903e81c78b8f",
+      "size": 13454,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/acb305e5ced01212173871724e8b903e81c78b8f"
+    },
+    {
+      "path": "scripts/verify-build.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "524404603b1f475d2f6defd850a472a4bb820432",
+      "size": 1906,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/524404603b1f475d2f6defd850a472a4bb820432"
+    },
+    {
+      "path": "scripts/weapon-pickup-runtime.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6b4adf5833b62559c6762a51b9f5fe30f9e2c9",
+      "size": 119999,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bf6b4adf5833b62559c6762a51b9f5fe30f9e2c9"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02d4e36c84cc7d09abcb19661edf325970a1d368",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/02d4e36c84cc7d09abcb19661edf325970a1d368"
+    },
+    {
+      "path": "src/boot-splash.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16e78f6ee23e84c719df6207e17c2ecd558090da",
+      "size": 13405,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/16e78f6ee23e84c719df6207e17c2ecd558090da"
+    },
+    {
+      "path": "src/c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8750d4859ddbaf99f6274a9207d192ccab9da6b",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/c8750d4859ddbaf99f6274a9207d192ccab9da6b"
+    },
+    {
+      "path": "src/c/boss.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e0065566d8b3d5ee328c734a10bd0dfdcb30235",
+      "size": 21676,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2e0065566d8b3d5ee328c734a10bd0dfdcb30235"
+    },
+    {
+      "path": "src/c/director.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3997ae9901b37070e5d44130e17142b5f7f415c",
+      "size": 36152,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d3997ae9901b37070e5d44130e17142b5f7f415c"
+    },
+    {
+      "path": "src/c/director.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cbe2331fcb4d7f8fa65642c9baeb80e04e3e56d",
+      "size": 870,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3cbe2331fcb4d7f8fa65642c9baeb80e04e3e56d"
+    },
+    {
+      "path": "src/c/enemy-archetype.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a91cb76828ca632a6307c000a11077d5d0b5ee",
+      "size": 6375,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e7a91cb76828ca632a6307c000a11077d5d0b5ee"
+    },
+    {
+      "path": "src/c/lifecycle.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c33f1df796f5a05c9d26a5c2200748db9a199c2",
+      "size": 74231,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9c33f1df796f5a05c9d26a5c2200748db9a199c2"
+    },
+    {
+      "path": "src/c/lifecycle.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc94dbba588de1e098c48d6f64f9e9373e3bd04f",
+      "size": 2486,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fc94dbba588de1e098c48d6f64f9e9373e3bd04f"
+    },
+    {
+      "path": "src/capital-player-collision.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9e760549bcaaf66e7fca9d5ea8c661b3f94e023",
+      "size": 1504,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e9e760549bcaaf66e7fca9d5ea8c661b3f94e023"
+    },
+    {
+      "path": "src/encounter-director.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "002299ab976d6b94469ba464e087f1c1fa8ac634",
+      "size": 8790,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/002299ab976d6b94469ba464e087f1c1fa8ac634"
+    },
+    {
+      "path": "src/hybrid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf70ece72682b71252d4e98c3e218744dd0f5b5a",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/cf70ece72682b71252d4e98c3e218744dd0f5b5a"
+    },
+    {
+      "path": "src/hybrid/boss-entry-pins.inc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce192a53ba0f5d4617d2387c36e78561d866ac12",
+      "size": 1553,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ce192a53ba0f5d4617d2387c36e78561d866ac12"
+    },
+    {
+      "path": "src/hybrid/boss.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5056057c27738b1dd41f3eda1d8e154f6c72bbd3",
+      "size": 93327,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5056057c27738b1dd41f3eda1d8e154f6c72bbd3"
+    },
+    {
+      "path": "src/hybrid/c-asm-abi.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2143fa0e315edb93672afcc42468a6ea6597b51c",
+      "size": 31408,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2143fa0e315edb93672afcc42468a6ea6597b51c"
+    },
+    {
+      "path": "src/hybrid/disk-guard.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8a96de7f3dbb7b7f589c49346eab2fbe0e50cd",
+      "size": 4141,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9b8a96de7f3dbb7b7f589c49346eab2fbe0e50cd"
+    },
+    {
+      "path": "src/hybrid/gameplay-music.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8946e49ac929398b47fcc81963bfa66326eaed",
+      "size": 7808,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4e8946e49ac929398b47fcc81963bfa66326eaed"
+    },
+    {
+      "path": "src/hybrid/heavy-member.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f069d5cb6249b97376dc130b8677a4d4b1cb17",
+      "size": 2525,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/98f069d5cb6249b97376dc130b8677a4d4b1cb17"
+    },
+    {
+      "path": "src/hybrid/level-summary-abi.inc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc06c6f72c400e2a77431e5110d90d143639646c",
+      "size": 2882,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/dc06c6f72c400e2a77431e5110d90d143639646c"
+    },
+    {
+      "path": "src/hybrid/level-summary.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "546d0bdf5e2f108705ba3192f0bccbe9355500df",
+      "size": 35754,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/546d0bdf5e2f108705ba3192f0bccbe9355500df"
+    },
+    {
+      "path": "src/hybrid/light-kernel.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40fba9d70710a9a2b9c7ff1f4f63cbd2f821c7bb",
+      "size": 27033,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/40fba9d70710a9a2b9c7ff1f4f63cbd2f821c7bb"
+    },
+    {
+      "path": "src/hybrid/sector-reader.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46a1377014192c02908f1b9fd8ffb954ad79c53f",
+      "size": 50887,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/46a1377014192c02908f1b9fd8ffb954ad79c53f"
+    },
+    {
+      "path": "src/integration-glue.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b41565d9d0ef50ea763cbaef1df1093dec6d4aca",
+      "size": 5533,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b41565d9d0ef50ea763cbaef1df1093dec6d4aca"
+    },
+    {
+      "path": "src/main.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e880e64f3fc9140abf59146f56ca78950862ecf",
+      "size": 418509,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/5e880e64f3fc9140abf59146f56ca78950862ecf"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56994de995f193407434fe3aa689eeabe83c34dd",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/56994de995f193407434fe3aa689eeabe83c34dd"
+    },
+    {
+      "path": "tests/artifact-launch.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17eb09343229d915d1467d2b871c5b84bd65c2eb",
+      "size": 1921,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/17eb09343229d915d1467d2b871c5b84bd65c2eb"
+    },
+    {
+      "path": "tests/atari800-trace-freshness.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec40e05fc66540f9ff990364d0d0ec050a224514",
+      "size": 1805,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ec40e05fc66540f9ff990364d0d0ec050a224514"
+    },
+    {
+      "path": "tests/atr-only-build.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf745c53c45676ffb971bc809ad7f3a34818e16",
+      "size": 2974,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4bf745c53c45676ffb971bc809ad7f3a34818e16"
+    },
+    {
+      "path": "tests/audit-hardening.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "729133fe11ca8df2d57e20f11f9e0c73d0dbef7a",
+      "size": 10358,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/729133fe11ca8df2d57e20f11f9e0c73d0dbef7a"
+    },
+    {
+      "path": "tests/basic-window-capacity.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "716c67810c3fc5a247ae742e3f4b89ea5fc1fb00",
+      "size": 6837,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/716c67810c3fc5a247ae742e3f4b89ea5fc1fb00"
+    },
+    {
+      "path": "tests/booster-admission-diagnostic.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f553f2a2dab75cfe2c3f05c496a68a05783918",
+      "size": 7089,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a6f553f2a2dab75cfe2c3f05c496a68a05783918"
+    },
+    {
+      "path": "tests/boot-loading-blank-screen.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ee5221e83c0e1c097dae216c1f4f4f1ca5ffc0",
+      "size": 5446,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/71ee5221e83c0e1c097dae216c1f4f4f1ca5ffc0"
+    },
+    {
+      "path": "tests/boot-splash.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5d758db8f09fceca5872365a0560dad3c26560",
+      "size": 20766,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0a5d758db8f09fceca5872365a0560dad3c26560"
+    },
+    {
+      "path": "tests/boot-xex-reclaim.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0b23af0925e138f65f253b76f7cee1781a3cc26",
+      "size": 4656,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e0b23af0925e138f65f253b76f7cee1781a3cc26"
+    },
+    {
+      "path": "tests/boss-assets-v2.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2579acf938bcbd51bf1a2c7022c935a463ff5d18",
+      "size": 17949,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2579acf938bcbd51bf1a2c7022c935a463ff5d18"
+    },
+    {
+      "path": "tests/boss-band.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388e0107c8069fb0b75a99ca6a3b1bf342438b3b",
+      "size": 13713,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/388e0107c8069fb0b75a99ca6a3b1bf342438b3b"
+    },
+    {
+      "path": "tests/boss-claim.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910b5f9759d3ddf36808b00f593f587944559fe8",
+      "size": 9794,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/910b5f9759d3ddf36808b00f593f587944559fe8"
+    },
+    {
+      "path": "tests/boss-cover-rule.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c1bed26056dbdfc7f74da46142f74c540bdebe",
+      "size": 9262,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a2c1bed26056dbdfc7f74da46142f74c540bdebe"
+    },
+    {
+      "path": "tests/boss-emitter-art.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc01cbd3da874b91875a3a211d78d858bb66b3f2",
+      "size": 4870,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cc01cbd3da874b91875a3a211d78d858bb66b3f2"
+    },
+    {
+      "path": "tests/boss-engine.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d6942df79432b1febf1afaedb9e56fc4e1d4cfc",
+      "size": 22039,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4d6942df79432b1febf1afaedb9e56fc4e1d4cfc"
+    },
+    {
+      "path": "tests/boss-escort-flow.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d97531598da561dfe3de9b3bf5cfbdab73e9de92",
+      "size": 12536,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d97531598da561dfe3de9b3bf5cfbdab73e9de92"
+    },
+    {
+      "path": "tests/boss-finale.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb5e18c76c68b21bfb823e65423ddceb84982af",
+      "size": 21479,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/aeb5e18c76c68b21bfb823e65423ddceb84982af"
+    },
+    {
+      "path": "tests/boss-fire-rule.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7007782ddce165108eba1dfc2e301d34a6eaf8c",
+      "size": 11694,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e7007782ddce165108eba1dfc2e301d34a6eaf8c"
+    },
+    {
+      "path": "tests/boss-fixtures.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "137272d9c559f56a4ac0fc1cbc31194ae19d5410",
+      "size": 7393,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/137272d9c559f56a4ac0fc1cbc31194ae19d5410"
+    },
+    {
+      "path": "tests/boss-fortress.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a076a3ecac6ee76b9b53054addc0e64cc350a51c",
+      "size": 42735,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a076a3ecac6ee76b9b53054addc0e64cc350a51c"
+    },
+    {
+      "path": "tests/boss-harness.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d93b1cc184ccf672020733d43a0a8c958062c12",
+      "size": 15753,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2d93b1cc184ccf672020733d43a0a8c958062c12"
+    },
+    {
+      "path": "tests/boss-lasers-s41.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69f15c7108d69a402a171d10e8d3389cd4987e80",
+      "size": 19419,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/69f15c7108d69a402a171d10e8d3389cd4987e80"
+    },
+    {
+      "path": "tests/boss-lasers-s44.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b437f0b46a8eda7005549dde4f3e34addec7f979",
+      "size": 12743,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b437f0b46a8eda7005549dde4f3e34addec7f979"
+    },
+    {
+      "path": "tests/boss-lasers.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0b5d3c5900a979e16b830ce8f0aa8d80cfc2f0",
+      "size": 37602,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fd0b5d3c5900a979e16b830ce8f0aa8d80cfc2f0"
+    },
+    {
+      "path": "tests/boss-look-tail.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd89cdec7cea51d0ec0e0ae64380aac593b821d",
+      "size": 6435,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bcd89cdec7cea51d0ec0e0ae64380aac593b821d"
+    },
+    {
+      "path": "tests/boss-overlay.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a6a9167133696c13d837288b28ef6517c3a6210",
+      "size": 14499,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2a6a9167133696c13d837288b28ef6517c3a6210"
+    },
+    {
+      "path": "tests/boss-r1-tuning.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6423c3e961e9beaedae6b863f65b5ace349fd059",
+      "size": 8602,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6423c3e961e9beaedae6b863f65b5ace349fd059"
+    },
+    {
+      "path": "tests/boss-readability.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18d5aab77fc0acbf93c4a9d5fdfd57227db2f157",
+      "size": 17229,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/18d5aab77fc0acbf93c4a9d5fdfd57227db2f157"
+    },
+    {
+      "path": "tests/boss-recess.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c094cf166f72d72495ab99d09e8f167d4dcd8546",
+      "size": 5170,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c094cf166f72d72495ab99d09e8f167d4dcd8546"
+    },
+    {
+      "path": "tests/boss-runtime.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38937ff7b3a054ef8b22d2eba0a58d65aff07a9c",
+      "size": 38356,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/38937ff7b3a054ef8b22d2eba0a58d65aff07a9c"
+    },
+    {
+      "path": "tests/boss-s4b5.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bed4a81a601d28e1077928fa3144077dae341959",
+      "size": 19747,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bed4a81a601d28e1077928fa3144077dae341959"
+    },
+    {
+      "path": "tests/boss-shot-raster.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd158260410483540c1ce5f2f8584d6d3431668",
+      "size": 9072,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8dd158260410483540c1ce5f2f8584d6d3431668"
+    },
+    {
+      "path": "tests/boss-stress.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98283ec7076dda1f42b6cf149f01552a5e38be09",
+      "size": 32879,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/98283ec7076dda1f42b6cf149f01552a5e38be09"
+    },
+    {
+      "path": "tests/boss-warning-line.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2df16ef249915d58e36b868b5ea2828253b0bee",
+      "size": 4635,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b2df16ef249915d58e36b868b5ea2828253b0bee"
+    },
+    {
+      "path": "tests/branding.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ef8e00490d099e9a72b0256b94877dfee9c3df",
+      "size": 5362,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/92ef8e00490d099e9a72b0256b94877dfee9c3df"
+    },
+    {
+      "path": "tests/broadside-antic2-prototype.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cad500a6558f116e5927c4cdfa1a9d0fd4939ee",
+      "size": 6328,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4cad500a6558f116e5927c4cdfa1a9d0fd4939ee"
+    },
+    {
+      "path": "tests/broadside-fire.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb2e27fde6b67a64a23461e5032a8481358a688",
+      "size": 125682,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/adb2e27fde6b67a64a23461e5032a8481358a688"
+    },
+    {
+      "path": "tests/broadside-hull-edge.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1948b21ff05515b2c80d8eb6f7afd25a0175581b",
+      "size": 6068,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1948b21ff05515b2c80d8eb6f7afd25a0175581b"
+    },
+    {
+      "path": "tests/build-variants.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e82ca9b44c5789f39733d85138a70bf4a745f6",
+      "size": 10630,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/76e82ca9b44c5789f39733d85138a70bf4a745f6"
+    },
+    {
+      "path": "tests/capital-hull-extension.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffee9858b2d8ad458047399924253eeb2bad1458",
+      "size": 11395,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ffee9858b2d8ad458047399924253eeb2bad1458"
+    },
+    {
+      "path": "tests/capital-hulls.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e928bd752bc77068fda33c3df4135b3e70c9c6d3",
+      "size": 35187,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e928bd752bc77068fda33c3df4135b3e70c9c6d3"
+    },
+    {
+      "path": "tests/cfg-overlaps.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34900e8311161c5055c894514256b544d65e7dd4",
+      "size": 2112,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/34900e8311161c5055c894514256b544d65e7dd4"
+    },
+    {
+      "path": "tests/chunk-loader.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274fc112fecb2e7e7552b19a9b6b6b20bc25c7d4",
+      "size": 8325,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/274fc112fecb2e7e7552b19a9b6b6b20bc25c7d4"
+    },
+    {
+      "path": "tests/cold-pickup-record-fit.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11b4ef74c15bbe31f9fb37c7ec00ed2b079d6973",
+      "size": 8224,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/11b4ef74c15bbe31f9fb37c7ec00ed2b079d6973"
+    },
+    {
+      "path": "tests/debris-score.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f300ede926d006b59763b76bf47ff54786e0c2",
+      "size": 15801,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/49f300ede926d006b59763b76bf47ff54786e0c2"
+    },
+    {
+      "path": "tests/debris-visibility-gate.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d595d46a2c75952aaf215837eddae401a892e5e8",
+      "size": 11352,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d595d46a2c75952aaf215837eddae401a892e5e8"
+    },
+    {
+      "path": "tests/difficulty-labels.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12a1908c6092e6d099d83e7391f81572fa5b11a",
+      "size": 2537,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e12a1908c6092e6d099d83e7391f81572fa5b11a"
+    },
+    {
+      "path": "tests/effects-stagger.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a2114c9d38c4501cc51a7203991d1b9b966b17f",
+      "size": 4069,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3a2114c9d38c4501cc51a7203991d1b9b966b17f"
+    },
+    {
+      "path": "tests/encounter-director.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cadc280f8c4f51f54a42a1bf95a08b7fc03b7a1d",
+      "size": 52281,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cadc280f8c4f51f54a42a1bf95a08b7fc03b7a1d"
+    },
+    {
+      "path": "tests/enemy-combat.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a63874caee9e0d7049e60a4bd3e5ea8e2b164670",
+      "size": 35618,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a63874caee9e0d7049e60a4bd3e5ea8e2b164670"
+    },
+    {
+      "path": "tests/enemy-roster.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89949e4d048c085838bbadb80db72ea884d12303",
+      "size": 17574,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/89949e4d048c085838bbadb80db72ea884d12303"
+    },
+    {
+      "path": "tests/entity-effects.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f1fef636762f69d410cc356d1558353319983c",
+      "size": 104644,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f3f1fef636762f69d410cc356d1558353319983c"
+    },
+    {
+      "path": "tests/explosion-colour-flash.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ebe013af931dbcb917d45c9531acdbb7244ad1",
+      "size": 10812,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/53ebe013af931dbcb917d45c9531acdbb7244ad1"
+    },
+    {
+      "path": "tests/fighter-weapons.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b9bfe6fd759a396fecf40d583057f06c395774a",
+      "size": 28042,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1b9bfe6fd759a396fecf40d583057f06c395774a"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ac9dff57f6292cbe01044697442a750e9e99972",
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/trees/0ac9dff57f6292cbe01044697442a750e9e99972"
+    },
+    {
+      "path": "tests/fixtures/portb-planted.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d2c4672960817ff26dcb514c891b3156e08f50e",
+      "size": 789,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3d2c4672960817ff26dcb514c891b3156e08f50e"
+    },
+    {
+      "path": "tests/flagship-sector.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ebf23702964e094c05e6c7998bc023118e6d1f",
+      "size": 30284,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b6ebf23702964e094c05e6c7998bc023118e6d1f"
+    },
+    {
+      "path": "tests/focused-pal-acceptance.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2995ff6d105cd3b147dc2d3e0e445fc30d297203",
+      "size": 1287,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2995ff6d105cd3b147dc2d3e0e445fc30d297203"
+    },
+    {
+      "path": "tests/formats.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "612f6c02f4858d76324a1a5c8ad7e0b37c51e843",
+      "size": 13461,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/612f6c02f4858d76324a1a5c8ad7e0b37c51e843"
+    },
+    {
+      "path": "tests/frontend.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ecd8b6245ff0ba8b37b5608e4f808b4c593257d",
+      "size": 28442,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1ecd8b6245ff0ba8b37b5608e4f808b4c593257d"
+    },
+    {
+      "path": "tests/game-over.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf7946f523adcf40466f45b5c7bcf82f39c3b76",
+      "size": 9198,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0cf7946f523adcf40466f45b5c7bcf82f39c3b76"
+    },
+    {
+      "path": "tests/gameplay-art-polish-h4.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020d269a36d4242f1a4292b387566ff09516852e",
+      "size": 4067,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/020d269a36d4242f1a4292b387566ff09516852e"
+    },
+    {
+      "path": "tests/gameplay-music-placement.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f09777a1e92b1ebdd7433289f1a8481900d6f7c5",
+      "size": 11188,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f09777a1e92b1ebdd7433289f1a8481900d6f7c5"
+    },
+    {
+      "path": "tests/gameplay-music.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcf5d8339fc6d93c9c9651772b2399794097ba8",
+      "size": 16260,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ddcf5d8339fc6d93c9c9651772b2399794097ba8"
+    },
+    {
+      "path": "tests/gameplay-speed-tuning.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afd5ec8a37867b1bafa38ca93d2686571c891eb4",
+      "size": 7337,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/afd5ec8a37867b1bafa38ca93d2686571c891eb4"
+    },
+    {
+      "path": "tests/github-showcase.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a503bdea58b7437edb948912dfdb6bb1854ecd87",
+      "size": 11639,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a503bdea58b7437edb948912dfdb6bb1854ecd87"
+    },
+    {
+      "path": "tests/hardware-audio.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97933853d9ebd5f3ec3942a7fe0822f955be0d1d",
+      "size": 6891,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/97933853d9ebd5f3ec3942a7fe0822f955be0d1d"
+    },
+    {
+      "path": "tests/hardware-boot.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cce34acf9ca96b09f5b53790cfd5e350c635f78",
+      "size": 4618,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1cce34acf9ca96b09f5b53790cfd5e350c635f78"
+    },
+    {
+      "path": "tests/heavy-bomber.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "527e5a557b9a02d6b1374e36d803e8319263b374",
+      "size": 31765,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/527e5a557b9a02d6b1374e36d803e8319263b374"
+    },
+    {
+      "path": "tests/heavy-breakup.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39cc873029f75869157fde6f7546f3c01d265f4f",
+      "size": 25288,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/39cc873029f75869157fde6f7546f3c01d265f4f"
+    },
+    {
+      "path": "tests/heavy-standing-cost.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eba306953d0d53190ca2623f2ef28aac59ec4906",
+      "size": 14972,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/eba306953d0d53190ca2623f2ef28aac59ec4906"
+    },
+    {
+      "path": "tests/hostile-projectile-emitter-independence.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738a4a0eeb5a20c6f9ace0a3dcf00befebc96ecf",
+      "size": 16653,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/738a4a0eeb5a20c6f9ace0a3dcf00befebc96ecf"
+    },
+    {
+      "path": "tests/hostile-weapon-step-rate.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d7b2bf4ee1ef8b3d008213e79a886df55278be",
+      "size": 10698,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e9d7b2bf4ee1ef8b3d008213e79a886df55278be"
+    },
+    {
+      "path": "tests/hud-audit.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c39701d0eab10d8d8efca848cde95071ef6a20ed",
+      "size": 6854,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c39701d0eab10d8d8efca848cde95071ef6a20ed"
+    },
+    {
+      "path": "tests/hud-status.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ded4ad458f1d198ab5ab905fe3cd616f9c38c97",
+      "size": 5163,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3ded4ad458f1d198ab5ab905fe3cd616f9c38c97"
+    },
+    {
+      "path": "tests/hull-length.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf0ce5290b25816f51ed66b0a9deb0dfe88d89f",
+      "size": 9029,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4bf0ce5290b25816f51ed66b0a9deb0dfe88d89f"
+    },
+    {
+      "path": "tests/hull-set-v1.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bde6326b27f25d858ed4ba27aa0d6cd815d5443",
+      "size": 17785,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0bde6326b27f25d858ed4ba27aa0d6cd815d5443"
+    },
+    {
+      "path": "tests/hybrid-c-arena.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "090e988ac9d9048e08e44cbcc1a380e4bf2be860",
+      "size": 12934,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/090e988ac9d9048e08e44cbcc1a380e4bf2be860"
+    },
+    {
+      "path": "tests/hybrid-lifecycle.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0fe65be163561965b27e18606f22a558ce45a3e",
+      "size": 23768,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d0fe65be163561965b27e18606f22a558ce45a3e"
+    },
+    {
+      "path": "tests/layout-d1.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b92ca35090b1e963140eeca575ad6561540b8b0",
+      "size": 19498,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3b92ca35090b1e963140eeca575ad6561540b8b0"
+    },
+    {
+      "path": "tests/level-buffer-16.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f39a0b9ea5b1dd0c65ae09295ba19094e4081c92",
+      "size": 10243,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/f39a0b9ea5b1dd0c65ae09295ba19094e4081c92"
+    },
+    {
+      "path": "tests/level-compiler.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bfeff0c709d085c3b0348e4d78e76640ca4f958",
+      "size": 33070,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6bfeff0c709d085c3b0348e4d78e76640ca4f958"
+    },
+    {
+      "path": "tests/level-hull-block.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a2cc6e625c6822b87edbe0f722a6ac2c8483dc",
+      "size": 14591,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d0a2cc6e625c6822b87edbe0f722a6ac2c8483dc"
+    },
+    {
+      "path": "tests/level-one-equivalence.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef577cd8d3e2d29639fa7b628ec77e8bf358760",
+      "size": 14196,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/bef577cd8d3e2d29639fa7b628ec77e8bf358760"
+    },
+    {
+      "path": "tests/level-one-waves.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ca6fa63f27f525e69072da9a09cbfe2ad3cce5",
+      "size": 14185,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/19ca6fa63f27f525e69072da9a09cbfe2ad3cce5"
+    },
+    {
+      "path": "tests/level-payload.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5a11d1ca776275b56d2e83e766131f591b7d58e",
+      "size": 22905,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d5a11d1ca776275b56d2e83e766131f591b7d58e"
+    },
+    {
+      "path": "tests/level-summary-build.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdd8e50a8714c2044a0873a8c2d5bdf3d0b59802",
+      "size": 23650,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/cdd8e50a8714c2044a0873a8c2d5bdf3d0b59802"
+    },
+    {
+      "path": "tests/level-summary.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d8360d1aed6c2c6c3040bec0e331645cfe045ea",
+      "size": 60223,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4d8360d1aed6c2c6c3040bec0e331645cfe045ea"
+    },
+    {
+      "path": "tests/level-two.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fbfe7d94e3b8a2c03058806874790bbd430faee",
+      "size": 10355,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/4fbfe7d94e3b8a2c03058806874790bbd430faee"
+    },
+    {
+      "path": "tests/light-coverage.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bca5491567b5acacd2ccce663e46a145fe4395f",
+      "size": 6758,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0bca5491567b5acacd2ccce663e46a145fe4395f"
+    },
+    {
+      "path": "tests/light-interceptor.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0bb520ab6ff22d80014ea3f951fce38fbbebd2c",
+      "size": 37734,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b0bb520ab6ff22d80014ea3f951fce38fbbebd2c"
+    },
+    {
+      "path": "tests/light-multiplicity.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31f47e30d30849111881b7d268b3577b68de4708",
+      "size": 15824,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/31f47e30d30849111881b7d268b3577b68de4708"
+    },
+    {
+      "path": "tests/light-wingman.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86babf499a43e0b8394e05d782228fb2ef21c1d7",
+      "size": 42612,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/86babf499a43e0b8394e05d782228fb2ef21c1d7"
+    },
+    {
+      "path": "tests/loader-screen.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a197c147cfe57515dd1690c3a93582583425c2",
+      "size": 25552,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/50a197c147cfe57515dd1690c3a93582583425c2"
+    },
+    {
+      "path": "tests/master-pal-clock.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb677543d424ec8f0d40136120b0fee7f4e6bd25",
+      "size": 5292,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fb677543d424ec8f0d40136120b0fee7f4e6bd25"
+    },
+    {
+      "path": "tests/memory-map-generated.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7edf290739ab582dda2e03fbf4368106a832fd7",
+      "size": 2315,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c7edf290739ab582dda2e03fbf4368106a832fd7"
+    },
+    {
+      "path": "tests/menu-raster-stars.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f06cc5ac2dbf9b29fabfc2bf87f523e543e12b",
+      "size": 4231,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/15f06cc5ac2dbf9b29fabfc2bf87f523e543e12b"
+    },
+    {
+      "path": "tests/menu-raster.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "975f63e6ca024afede26352f8ff7758a8dd4c3a6",
+      "size": 7194,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/975f63e6ca024afede26352f8ff7758a8dd4c3a6"
+    },
+    {
+      "path": "tests/menu-stars.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba21546d60e28ccc1c86585097068a0ad5a4a73a",
+      "size": 30170,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ba21546d60e28ccc1c86585097068a0ad5a4a73a"
+    },
+    {
+      "path": "tests/music-v2-runtime.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1cbff33204518b4550fe239989ccff19e5b0e8",
+      "size": 18723,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/fc1cbff33204518b4550fe239989ccff19e5b0e8"
+    },
+    {
+      "path": "tests/music-v2-stream.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22d0278103e57f635f47686a38f954e6d49670aa",
+      "size": 11453,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/22d0278103e57f635f47686a38f954e6d49670aa"
+    },
+    {
+      "path": "tests/music-v2.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53d88f91402f0e775e322a098b4d9fccc86bd6e",
+      "size": 5963,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a53d88f91402f0e775e322a098b4d9fccc86bd6e"
+    },
+    {
+      "path": "tests/offscreen-spawn.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e82cc2224d8ced5da258d1daa02c848aa1f273",
+      "size": 12259,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/78e82cc2224d8ced5da258d1daa02c848aa1f273"
+    },
+    {
+      "path": "tests/overlay-slot.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f60c2316bfe1c1d9e803bfd8edf1edb09122541",
+      "size": 13530,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2f60c2316bfe1c1d9e803bfd8edf1edb09122541"
+    },
+    {
+      "path": "tests/pairshot-foundation.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7372df48022064ca79bc63a02039cbb393cc0452",
+      "size": 3772,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7372df48022064ca79bc63a02039cbb393cc0452"
+    },
+    {
+      "path": "tests/pairshot-stale-cell.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "599d83b2fe6f0742fe5e0208b143e30c13237b9f",
+      "size": 3058,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/599d83b2fe6f0742fe5e0208b143e30c13237b9f"
+    },
+    {
+      "path": "tests/pal-timing-audit.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b3460a2310a01688fccea498acb551069fa9db",
+      "size": 12149,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/39b3460a2310a01688fccea498acb551069fa9db"
+    },
+    {
+      "path": "tests/pause.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dbe97bfadc85778dfe0989ae964661f0d6f930f",
+      "size": 9195,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8dbe97bfadc85778dfe0989ae964661f0d6f930f"
+    },
+    {
+      "path": "tests/pickup-boost-colour.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c60393b3fc47281499a86e8e3b2196b1f980d7",
+      "size": 7752,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b7c60393b3fc47281499a86e8e3b2196b1f980d7"
+    },
+    {
+      "path": "tests/pickup-fence.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7695ec97db5426aa95dc2dfc8c8cdfd8849a375",
+      "size": 2339,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/a7695ec97db5426aa95dc2dfc8c8cdfd8849a375"
+    },
+    {
+      "path": "tests/pickup-pmg-raster-visibility.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebde3b7a264c1773856fd6c93d9a12e95a2c6f4e",
+      "size": 7987,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ebde3b7a264c1773856fd6c93d9a12e95a2c6f4e"
+    },
+    {
+      "path": "tests/plasma-fx.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8accd1020e0c2bd0c8263305957f6318697c9a48",
+      "size": 13391,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8accd1020e0c2bd0c8263305957f6318697c9a48"
+    },
+    {
+      "path": "tests/player-fire-audio.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d33740acebb9cf4f18327b8983904a4bbcfa06b",
+      "size": 5462,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1d33740acebb9cf4f18327b8983904a4bbcfa06b"
+    },
+    {
+      "path": "tests/playfield-boundaries.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f1c0efcd2eed6525ab5683342933b58b59f906c",
+      "size": 9173,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/8f1c0efcd2eed6525ab5683342933b58b59f906c"
+    },
+    {
+      "path": "tests/portb-writes.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2c254be76abed82e50876d1afa9f0fa525674cd",
+      "size": 7976,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b2c254be76abed82e50876d1afa9f0fa525674cd"
+    },
+    {
+      "path": "tests/prepared-hull-row.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acd57f2f0e9c1db1f7dd41a71f8d7a3f4f258a4e",
+      "size": 6282,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/acd57f2f0e9c1db1f7dd41a71f8d7a3f4f258a4e"
+    },
+    {
+      "path": "tests/preview.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea05bf33e89c854f87846d61fd3b9b2f01aefdcd",
+      "size": 24520,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ea05bf33e89c854f87846d61fd3b9b2f01aefdcd"
+    },
+    {
+      "path": "tests/raider-fragment-origin.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae9f095ddd423cb3bdcecc3ce215ee6d8e2f3da9",
+      "size": 4911,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ae9f095ddd423cb3bdcecc3ce215ee6d8e2f3da9"
+    },
+    {
+      "path": "tests/raider-projectile-ownership.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69beceb07ada9cc39bfaec85eb9a95979a8224aa",
+      "size": 6196,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/69beceb07ada9cc39bfaec85eb9a95979a8224aa"
+    },
+    {
+      "path": "tests/raider-remnant.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cb1549c2080a3a5c19ac674284f24e057e66c0d",
+      "size": 3156,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/3cb1549c2080a3a5c19ac674284f24e057e66c0d"
+    },
+    {
+      "path": "tests/reconcile-failures.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fee35ebf0c6cab34d6a8bce847b80bc6f0fe3d6",
+      "size": 5628,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9fee35ebf0c6cab34d6a8bce847b80bc6f0fe3d6"
+    },
+    {
+      "path": "tests/release-gate-semantics.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9f373058b77e570a127bfdcee4bd65f104e668",
+      "size": 7948,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7f9f373058b77e570a127bfdcee4bd65f104e668"
+    },
+    {
+      "path": "tests/remaining-mid-screen-artifact.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "419a296a107411d4145d53e113740fca80131172",
+      "size": 3100,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/419a296a107411d4145d53e113740fca80131172"
+    },
+    {
+      "path": "tests/runtime-evidence-binding.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7152c344737606a90d2297bd6a2879763516f18e",
+      "size": 5077,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/7152c344737606a90d2297bd6a2879763516f18e"
+    },
+    {
+      "path": "tests/runtime-evidence.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8d281b797513c810360a9d398d69684702b977",
+      "size": 2168,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/0c8d281b797513c810360a9d398d69684702b977"
+    },
+    {
+      "path": "tests/runtime-timing.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "439e40950703e319c75e2aeadfbd38291b4e1f66",
+      "size": 12255,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/439e40950703e319c75e2aeadfbd38291b4e1f66"
+    },
+    {
+      "path": "tests/runtime-wall-trace.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba70f010308df1369f05632c15888a32e017fd04",
+      "size": 67852,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/ba70f010308df1369f05632c15888a32e017fd04"
+    },
+    {
+      "path": "tests/score.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390c101ed800a1dc366234c32c2e7b37af6516eb",
+      "size": 24945,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/390c101ed800a1dc366234c32c2e7b37af6516eb"
+    },
+    {
+      "path": "tests/sector-flow.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1251c406ccd8e3e46413610424d6582e74f62689",
+      "size": 15289,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/1251c406ccd8e3e46413610424d6582e74f62689"
+    },
+    {
+      "path": "tests/sector-reader.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258b92799e1f7102a6c054008b5ef2411fd6b7ea",
+      "size": 42837,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/258b92799e1f7102a6c054008b5ef2411fd6b7ea"
+    },
+    {
+      "path": "tests/sio-patch-policy.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5b5d7c045becd4396b4c4b37928f48161e2d53b",
+      "size": 6465,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/d5b5d7c045becd4396b4c4b37928f48161e2d53b"
+    },
+    {
+      "path": "tests/slot-f.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa5c39679b034bd43398df4cd404aaf524f68c7f",
+      "size": 6707,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/aa5c39679b034bd43398df4cd404aaf524f68c7f"
+    },
+    {
+      "path": "tests/source-contracts.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17ab76c2ca2c8ac1c5324aa8a618ad2fa61d59ea",
+      "size": 19084,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/17ab76c2ca2c8ac1c5324aa8a618ad2fa61d59ea"
+    },
+    {
+      "path": "tests/spread-volley-admission.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1bb49f42c5449f83722ba378ac6970a6181107e",
+      "size": 4789,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/c1bb49f42c5449f83722ba378ac6970a6181107e"
+    },
+    {
+      "path": "tests/starfield-staging-streams.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2203778d388e0cc821f35344ff31cd497f1b13a0",
+      "size": 10594,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/2203778d388e0cc821f35344ff31cd497f1b13a0"
+    },
+    {
+      "path": "tests/starfield.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ad008ca974a76c2c879eb1ce89e419d86fd50b",
+      "size": 17769,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e4ad008ca974a76c2c879eb1ce89e419d86fd50b"
+    },
+    {
+      "path": "tests/target-machine.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d6e22f970cc9f15961396e4b3dd346b245440bf",
+      "size": 5030,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/9d6e22f970cc9f15961396e4b3dd346b245440bf"
+    },
+    {
+      "path": "tests/trace-clause-observers.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e210a217e5db826cf724b6cd7ec741a81f215c95",
+      "size": 11243,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/e210a217e5db826cf724b6cd7ec741a81f215c95"
+    },
+    {
+      "path": "tests/transport-enabler.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f04d99e0c417a9f3348abfc848f2c64591b380",
+      "size": 8889,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/76f04d99e0c417a9f3348abfc848f2c64591b380"
+    },
+    {
+      "path": "tests/two-pmg-raiders.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156ecd358d910a14212a75b384b9ebcaa8c49a9c",
+      "size": 9283,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/156ecd358d910a14212a75b384b9ebcaa8c49a9c"
+    },
+    {
+      "path": "tests/wall-trace-debug-route.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901bdb66b579d1446d3706dba2c8fd5c43d5965e",
+      "size": 7736,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/901bdb66b579d1446d3706dba2c8fd5c43d5965e"
+    },
+    {
+      "path": "tests/weapon-pickup-rapid-fire.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c6d1bdb83a2b7b83b9a88227209bd27ce89b6ed",
+      "size": 40575,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/6c6d1bdb83a2b7b83b9a88227209bd27ce89b6ed"
+    },
+    {
+      "path": "tests/weapon-pickup-shield.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b947793a3ce098f68fe16ef0d617b43b24566f54",
+      "size": 12485,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/b947793a3ce098f68fe16ef0d617b43b24566f54"
+    },
+    {
+      "path": "tests/weapon-pickup-spread-shot.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640e82de79ff42e72239a8e7107ce8657c154ce8",
+      "size": 24868,
+      "url": "https://api.github.com/repos/Setech-pl/void-strike-65/git/blobs/640e82de79ff42e72239a8e7107ce8657c154ce8"
+    }
+  ],
+  "truncated": false
+}

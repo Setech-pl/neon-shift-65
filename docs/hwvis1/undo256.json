@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "undo256-from-ATR",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "950": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "3180": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            11,
+            6
+          ],
+          "boxes": [
+            [
+              6,
+              6
+            ],
+            [
+              13,
+              6
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "moves": 270,
+          "pushes": 52,
+          "undo": 256,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "5260": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            9,
+            4
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 14,
+          "pushes": 7,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "5300": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            9,
+            4
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 14,
+          "pushes": 7,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 245760,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    }
+  ],
+  "expected_prefix14": {
+    "player": [
+      9,
+      4
+    ],
+    "boxes": [
+      [
+        4,
+        2
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "moves": 14,
+    "pushes": 7
+  }
+}

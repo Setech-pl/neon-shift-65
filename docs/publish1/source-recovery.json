@@ -1,0 +1,7 @@
+{
+  "source_snapshot": "No original Git history, no old build/, no /tmp dependencies",
+  "five_images_generated_from_locked_sources": true,
+  "normal_from_verified_dist": true,
+  "test_variants": "rebuilt and exact accepted hashes",
+  "routes": true
+}

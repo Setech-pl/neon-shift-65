@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "cases": 1088,
+  "device": "sim65 device model, generated production campaign.c and CRC assembly",
+  "latest_generation_byte_preserved": true,
+  "ATR_physical_partial_write": "OWNER_PENDING"
+}

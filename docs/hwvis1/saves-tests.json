@@ -1,0 +1,3844 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "two-generations",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1030": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            3,
+            2
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ]
+          ],
+          "moves": 1,
+          "pushes": 1,
+          "undo": 1,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 136,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1730": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 2,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "2100": {
+          "phase": 0,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 2,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 131,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 122880,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "cold-newest",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1250": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "unreadable-slot-0",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1400": {
+          "phase": 3,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            3,
+            2
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ]
+          ],
+          "moves": 1,
+          "pushes": 1,
+          "undo": 1,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 4,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "unreadable-slot-1",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1400": {
+          "phase": 3,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            3,
+            2
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ]
+          ],
+          "moves": 1,
+          "pushes": 1,
+          "undo": 1,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 4,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "write-protect",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1250": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1500": {
+          "phase": 3,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 4,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "stock-area",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "2800": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            2,
+            2
+          ],
+          "boxes": [
+            [
+              3,
+              2
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": true,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "move-undo-restart-save",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "950": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            2,
+            2
+          ],
+          "boxes": [
+            [
+              3,
+              2
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1030": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 2,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 136,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1075": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            2,
+            2
+          ],
+          "boxes": [
+            [
+              3,
+              2
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1350": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            2,
+            2
+          ],
+          "boxes": [
+            [
+              3,
+              2
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1450": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 2,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1800": {
+          "phase": 0,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 2,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 307200,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "cold-save",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1000": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 138,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-0",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-1",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-0",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-1",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-0",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-1",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 2,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            2
+          ],
+          "boxes": [
+            [
+              5,
+              2
+            ]
+          ],
+          "moves": 2,
+          "pushes": 2,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "both-semantic-bad",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1400": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            2,
+            2
+          ],
+          "boxes": [
+            [
+              3,
+              2
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1600": {
+          "phase": 0,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            2,
+            2
+          ],
+          "boxes": [
+            [
+              3,
+              2
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-test-1",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1250": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-normal",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-other-1",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "stock-area",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "2800": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": true,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "move-undo-restart-save",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "950": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 136,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1030": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1075": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1350": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1450": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 135,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1800": {
+          "phase": 0,
+          "scene": 15,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 307200,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "cold-save",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1000": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-0",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-1",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-0",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-1",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-0",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-1",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            4
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "both-semantic-bad",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1400": {
+          "phase": 8,
+          "scene": 15,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1600": {
+          "phase": 0,
+          "scene": 15,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              6,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-test-16",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1250": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-normal",
+      "build": "build/hwvis1/test-16",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "99e0176ec45d46c5918812fbb058a1655b9ba7dda1e0c884af17117347888367",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-other-16",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "stock-area",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "2800": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": true,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "move-undo-restart-save",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "950": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1030": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1075": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 136,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1350": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1450": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1800": {
+          "phase": 0,
+          "scene": 30,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 307200,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "cold-save",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1000": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-0",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-1",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-0",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-1",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-0",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-1",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            10,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "both-semantic-bad",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1400": {
+          "phase": 8,
+          "scene": 30,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 129,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1600": {
+          "phase": 0,
+          "scene": 30,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-test-31",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1250": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-normal",
+      "build": "build/hwvis1/test-31",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "09c1a69eae313f602fb930cc91e7e6de8ee660e13cdfe1e2936f65d23b1b553e",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-other-31",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "stock-area",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "2800": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": true,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "move-undo-restart-save",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "950": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1030": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1075": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 136,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1350": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1450": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1800": {
+          "phase": 0,
+          "scene": 45,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 3,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 307200,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "cold-save",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1000": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-0",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-terrain-1",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-0",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-box-count-1",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-0",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "fallback-board-crc-1",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 1,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            7,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 3,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 133,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "both-semantic-bad",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1400": {
+          "phase": 8,
+          "scene": 45,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 129,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1600": {
+          "phase": 0,
+          "scene": 45,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            4,
+            1
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-test-46",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1250": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-normal",
+      "build": "build/hwvis1/test-46",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "f16eda5e246bc13ff07f9ff1bb23ba1a706d02e350b3ee89d4aef576acf74395",
+      "status": "PASS"
+    },
+    {
+      "name": "reject-other-46",
+      "build": "build/hwvis1/test-1",
+      "states": {
+        "1000": {
+          "phase": 8,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 2,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "677ed51e8cdf9f50ffbd051f4b1c4ebb812f036ed7235e6484afe79d4ad413df",
+      "status": "PASS"
+    },
+    {
+      "name": "stock-write",
+      "build": "build/hwvis1/final",
+      "states": {
+        "4650": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            3,
+            2
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ]
+          ],
+          "moves": 1,
+          "pushes": 1,
+          "undo": 1,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 134,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "5600": {
+          "phase": 0,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            3,
+            2
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ]
+          ],
+          "moves": 1,
+          "pushes": 1,
+          "undo": 1,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": true,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "stock-cold",
+      "build": "build/hwvis1/final",
+      "states": {
+        "4800": {
+          "phase": 1,
+          "scene": 0,
+          "error": 0,
+          "loaded": 1,
+          "player": [
+            3,
+            2
+          ],
+          "boxes": [
+            [
+              4,
+              2
+            ]
+          ],
+          "moves": 1,
+          "pushes": 1,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 137,
+          "_save_error": 0,
+          "_save_valid": 1,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 61440,
+      "stock": true,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    },
+    {
+      "name": "bad-package",
+      "build": "build/hwvis1/final",
+      "states": {
+        "1000": {
+          "phase": 6,
+          "scene": 0,
+          "error": 3,
+          "loaded": 0,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1300": {
+          "phase": 6,
+          "scene": 0,
+          "error": 3,
+          "loaded": 0,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        },
+        "1600": {
+          "phase": 0,
+          "scene": 0,
+          "error": 0,
+          "loaded": 4,
+          "player": [
+            0,
+            0
+          ],
+          "boxes": [],
+          "moves": 0,
+          "pushes": 0,
+          "undo": 0,
+          "overflow": 0,
+          "publication_overflow": 0,
+          "late": 0,
+          "vcount": 130,
+          "_save_error": 0,
+          "_save_valid": 0,
+          "_save_complete": 0,
+          "_eng4_busy": 0,
+          "_hud_dirty": 0,
+          "_asset_loading": 0
+        }
+      },
+      "pixels": 0,
+      "stock": false,
+      "ATR_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+      "status": "PASS"
+    }
+  ]
+}

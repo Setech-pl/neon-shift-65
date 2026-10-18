@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "product_commit": "a9448bfb887fd4a2c35182cb8a54a4ea2cb7a1ea",
+  "normal_atr_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d",
+  "zip_atr_identical": true,
+  "checksums": true,
+  "current_document_local_links": 125,
+  "bilingual_pairs": 7,
+  "readme_images_same_order": true,
+  "visual_review": "Current menu, loader, four area PNGs inspected; exact RGB checks on every GIF/PNG and montage. Hardware OWNER_PENDING.",
+  "gif_rgb_proofs": [
+    {
+      "area": 1,
+      "decoded_rgb_sha256": "6174b5e5d7a51f7f1b2fc53b2e84ee8b80a9823d19ed4f2af8da891e19b45b5e",
+      "exact_nearest_neighbour_pixels": true,
+      "duration": "4.010000",
+      "infinite_loop": true
+    },
+    {
+      "area": 2,
+      "decoded_rgb_sha256": "32efbb89efc7a65648d0617d5583527f2e4f123f258c4d8cec0294cea2936cdf",
+      "exact_nearest_neighbour_pixels": true,
+      "duration": "4.010000",
+      "infinite_loop": true
+    },
+    {
+      "area": 3,
+      "decoded_rgb_sha256": "3dca83d767bfc537dc71881f4cef537611dedeaf91c5c7cedc2752cd9c4a3a63",
+      "exact_nearest_neighbour_pixels": true,
+      "duration": "4.010000",
+      "infinite_loop": true
+    },
+    {
+      "area": 4,
+      "decoded_rgb_sha256": "f70cc4f57bc6abdc1152dd26d447ec6bae2cc7086ca8988cdbd7832b54a098ad",
+      "exact_nearest_neighbour_pixels": true,
+      "duration": "4.010000",
+      "infinite_loop": true
+    }
+  ],
+  "main_gif_exact_rgb": true,
+  "six_png_exact_rgb": true,
+  "hardware": "OWNER_PENDING",
+  "rights": "OPEN",
+  "remote_draft": "See publication.json; private candidate, no stable publication.",
+  "fresh_normal_rebuild_sha256": "48b6f81986d8ffb705830aa7f2dfffdb4419b3508a8409be006210441bac8c7d"
+}
