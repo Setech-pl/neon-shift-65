@@ -4,7 +4,7 @@
 
 **Industrial Sokoban for Atari XL/XE PAL, 64 KB.** Guide a service robot through 60 levels. Push every crate onto a dock. You cannot pull crates or push two at once.
 
-[Play in Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Download ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.0/neon-shift65.atr) · [How to play](docs/how-to-play.md) · [Build from source](docs/building.md)
+[Play in Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Download ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.1/neon-shift65.atr) · [How to play](docs/how-to-play.md) · [Build from source](docs/building.md)
 
 ![NEON SHIFT 65 gameplay](docs/media/neon-shift65.gif)
 

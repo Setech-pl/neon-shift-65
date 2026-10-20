@@ -1,6 +1,6 @@
 # Gameplay captures
 
-These images and GIFs show the exact normal disk released as v1.0.0, SHA-256
+These images and GIFs show the exact normal disk released as v1.0.1, SHA-256
 `a22992f1c4350d0e5c72150c6902aefdd2f485c3be5979f9da2a7bc2d32f3407`.
 Captured in Atari800 PAL, 336×240, displayed at 2× nearest-neighbour scaling.
 No retouch, mockups or changed game colours. Energy starts at BEGIN SHIFT;

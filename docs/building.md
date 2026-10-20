@@ -13,7 +13,7 @@ Use a new output directory. The normal disk is `build/release/candidate.atr`.
 SHA-256: `a22992f1c4350d0e5c72150c6902aefdd2f485c3be5979f9da2a7bc2d32f3407`.
 
 Verified toolchain: Python 3.15.0, Node.js v26.12.0,
-cc65 2.19 (binaries V2.18), Apple clang 21.0.0.
+cc65 2.19 (binaries V2.18), Apple clang 21.0.1.
 Other tool versions are not guaranteed to produce identical bytes. On Windows use WSL with these tools; Windows has not been separately verified.
 
 ## Source layout

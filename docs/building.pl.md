@@ -13,7 +13,7 @@ Użyj nowego katalogu wyjściowego. Normalny dysk to `build/release/candidate.at
 SHA-256: `a22992f1c4350d0e5c72150c6902aefdd2f485c3be5979f9da2a7bc2d32f3407`.
 
 Sprawdzone narzędzia: Python 3.15.0, Node.js v26.12.0,
-cc65 2.19 (binaries V2.18), Apple clang 21.0.0.
+cc65 2.19 (binaries V2.18), Apple clang 21.0.1.
 Inne wersje nie mają gwarancji identycznego wyniku. Windows: użyj środowiska WSL z tymi narzędziami; nie wykonano osobnej weryfikacji Windows.
 
 ## Układ źródeł

@@ -4,7 +4,7 @@
 
 **Industrialny Sokoban dla Atari XL/XE PAL, 64 KB.** Poprowadź robota serwisowego przez 60 poziomów. Umieść każdą skrzynię na doku. Skrzyń nie można ciągnąć ani pchać dwóch naraz.
 
-[Zagraj w Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Pobierz ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.0/neon-shift65.atr) · [Instrukcja](docs/how-to-play.pl.md) · [Budowanie](docs/building.pl.md)
+[Zagraj w Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Pobierz ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.1/neon-shift65.atr) · [Instrukcja](docs/how-to-play.pl.md) · [Budowanie](docs/building.pl.md)
 
 ![NEON SHIFT 65 gameplay](docs/media/neon-shift65.gif)
 
