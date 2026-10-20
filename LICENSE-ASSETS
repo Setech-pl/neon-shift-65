@@ -1,67 +1,44 @@
-# Asset and creative-content licence
+# NEON SHIFT 65 — asset and creative-content licence
 
 Copyright (c) 2026 Marcin Krzetowski (Setech Game Studio)
 
-This project's own creative content is licensed under **Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**,
-to the extent the project holds rights, with the exceptions below.
-Full legal terms: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
-Summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
+The game's creative content is licensed under **Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+Full legal text: [docs/licenses/CC-BY-NC-SA-4.0.txt](docs/licenses/CC-BY-NC-SA-4.0.txt).
+Canonical terms: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ## Scope
 
-Own graphics, sprites, font adaptations, music and sound-effect data (except
-Service Current below), maps whose project provenance is established, creative
-player-facing text, and promotional screenshots/GIFs under docs/media/.
-This includes editable JSON, pixel patterns and creative data embedded in
-Python, JavaScript, C or assembly and their generated Atari bytes. Adaptations
-of the Void Strike font and splash assets retain the upstream attribution and
-asset conditions in assets/licenses/ and docs/licenses/.
+Graphics, sprites, fonts and adaptations, maps and level names, creative
+player-facing text, music and sound data, screenshots and GIFs. This includes
+editable sources, data embedded in C/ASM/Python/JavaScript and generated Atari
+bytes. The licence follows the substance, not the extension.
 
-Own code, generators, tools and technical documentation are MIT (LICENSE).
-A mixed file such as experiments/eng3-observed-input-3pal/compile.py can contain
-MIT generator logic plus separately licensed glyphs, composition or map data.
-The same applies to hardware.s, generated C arrays and reference/prototype_assets.c.
-File extensions do not determine the licence of every embedded element.
+Code, generators, build tools, functional interface labels and engineering
+documentation are MIT; see [LICENSE](LICENSE). In mixed files the algorithm
+remains MIT and the creative data retains its content licence.
 
-## Exceptions and unresolved provenance
+The complete released ATR combines code and content and is distributed under
+CC BY-NC-SA 4.0, preserving the MIT and third-party notices. Attribute
+NEON SHIFT 65 to Marcin Krzetowski / Setech Game Studio, link https://github.com/Setech-pl/neon-shift-65, indicate
+changes, share non-commercially and license adaptations of CC content alike.
+The separate MIT code remains available for reuse under MIT.
 
-- Third-party components keep their original terms and notices; see
-  THIRD_PARTY_NOTICES.md. In particular, linked cc65 runtime is not relicensed.
-- Service Current, composed in compile.py and played by hardware.s, has a
-  historical CC0-1.0 declaration in LICENSE-music.md and generated metadata.
-  Authority for that declaration has not been established. It is excluded
-  from any assertion that this notice revokes CC0 or exclusively imposes NC-SA.
-  Previously valid grants remain effective. Stable distribution is pending
-  an explicit provenance/licensing decision.
-- Inherited map data in src/levels_data.c, FIRST DOCK and REACTOR STORE in
-  assets/levels/prototypes.json, their generated/vendored copies, and historical
-  campaign entries with unestablished origins are excluded from the project's
-  blanket CC grant until rights are documented. First Dock is a build fixture,
-  not one of the 60 published NSLV maps. Inclusion in the repository is not
-  evidence of permission. See docs/publish1/RIGHTS.md.
-- Owner-supplied reference/vis1-owner/energy-owner-reference.png and other
-  reference images with no documented origin are excluded pending provenance.
-  No rights are inferred in untracked owner files, external ROMs or emulator data.
+## Components with their own terms
 
-## The complete game and redistribution
-
-The ATR combines executable code and creative content. Redistribution of the
-complete game must preserve the MIT notice for own code, the original cc65 and
-upstream notices, attribution to Marcin Krzetowski / Setech Game Studio,
-non-commercial use of the CC BY-NC-SA content, and the same licence for
-adapted CC content, alongside original third-party terms. Credit NEON SHIFT 65,
-link its source repository and this licence, and indicate modifications.
-No distribution-ready claim is made while the exceptions above remain unresolved.
-
-These content conditions do not place a non-commercial restriction on independent
-reuse, modification or sale of MIT code separated from the creative content.
-They do not replace third-party licences or remove any valid earlier rights.
+- “Service Current” composition and instruments retain the earlier CC0-1.0
+  dedication; the player is MIT. This release does not revoke that grant.
+  See [the original music notice](docs/licenses/service-current-LICENSE-music.md).
+- Adapted Void Strike font/title/splash data remain CC BY-NC-SA 4.0, with
+  upstream notices; upstream tools remain MIT. This credits those adaptations
+  only, not the authorship of unrelated NEON SHIFT 65 content.
+- Linked cc65 runtime retains its original licence; see
+  [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Names and marks
 
-NEON SHIFT 65, Setech Game Studio and the studio logo are reserved names/marks.
-All rights reserved in these identifiers. Neither MIT nor CC BY-NC-SA grants
-permission to use them to brand or endorse another product. Incidental display
-in attributed screenshots is distinct from a grant of branding rights.
-Atari belongs to its rights holders; this project is not endorsed by Atari.
+NEON SHIFT 65, Setech Game Studio and the studio logo are reserved names and
+marks. All rights reserved in those identifiers. Neither licence permits
+branding or endorsement of another product with them. Factual attribution is
+permitted. Atari belongs to its respective rights holders; no affiliation or
+endorsement is claimed.

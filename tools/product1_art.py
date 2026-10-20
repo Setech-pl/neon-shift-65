@@ -67,6 +67,12 @@ def campaign_devices(old,number,level):
         return previous_devices(result,number,level)
     return result
 c.decoration.devices=campaign_devices
+if os.environ.get('NEON_PMG_INDUSTRIAL1')=='1':
+    from pmg_industrial1_art import install
+    install(c)
+elif os.environ.get('NEON_PMG1')=='1':
+    from pmg1_art import install
+    install(c)
 for l in (l for l in levels if l['area']==area):
     c.scene(l,0,a)
     folder=out/f"level-{l['number']:02d}";folder.mkdir()

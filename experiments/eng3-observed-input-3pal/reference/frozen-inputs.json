@@ -1,8 +1,0 @@
-{
-  "origin": "Exact local UX2 frozen inputs. No writes to reference project. Vendor copies make ART2 build independent of ignored build/startup caches.",
-  "sha256": {
-    "prototype_assets.c": "ff5c9fe0bf0b43f16c09db33b34d83a3a72280c1b959ea988be29904785edbe1",
-    "broadside-lzss.mjs": "0d2a38d47ca1af7508bf6499dee4aa4a52b2894a4b214d3649d1530b9ea25f98",
-    "boot-splash-assets.mjs": "b02633cdd159210126a786b1c5012d2a42f4449e37d174e0967bd0d8349f3e50"
-  }
-}

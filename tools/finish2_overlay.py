@@ -78,7 +78,7 @@ _finish2_menu_palette:
     replace(l,'    sta $d018\n','    sta $d018\n    sta dli_row\n')
     n=int(os.environ.get('NEON_FINISH2_START','0'))
     if n:
-        assert n in (1,16,31,46)
+        assert n in (1,16,31,46) or (n==3 and os.environ.get("NEON_ENERGY_FINAL1")=="1")
         replace(source/'main.c','startup();clock=input_clock;',
                 f'startup();if(phase!=6){{continue_saved({n-1});input_rearm();}}clock=input_clock;')
         # Only save record identity differs; catalog and level CRC use the real

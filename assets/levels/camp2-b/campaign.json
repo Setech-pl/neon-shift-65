@@ -1,9 +1,6 @@
 {
-  "version": 2,
-  "stage": "CAMP3-LOGIC-CANDIDATE",
-  "authoring": "46 original new layouts plus 14 retained CAMP2-B layouts; bounded reverse-state search on individually designed geometries; independently verified witnesses and mechanism proofs; no external level collection",
-  "visual_owner": "FAIL; unchanged art frozen for this stage",
-  "status": "DATA_VERIFIED; OWNER_PENDING; ENGINE_INTEGRATION_NOT_TESTED",
+  "version": 1,
+  "id": "131c57e2",
   "levels": [
     {
       "number": 1,
@@ -19,71 +16,10 @@
         "################",
         "################"
       ],
-      "path": "RR",
-      "moves": 2,
-      "pushes": 2,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RR",
-        "pushes": 2,
-        "moves": 2,
-        "expanded": 2,
-        "visited": 4,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 2,
-        "no_goal_removal": false,
-        "states": 2,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         7,
         5
-      ],
-      "change": "preserved",
-      "source": "CAMP2-B original level 1",
-      "owner": "OWNER_OK for unchanged geometry only; new campaign progression OWNER_PENDING",
-      "activity": {
-        "free_cells": 15,
-        "used_cells": 4,
-        "used_fraction": 0.2667,
-        "crate_cells": 3,
-        "crate_span": [
-          3,
-          1
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 2,
-        "walking": 0,
-        "first_push": 1,
-        "longest_walk_without_push": 0,
-        "crate_route_bends": [
-          0
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 0,
-        "motif": "0",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-01",
-        "source_number": 1,
-        "historical_owner": "OWNER_OK"
-      },
-      "design_note": "Pierwsze pchnięcia: poznanie sterowania i celu.",
-      "design_index": 3.4314,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 2,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 2,
@@ -99,70 +35,10 @@
         "################",
         "################"
       ],
-      "path": "DRRLLURR",
-      "moves": 8,
-      "pushes": 4,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DRRLLURR",
-        "pushes": 4,
-        "moves": 8,
-        "expanded": 4,
-        "visited": 19,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 4,
-        "no_goal_removal": false,
-        "states": 4,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         10,
         6
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout INTRO-02",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 32,
-        "used_cells": 8,
-        "used_fraction": 0.25,
-        "crate_cells": 6,
-        "crate_span": [
-          3,
-          2
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 4,
-        "walking": 4,
-        "first_push": 2,
-        "longest_walk_without_push": 3,
-        "crate_route_bends": [
-          0,
-          0
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 1,
-        "motif": "0,0",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "INTRO-02"
-      },
-      "design_note": "Dwie skrzynie i dwa cele: nauka zmiany pozycji gracza między pchnięciami.",
-      "design_index": 6.0969,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 4,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 3,
@@ -178,72 +54,10 @@
         "################",
         "################"
       ],
-      "path": "ULLLDRRDRURUUDDLLURDRU",
-      "moves": 22,
-      "pushes": 7,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "ULLLDRRDRURUUDDLLURDRU",
-        "pushes": 7,
-        "moves": 22,
-        "expanded": 7,
-        "visited": 15,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 7,
-        "no_goal_removal": false,
-        "states": 7,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         7,
         7
-      ],
-      "change": "preserved",
-      "source": "CAMP2-B original level 3",
-      "owner": "OWNER_OK for unchanged geometry only; new campaign progression OWNER_PENDING",
-      "activity": {
-        "free_cells": 17,
-        "used_cells": 14,
-        "used_fraction": 0.8235,
-        "crate_cells": 7,
-        "crate_span": [
-          4,
-          4
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 7,
-        "walking": 15,
-        "first_push": 6,
-        "longest_walk_without_push": 5,
-        "crate_route_bends": [
-          0,
-          3
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 2,
-        "motif": "0,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-03",
-        "source_number": 3,
-        "historical_owner": "OWNER_OK"
-      },
-      "design_note": "Kolejność zapełniania wąskiego szybu z dwoma celami.",
-      "design_index": 9.7093,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 7,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 4,
@@ -259,72 +73,10 @@
         "#      #.#######",
         "################"
       ],
-      "path": "RRURDDDDUULLLLLLLURRURD",
-      "moves": 23,
-      "pushes": 9,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRURDDDDUULLLLLLLURRURD",
-        "pushes": 9,
-        "moves": 23,
-        "expanded": 9,
-        "visited": 28,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 9,
-        "no_goal_removal": false,
-        "states": 9,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         10,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 2",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 46,
-        "used_cells": 23,
-        "used_fraction": 0.5,
-        "crate_cells": 11,
-        "crate_span": [
-          7,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 9,
-        "walking": 14,
-        "first_push": 1,
-        "longest_walk_without_push": 10,
-        "crate_route_bends": [
-          1,
-          1
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 1,
-        "motif": "1,1",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-02",
-        "source_number": 2,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Dwa transporty i przygotowanie właściwej strony skrzyni.",
-      "design_index": 12.0,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 9,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 5,
@@ -340,73 +92,10 @@
         "#  .    ## #####",
         "################"
       ],
-      "path": "LLDLLUURDRRULLDLURURRRRRDRUU",
-      "moves": 28,
-      "pushes": 13,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLDLLUURDRRULLDLURURRRRRDRUU",
-        "pushes": 13,
-        "moves": 28,
-        "expanded": 13,
-        "visited": 90,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 13,
-        "no_goal_removal": false,
-        "states": 13,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         12,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 6",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 54,
-        "used_cells": 24,
-        "used_fraction": 0.4444,
-        "crate_cells": 16,
-        "crate_span": [
-          8,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 13,
-        "walking": 15,
-        "first_push": 1,
-        "longest_walk_without_push": 6,
-        "crate_route_bends": [
-          1,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 3,
-        "motif": "1,1,2",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-06",
-        "source_number": 6,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Trzy skrzynie: planowanie zakrętów i dostępu do nich.",
-      "design_index": 16.4384,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 13,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 6,
@@ -422,73 +111,10 @@
         "#.        .#####",
         "################"
       ],
-      "path": "LLLLLLULDRDLUUUUURRRRRRRDDDLDRURDULULURULLL",
-      "moves": 43,
-      "pushes": 17,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLLLLLULDRDLUUUUURRRRRRRDDDLDRURDULULURULLL",
-        "pushes": 17,
-        "moves": 43,
-        "expanded": 17,
-        "visited": 70,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 17,
-        "no_goal_removal": false,
-        "states": 17,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         12,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 4",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 32,
-        "used_fraction": 0.6038,
-        "crate_cells": 20,
-        "crate_span": [
-          10,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 17,
-        "walking": 26,
-        "first_push": 1,
-        "longest_walk_without_push": 12,
-        "crate_route_bends": [
-          1,
-          2,
-          2
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 2,
-        "motif": "1,2,2",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-04",
-        "source_number": 4,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Wyprowadzenie skrzyń ze wspólnego narożnika hali.",
-      "design_index": 20.7658,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 17,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 7,
@@ -504,73 +130,10 @@
         "#    . #       #",
         "################"
       ],
-      "path": "DDRRRUULLLDLUURUURRRDRRRURRRRRDULLLLDDRRRRUULDRDLLLLULDDRDLLLDLLLUURRDULLULLU",
-      "moves": 77,
-      "pushes": 18,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDRRRUULLLDLUURUURRRDRRRURRRRRDULLLLDDRRRRUULDRDLLLLULDDRDLLLDLLLUURRDULLULLU",
-        "pushes": 18,
-        "moves": 77,
-        "expanded": 18,
-        "visited": 89,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 18,
-        "no_goal_removal": false,
-        "states": 18,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 14",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 67,
-        "used_cells": 50,
-        "used_fraction": 0.7463,
-        "crate_cells": 21,
-        "crate_span": [
-          14,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 18,
-        "walking": 59,
-        "first_push": 9,
-        "longest_walk_without_push": 16,
-        "crate_route_bends": [
-          4,
-          1,
-          1
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 3,
-        "motif": "1,1,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-14",
-        "source_number": 14,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Zmiana strony pchania przy rozdzielonych dokach.",
-      "design_index": 21.8363,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 18,
-        "assignment_gap": 0,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 8,
@@ -586,73 +149,10 @@
         "#   ############",
         "################"
       ],
-      "path": "URRULDLLULLDLURRRUURRDLRDDLLULLLUDRRRDRRULLLLDLURUULRDDLUDRRRRUULDRDLLLDLLURDRUU",
-      "moves": 80,
-      "pushes": 20,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "URRULDLLULLDLURRRUURRDLRDDLLULLLUDRRRDRRULLLLDLURUULRDDLUDRRRRUULDRDLLLDLLURDRUU",
-        "pushes": 20,
-        "moves": 80,
-        "expanded": 147,
-        "visited": 339,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 18,
-        "no_goal_removal": false,
-        "states": 147,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         10,
         8
-      ],
-      "change": "preserved",
-      "source": "CAMP2-B original level 8",
-      "owner": "OWNER_OK for unchanged geometry only; new campaign progression OWNER_PENDING",
-      "activity": {
-        "free_cells": 38,
-        "used_cells": 27,
-        "used_fraction": 0.7105,
-        "crate_cells": 13,
-        "crate_span": [
-          7,
-          3
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 20,
-        "walking": 60,
-        "first_push": 5,
-        "longest_walk_without_push": 9,
-        "crate_route_bends": [
-          4,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 7,
-        "motif": "1,2,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-08",
-        "source_number": 8,
-        "historical_owner": "OWNER_OK"
-      },
-      "design_note": "Wspólne wejście do ciasnej komory z trzema celami.",
-      "design_index": 30.5108,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 18,
-        "assignment_gap": 2,
-        "interleaving_required": false,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 9,
@@ -668,74 +168,10 @@
         "#      .       #",
         "################"
       ],
-      "path": "LLDLLDDRRRRRRURRDRUDLLLLLLLLLUURRULULDDDUUUULLLLDRRRRDRULURDLLLLLDDRDDRRRRLLLLLUU",
-      "moves": 81,
-      "pushes": 20,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLDLLDDRRRRRRURRDRUDLLLLLLLLLUURRULULDDDUUUULLLLDRRRRDRULURDLLLLLDDRDDRRRRLLLLLUU",
-        "pushes": 20,
-        "moves": 81,
-        "expanded": 858,
-        "visited": 1936,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 18,
-        "no_goal_removal": false,
-        "states": 858,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 21",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 61,
-        "used_cells": 46,
-        "used_fraction": 0.7541,
-        "crate_cells": 23,
-        "crate_span": [
-          14,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 20,
-        "walking": 61,
-        "first_push": 1,
-        "longest_walk_without_push": 15,
-        "crate_route_bends": [
-          2,
-          2,
-          1,
-          1
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 6,
-        "motif": "1,1,2,2",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-21",
-        "source_number": 21,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Pierwszy obowiązkowy powrót do wcześniej ruszanej skrzyni.",
-      "design_index": 32.802,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 18,
-        "assignment_gap": 2,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 10,
@@ -751,73 +187,10 @@
         "#              #",
         "################"
       ],
-      "path": "DURRRRLLLLDDRDRDDRUDRRUULLLDDLLUUDDRRUULULLLDDDRRUURULDDDLLUUULDDDRRRUUULLDLLLLLUUURRRDDUULLLDDDDDRRRRUULLRRRULDLLLDLLUUUURRRRDDRDDDLLLUURRLLDLLUR",
-      "moves": 146,
-      "pushes": 27,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DURRRRLLLLDDRDRDDRUDRRUULLLDDLLUUDDRRUULULLLDDDRRUURULDDDLLUUULDDDRRRUUULLDLLLLLUUURRRDDUULLLDDDDDRRRRUULLRRRULDLLLDLLUUUURRRRDDRDDDLLLUURRLLDLLUR",
-        "pushes": 27,
-        "moves": 146,
-        "expanded": 408,
-        "visited": 798,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 23,
-        "no_goal_removal": false,
-        "states": 408,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 9",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 63,
-        "used_cells": 58,
-        "used_fraction": 0.9206,
-        "crate_cells": 21,
-        "crate_span": [
-          13,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 27,
-        "walking": 119,
-        "first_push": 1,
-        "longest_walk_without_push": 16,
-        "crate_route_bends": [
-          0,
-          5,
-          5
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 14,
-        "motif": "0,5,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-09",
-        "source_number": 9,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Wspólne przejścia: obowiązkowe przeplatanie skrzyń i opuszczenie celu.",
-      "design_index": 42.8352,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 23,
-        "assignment_gap": 4,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 11,
@@ -833,74 +206,10 @@
         "#       .    $@#",
         "################"
       ],
-      "path": "LLLLLRUUUULURRRRLLLDDDDDLLLLLUUULLLDDDRRRRRLLUULLLULUURDLDRDDLU",
-      "moves": 63,
-      "pushes": 24,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLLLLRUUUULURRRRLLLDDDDDLLLLLUUULLLDDDRRRRRLLUULLLULUURDLDRDDLU",
-        "pushes": 24,
-        "moves": 63,
-        "expanded": 66,
-        "visited": 125,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 1,
-        "initial_push_lower_bound": 16,
-        "no_goal_removal": false,
-        "states": 66,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 33",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 60,
-        "used_cells": 41,
-        "used_fraction": 0.6833,
-        "crate_cells": 24,
-        "crate_span": [
-          14,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 24,
-        "walking": 39,
-        "first_push": 1,
-        "longest_walk_without_push": 10,
-        "crate_route_bends": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 5,
-        "motif": "1,1,1,1",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-33",
-        "source_number": 33,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Planowanie bufora: skrzynie trzeba obsługiwać w przeplocie.",
-      "design_index": 45.4782,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 16,
-        "assignment_gap": 8,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 12,
@@ -916,75 +225,10 @@
         "#      .  $    #",
         "################"
       ],
-      "path": "RDLLLRRURRDRULUUURULLLRRDDDDRRULDLUUURULDDDDDLLLLLLUULLLLDDRRRRUULLLURURDULLLDLU",
-      "moves": 80,
-      "pushes": 26,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RDLLLRRURRDRULUUURULLLRRDDDDRRULDLUUURULDDDDDLLLLLLUULLLLDDRRRRUULLLURURDULLLDLU",
-        "pushes": 26,
-        "moves": 80,
-        "expanded": 318,
-        "visited": 632,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 2,
-        "initial_push_lower_bound": 20,
-        "no_goal_removal": false,
-        "states": 318,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 54",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 64,
-        "used_cells": 46,
-        "used_fraction": 0.7188,
-        "crate_cells": 24,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 26,
-        "walking": 54,
-        "first_push": 1,
-        "longest_walk_without_push": 10,
-        "crate_route_bends": [
-          1,
-          1,
-          1,
-          4,
-          1
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 7,
-        "motif": "1,1,1,1,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-54",
-        "source_number": 54,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Odblokowanie dostępu do skrzyń przed zamknięciem doków.",
-      "design_index": 45.5114,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 20,
-        "assignment_gap": 6,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 13,
@@ -1000,74 +244,10 @@
         "#       #     .#",
         "################"
       ],
-      "path": "RRDDDLLLLUUULUURRRRRRDRRRDRRRLUURRDDDDUUULLLULLDLLULDDURRRURRDLLLLULLLLLLDDRDDDRRRRURUULURDDDLURUUULLLL",
-      "moves": 103,
-      "pushes": 24,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRDDDLLLLUUULUURRRRRRDRRRDRRRLUURRDDDDUUULLLULLDLLULDDURRRURRDLLLLULLLLLLDDRDDDRRRRURUULURDDDLURUUULLLL",
-        "pushes": 24,
-        "moves": 103,
-        "expanded": 4252,
-        "visited": 7915,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 18,
-        "initial_push_lower_bound": 16,
-        "no_goal_removal": false,
-        "states": 4252,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 53",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 63,
-        "used_cells": 48,
-        "used_fraction": 0.7619,
-        "crate_cells": 23,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 24,
-        "walking": 79,
-        "first_push": 1,
-        "longest_walk_without_push": 25,
-        "crate_route_bends": [
-          1,
-          2,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 9,
-        "motif": "1,1,2,2",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-53",
-        "source_number": 53,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Rozplątanie wspólnego dostępu i obowiązkowe przeplatanie transportów.",
-      "design_index": 50.8861,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 16,
-        "assignment_gap": 8,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 14,
@@ -1083,74 +263,10 @@
         "#.     #       #",
         "################"
       ],
-      "path": "LLLLLDLLLUURRDRDLLRUUURURULLLDDDRDRRRRRRUULDRDLUURUULDDRDDLLLDLLURRRRDRUUDDRRRUUUUULLLDLDDRDLURUULURRRRR",
-      "moves": 104,
-      "pushes": 33,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLLLLDLLLUURRDRDLLRUUURURULLLDDDRDRRRRRRUULDRDLUURUULDDRDDLLLDLLURRRRDRUUDDRRRUUUUULLLDLDDRDLURUULURRRRR",
-        "pushes": 33,
-        "moves": 104,
-        "expanded": 1747,
-        "visited": 2441,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 27,
-        "no_goal_removal": false,
-        "states": 1747,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "relocated",
-      "source": "CAMP2-B original level 34",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 63,
-        "used_cells": 50,
-        "used_fraction": 0.7937,
-        "crate_cells": 27,
-        "crate_span": [
-          14,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 33,
-        "walking": 71,
-        "first_push": 1,
-        "longest_walk_without_push": 16,
-        "crate_route_bends": [
-          1,
-          1,
-          4,
-          2
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 6,
-        "motif": "1,1,2,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-34",
-        "source_number": 34,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Współdzielone przejście z wymuszoną zmianą obsługiwanej skrzyni.",
-      "design_index": 54.7276,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 27,
-        "assignment_gap": 6,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 15,
@@ -1166,74 +282,10 @@
         "#    #         #",
         "################"
       ],
-      "path": "DDRRRRRRDRRRRDLDLULLLLLDLURRRRRRRULLDLURULLRUULLLDDLLLLUDRRRRDDLURULUURRRRDDLLRRUULLLDLDLLUULLRDRDDLUURULDDRRRUURRRRDDLLLLLLDLDDRUULURLU",
-      "moves": 136,
-      "pushes": 36,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDRRRRRRDRRRRDLDLULLLLLDLURRRRRRRULLDLURULLRUULLLDDLLLLUDRRRRDDLURULUURRRRDDLLRRUULLLDLDLLUULLRDRDDLUURULDDRRRUURRRRDDLLLLLLDLDDRUULURLU",
-        "pushes": 36,
-        "moves": 136,
-        "expanded": 8198,
-        "visited": 14134,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 38,
-        "initial_push_lower_bound": 30,
-        "no_goal_removal": false,
-        "states": 8198,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "preserved",
-      "source": "CAMP2-B original level 15",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 72,
-        "used_cells": 49,
-        "used_fraction": 0.6806,
-        "crate_cells": 27,
-        "crate_span": [
-          13,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 36,
-        "walking": 100,
-        "first_push": 1,
-        "longest_walk_without_push": 15,
-        "crate_route_bends": [
-          1,
-          2,
-          4,
-          5
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 15,
-        "motif": "1,2,4,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP2-B",
-        "candidate_id": "OLD-15",
-        "source_number": 15,
-        "historical_owner": "OWNER_PENDING"
-      },
-      "design_note": "Zależności między komorą docelową a kolejnością wyprowadzenia skrzyń.",
-      "design_index": 59.7413,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 30,
-        "assignment_gap": 6,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 16,
@@ -1249,73 +301,10 @@
         "#    #     # . #",
         "################"
       ],
-      "path": "DDDDDRRURRRLLDLLLUUUUULLLLLRRDDDUUULLDRURRRDRDDDLLLUUUDDDDLLURDRUUUDDRRRUUUULLLLRRRDRDDDLLLUUUDDDRRRUUUULLLDDDDRRDRRRURRRDRUUURUULDDDD",
-      "moves": 134,
-      "pushes": 29,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDDDDRRURRRLLDLLLUUUUULLLLLRRDDDUUULLDRURRRDRDDDLLLUUUDDDDLLURDRUUUDDRRRUUUULLLLRRRDRDDDLLLUUUDDDRRRUUUULLLDDDDRRDRRRURRRDRUUURUULDDDD",
-        "pushes": 29,
-        "moves": 134,
-        "expanded": 950,
-        "visited": 1098,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 2,
-        "initial_push_lower_bound": 15,
-        "no_goal_removal": false,
-        "states": 950,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H11",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 57,
-        "used_cells": 44,
-        "used_fraction": 0.7719,
-        "crate_cells": 20,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 29,
-        "walking": 105,
-        "first_push": 9,
-        "longest_walk_without_push": 16,
-        "crate_route_bends": [
-          0,
-          2,
-          4,
-          2
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 9,
-        "motif": "0,2,2,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H11",
-        "original_design_title": "Kaskada filtracyjna"
-      },
-      "design_note": "Trzy cele skupione pod gorna sciana wymagaja doprowadzenia skrzynek przez kaskade przejsc i zmiany strony pchania.",
-      "design_index": 65.9345,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 15,
-        "assignment_gap": 14,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 17,
@@ -1331,74 +320,10 @@
         "#       #   .. #",
         "################"
       ],
-      "path": "RRRRRDDLLDDDLLULLDLUDLLULLLUUUURRRRRDDRLUULLLLLDDDDDRRRRRURRRUUDDLLDLLLULLLUUUURRRRRDDRRLLLLLUDRRRRRUURRRRRDDLLDDLLLLDLLLULLLUUURLDDDDRRRRRURRRRRUURRUULLLLLDDLLUULLLRRRDDLLLUDRRRRRUURRDLDDULLLLLLULLDDDDRRRRRURRRRDRRRRUUULLLDDLDRRULLLLLLULURRRLLDDRRRRRUURRUULLLDLDDULLLDDRRRRLUUUURRRRDDLLDDLDRULLUUUULD",
-      "moves": 301,
-      "pushes": 31,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRRRDDLLDDDLLULLDLUDLLULLLUUUURRRRRDDRLUULLLLLDDDDDRRRRRURRRUUDDLLDLLLULLLUUUURRRRRDDRRLLLLLUDRRRRRUURRRRRDDLLDDLLLLDLLLULLLUUURLDDDDRRRRRURRRRRUURRUULLLLLDDLLUULLLRRRDDLLLUDRRRRRUURRDLDDULLLLLLULLDDDDRRRRRURRRRDRRRRUUULLLDDLDRRULLLLLLULURRRLLDDRRRRRUURRUULLLDLDDULLLDDRRRRLUUUURRRRDDLLDDLDRULLUUUULD",
-        "pushes": 31,
-        "moves": 301,
-        "expanded": 516,
-        "visited": 815,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 3,
-        "initial_push_lower_bound": 15,
-        "no_goal_removal": false,
-        "states": 516,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H19",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 66,
-        "used_cells": 63,
-        "used_fraction": 0.9545,
-        "crate_cells": 21,
-        "crate_span": [
-          12,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 31,
-        "walking": 270,
-        "first_push": 15,
-        "longest_walk_without_push": 35,
-        "crate_route_bends": [
-          1,
-          1,
-          4,
-          6,
-          2
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 12,
-        "motif": "1,1,2,4,6",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H19",
-        "original_design_title": "Komora wymiany"
-      },
-      "design_note": "Dwa cele na górze, cel w środkowym łączniku i dolna para konkurują o przestrzeń. Skrzynie startują przy wejściach do wspólnych komór; konieczne jest przeplatanie transportu.",
-      "design_index": 71.1405,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 15,
-        "assignment_gap": 16,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 18,
@@ -1414,74 +339,10 @@
         "#   # #      . #",
         "################"
       ],
-      "path": "RRRRDULLLLDDDUUURRDRULLLDDDRRRURRRLLLDDRRRDRRRUURUUULLLDDDDLDRRRRRLLLLULLLLULLLUUURRRRDULLLLDDDRRDDLLUUUDRRRUUDDDRRRRUULLLRRRDDLLLLUURRRRUULDRDLRDDLLLLULLLUUDDRRRURUULLRRDDLDDRRRRUULLRRDDLLLLUUUDDDRRRRUULLLRRRDDLLLLUURUULRDDLU",
-      "moves": 226,
-      "pushes": 35,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRRDULLLLDDDUUURRDRULLLDDDRRRURRRLLLDDRRRDRRRUURUUULLLDDDDLDRRRRRLLLLULLLLULLLUUURRRRDULLLLDDDRRDDLLUUUDRRRUUDDDRRRRUULLLRRRDDLLLLUURRRRUULDRDLRDDLLLLULLLUUDDRRRURUULLRRDDLDDRRRRUULLRRDDLLLLUUUDDDRRRRUULLLRRRDDLLLLUURUULRDDLU",
-        "pushes": 35,
-        "moves": 226,
-        "expanded": 1041,
-        "visited": 1324,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 21,
-        "no_goal_removal": false,
-        "states": 1041,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H17",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 49,
-        "used_fraction": 0.8305,
-        "crate_cells": 24,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 35,
-        "walking": 191,
-        "first_push": 5,
-        "longest_walk_without_push": 22,
-        "crate_route_bends": [
-          1,
-          4,
-          3,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 16,
-        "motif": "1,1,2,3,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H17",
-        "original_design_title": "Osadnik polnocny"
-      },
-      "design_note": "Cztery sasiednie cele przy gornej scianie tworza magazyn wymagajacy manewrow w ograniczonej komorze; piata skrzynka ma oddzielny cel po prawej.",
-      "design_index": 72.0536,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 21,
-        "assignment_gap": 14,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 19,
@@ -1497,73 +358,10 @@
         "#       #   .. #",
         "################"
       ],
-      "path": "RRRDRRURDDDLDRRRLLDLLLUUUDDDRRUURUUULLLLLRRRDRRDDDDLLLUUUURULLRDRRRDRRRDDLDRRRLLUURRULLLLRRDDLLLDLLLUUUURRRDDLDRRRLLUURRRDDLDRR",
-      "moves": 127,
-      "pushes": 37,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRDRRURDDDLDRRRLLDLLLUUUDDDRRUURUUULLLLLRRRDRRDDDDLLLUUUURULLRDRRRDRRRDDLDRRRLLUURRULLLLRRDDLLLDLLLUUUURRRDDLDRRRLLUURRRDDLDRR",
-        "pushes": 37,
-        "moves": 127,
-        "expanded": 766,
-        "visited": 1093,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 3,
-        "initial_push_lower_bound": 23,
-        "no_goal_removal": false,
-        "states": 766,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H07",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 39,
-        "used_fraction": 0.661,
-        "crate_cells": 22,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 37,
-        "walking": 90,
-        "first_push": 1,
-        "longest_walk_without_push": 18,
-        "crate_route_bends": [
-          1,
-          2,
-          3,
-          5
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 8,
-        "motif": "1,2,3,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H07",
-        "original_design_title": "Przesmyk korzeni"
-      },
-      "design_note": "Naprzemienne przegrody tworza wspolny obieg; pary celow w przeciwleglych naroznikach wymagaja przeplatania transportu.",
-      "design_index": 73.6544,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 23,
-        "assignment_gap": 14,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 20,
@@ -1579,74 +377,10 @@
         "###   . ########",
         "################"
       ],
-      "path": "DDRRDDDLLUUDDRRUURRRLLLUURRRDRRDDLULLRUULLLDDDDLLUUURRURRRDDLLRRUULLLDDDUULLDDDRRUURRRRRULDLLLLUURRRDRDLLLRRUULLLDLLDDDRRUURRRUULLLULLDDUURRDRRRDDLLLUUDDDDLLURDRUUULLDLLUURLDDRRURRDDDLLURRUULLUDRRDDLLU",
-      "moves": 201,
-      "pushes": 33,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDRRDDDLLUUDDRRUURRRLLLUURRRDRRDDLULLRUULLLDDDDLLUUURRURRRDDLLRRUULLLDDDUULLDDDRRUURRRRRULDLLLLUURRRDRDLLLRRUULLLDLLDDDRRUURRRUULLLULLDDUURRDRRRDDLLLUUDDDDLLURDRUUULLDLLUURLDDRRURRDDDLLURRUULLUDRRDDLLU",
-        "pushes": 33,
-        "moves": 201,
-        "expanded": 3626,
-        "visited": 3853,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 11,
-        "initial_push_lower_bound": 17,
-        "no_goal_removal": false,
-        "states": 3626,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         12,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-02",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 37,
-        "used_cells": 35,
-        "used_fraction": 0.9459,
-        "crate_cells": 20,
-        "crate_span": [
-          8,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 33,
-        "walking": 168,
-        "first_push": 10,
-        "longest_walk_without_push": 16,
-        "crate_route_bends": [
-          1,
-          3,
-          5,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 15,
-        "motif": "1,1,2,3,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-02",
-        "original_design_title": ""
-      },
-      "design_note": "Zwarty układ pięciu celów w lewej i dolnej części. Szerokie odstawienie po prawej współpracuje z ciasnymi dojściami do zachodnich doków. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 75.6786,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 17,
-        "assignment_gap": 16,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 21,
@@ -1662,74 +396,10 @@
         "#### #   #######",
         "################"
       ],
-      "path": "UDLLLUURRRLUULLDLLLULLLDLLDDRDRRLLULUURRURRRDRRRDDUULLLDDRRLLDDRRURULDDLLUUUURRRDULLLDDDDRRUULRDDLLUUULLLUURRRDRRRDRRRDDLLLRRRUULLLDLLLDDRRURRRLLUUULLLULLLDLLDDRDRRRLLLULUURRURRRDRRRDDL",
-      "moves": 185,
-      "pushes": 31,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "UDLLLUURRRLUULLDLLLULLLDLLDDRDRRLLULUURRURRRDRRRDDUULLLDDRRLLDDRRURULDDLLUUUURRRDULLLDDDDRRUULRDDLLUUULLLUURRRDRRRDRRRDDLLLRRRUULLLDLLLDDRRURRRLLUUULLLULLLDLLDDRDRRRLLLULUURRURRRDRRRDDL",
-        "pushes": 31,
-        "moves": 185,
-        "expanded": 1039,
-        "visited": 1302,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 3,
-        "initial_push_lower_bound": 13,
-        "no_goal_removal": false,
-        "states": 1039,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-01",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 49,
-        "used_cells": 45,
-        "used_fraction": 0.9184,
-        "crate_cells": 20,
-        "crate_span": [
-          11,
-          4
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 31,
-        "walking": 154,
-        "first_push": 1,
-        "longest_walk_without_push": 21,
-        "crate_route_bends": [
-          3,
-          5,
-          1,
-          0,
-          4
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 19,
-        "motif": "0,1,3,4,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-01",
-        "original_design_title": ""
-      },
-      "design_note": "Dwa odcinki poziome łączą się przez wąskie przejścia środkowe. Cele leżą zarówno przy przejściach, jak i w bocznej komorze; skrzynie trzeba wielokrotnie przekazywać między odcinkami. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 76.0511,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 13,
-        "assignment_gap": 18,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 22,
@@ -1745,74 +415,10 @@
         "#  # ##     .. #",
         "################"
       ],
-      "path": "DDDDLDRRRRRLLLLULLLLLULLUUURRRRDLULLDLDDRRDRRUUDDRRRUULLRRDDLLLLLULLUUURRRRRDULLDLURRRDLULLLLDDDRRDRRUUURULLLRRDDDDRRRUULLULDUULLDRURRDDLUDRRRDDLLLLLULLUURRRLLLDDRRDRRRRRUULLLDURUULLDLLLDDRRDRRRRLLUURRRDDLDRRRRLLLUUULLLURUL",
-      "moves": 223,
-      "pushes": 42,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDDDLDRRRRRLLLLULLLLLULLUUURRRRDLULLDLDDRRDRRUUDDRRRUULLRRDDLLLLLULLUUURRRRRDULLDLURRRDLULLLLDDDRRDRRUUURULLLRRDDDDRRRUULLULDUULLDRURRDDLUDRRRDDLLLLLULLUURRRLLLDDRRDRRRRRUULLLDURUULLDLLLDDRRDRRRRLLUURRRDDLDRRRRLLLUUULLLURUL",
-        "pushes": 42,
-        "moves": 223,
-        "expanded": 3695,
-        "visited": 4455,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 14,
-        "initial_push_lower_bound": 30,
-        "no_goal_removal": false,
-        "states": 3695,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H13",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 58,
-        "used_cells": 37,
-        "used_fraction": 0.6379,
-        "crate_cells": 26,
-        "crate_span": [
-          12,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 42,
-        "walking": 181,
-        "first_push": 1,
-        "longest_walk_without_push": 20,
-        "crate_route_bends": [
-          3,
-          5,
-          5,
-          1,
-          2
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 15,
-        "motif": "1,2,3,5,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H13",
-        "original_design_title": "Zawor zwrotny"
-      },
-      "design_note": "Gorna trojka celow i dolna para korzystaja z jednego ukladu manewrowego rozdzielonego centralna przegroda.",
-      "design_index": 76.7032,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 30,
-        "assignment_gap": 12,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 23,
@@ -1828,74 +434,10 @@
         "#   ##     ##  #",
         "################"
       ],
-      "path": "DLLULDRRRULDLLDDRRDDLLUUUURRRDRRUURRRRRRRRDLDDRDDLULLLDLLUDRRURRRUDLLLDLLUUDDRRURRRUUULULLDRRURDDDRDDLUUUU",
-      "moves": 106,
-      "pushes": 30,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DLLULDRRRULDLLDDRRDDLLUUUURRRDRRUURRRRRRRRDLDDRDDLULLLDLLUDRRURRRUDLLLDLLUUDDRRURRRUUULULLDRRURDDDRDDLUUUU",
-        "pushes": 30,
-        "moves": 106,
-        "expanded": 3422,
-        "visited": 3902,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 7,
-        "initial_push_lower_bound": 10,
-        "no_goal_removal": false,
-        "states": 3422,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H12",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 57,
-        "used_cells": 51,
-        "used_fraction": 0.8947,
-        "crate_cells": 20,
-        "crate_span": [
-          14,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 30,
-        "walking": 76,
-        "first_push": 2,
-        "longest_walk_without_push": 17,
-        "crate_route_bends": [
-          0,
-          2,
-          3,
-          2,
-          0
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 11,
-        "motif": "0,0,2,2,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H12",
-        "original_design_title": "Kanal obejscia"
-      },
-      "design_note": "Cel w srodku lacznika konkuruje o przestrzen z transportem do dwoch magazynow przy gornej scianie.",
-      "design_index": 80.6032,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 10,
-        "assignment_gap": 20,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 24,
@@ -1911,74 +453,10 @@
         "#  #  #    .#@ #",
         "################"
       ],
-      "path": "UUUURULLLDDDDLDLLULLLDLUUUULLRRDDDRRRDRRRURUULLLLUURRRRDDDDLDLLUUDDRRURUUUULLLLDDRRRLLDDDRRURUULLLLUURRRRRLLLLLDDRRRRUDLLLLUURRRRDDLLLDDLLLLUUURULDLLULDRRRULDLLDDRDDLUUUU",
-      "moves": 170,
-      "pushes": 39,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "UUUURULLLDDDDLDLLULLLDLUUUULLRRDDDRRRDRRRURUULLLLUURRRRDDDDLDLLUUDDRRURUUUULLLLDDRRRLLDDDRRURUULLLLUURRRRRLLLLLDDRRRRUDLLLLUURRRRDDLLLDDLLLLUUURULDLLULDRRRULDLLDDRDDLUUUU",
-        "pushes": 39,
-        "moves": 170,
-        "expanded": 1826,
-        "visited": 2266,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 6,
-        "initial_push_lower_bound": 23,
-        "no_goal_removal": false,
-        "states": 1826,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H15",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 58,
-        "used_cells": 56,
-        "used_fraction": 0.9655,
-        "crate_cells": 34,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 39,
-        "walking": 131,
-        "first_push": 1,
-        "longest_walk_without_push": 24,
-        "crate_route_bends": [
-          2,
-          0,
-          3,
-          2,
-          2
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 11,
-        "motif": "0,2,2,2,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H15",
-        "original_design_title": "Rownowaga przeplywu"
-      },
-      "design_note": "Piec skrzynek z lewego obszaru trzeba rozdzielic miedzy trzy grupy celow, zachowujac obieg wokol centralnych scian.",
-      "design_index": 80.7852,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 23,
-        "assignment_gap": 16,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 25,
@@ -1994,74 +472,10 @@
         "##   #      . .#",
         "################"
       ],
-      "path": "LLLLDDDLDDLLUUULLLUDRRRUULDURRRRRRRLLLDDDLDDRRRRRRUULDRDLLLLLLUURUUULLLDDDDDRRRRRLLLUURUUURRRDRRDDD",
-      "moves": 99,
-      "pushes": 28,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLLLDDDLDDLLUUULLLUDRRRUULDURRRRRRRLLLDDDLDDRRRRRRUULDRDLLLLLLUURUUULLLDDDDDRRRRRLLLUURUUURRRDRRDDD",
-        "pushes": 28,
-        "moves": 99,
-        "expanded": 874,
-        "visited": 998,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 2,
-        "initial_push_lower_bound": 6,
-        "no_goal_removal": false,
-        "states": 874,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H14",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 57,
-        "used_cells": 41,
-        "used_fraction": 0.7193,
-        "crate_cells": 22,
-        "crate_span": [
-          12,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 28,
-        "walking": 71,
-        "first_push": 1,
-        "longest_walk_without_push": 15,
-        "crate_route_bends": [
-          1,
-          0,
-          0,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 6,
-        "motif": "0,0,1,1,2",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H14",
-        "original_design_title": "Petla odsalania"
-      },
-      "design_note": "Cel w lewym łączniku i dwa cele przy dolnej prawej ścianie wymagają opróżniania wspólnej komory. Konieczne jest zdjęcie przynajmniej jednej skrzyni z celu oraz przeplatanie transportu skrzyń.",
-      "design_index": 80.826,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 6,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 26,
@@ -2077,73 +491,10 @@
         "#      # # #   #",
         "################"
       ],
-      "path": "RRDDDLDDRRRRURUUURRRRLDDLLDLLDLLULUUUURRDLULDDDLLDDRRUDLURUUURULLRDDDDLLURDRUUURULDDDDDRRRURUUURRRRURRRDDLULLLDDLLLUURRRRRRDRU",
-      "moves": 126,
-      "pushes": 32,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRDDDLDDRRRRURUUURRRRLDDLLDLLDLLULUUUURRDLULDDDLLDDRRUDLURUUURULLRDDDDLLURDRUUURULDDDDDRRRURUUURRRRURRRDDLULLLDDLLLUURRRRRRDRU",
-        "pushes": 32,
-        "moves": 126,
-        "expanded": 1504,
-        "visited": 1950,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 3,
-        "initial_push_lower_bound": 12,
-        "no_goal_removal": false,
-        "states": 1504,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H01",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 45,
-        "used_fraction": 0.7627,
-        "crate_cells": 18,
-        "crate_span": [
-          14,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 32,
-        "walking": 94,
-        "first_push": 3,
-        "longest_walk_without_push": 24,
-        "crate_route_bends": [
-          5,
-          3,
-          3,
-          0
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 8,
-        "motif": "0,3,3,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H01",
-        "original_design_title": "Trojdzielny rozdzielacz"
-      },
-      "design_note": "Dwa koncowe magazyny korzystaja ze srodkowego rozdzielacza; ustawianie skrzynek trzeba przeplatac z transportem przez dwa zalamania.",
-      "design_index": 81.5326,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 12,
-        "assignment_gap": 20,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 27,
@@ -2159,74 +510,10 @@
         "#####    .######",
         "################"
       ],
-      "path": "DRRRDDLLLLRRRRUULLLULRDRRRDDLLLLULLULLLLUURRRRDULLLLDDRRDDDRRRURULLLRRDDLLLUURULLLUURRRRDDLDLDDRRRURRRRRUULDRDLLLLULLLULDDLDRRRLLUUULLULLLDDRRDRLUURRRDRRRRDRRRUULLULLRRDRRDDLLLULLULLLLUURRRRDDURRRDRRDDLLLULLLULDULLLDLLUURRDRRRRRUULLLLDLDRRR",
-      "moves": 240,
-      "pushes": 40,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DRRRDDLLLLRRRRUULLLULRDRRRDDLLLLULLULLLLUURRRRDULLLLDDRRDDDRRRURULLLRRDDLLLUURULLLUURRRRDDLDLDDRRRURRRRRUULDRDLLLLULLLULDDLDRRRLLUUULLULLLDDRRDRLUURRRDRRRRDRRRUULLULLRRDRRDDLLLULLULLLLUURRRRDDURRRDRRDDLLLULLLULDULLLDLLUURRDRRRRRUULLLLDLDRRR",
-        "pushes": 40,
-        "moves": 240,
-        "expanded": 2303,
-        "visited": 3330,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 7,
-        "initial_push_lower_bound": 24,
-        "no_goal_removal": false,
-        "states": 2303,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-03",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 49,
-        "used_cells": 49,
-        "used_fraction": 1.0,
-        "crate_cells": 28,
-        "crate_span": [
-          11,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 40,
-        "walking": 200,
-        "first_push": 7,
-        "longest_walk_without_push": 25,
-        "crate_route_bends": [
-          3,
-          3,
-          1,
-          0,
-          8
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 10,
-        "motif": "0,1,3,3,8",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-03",
-        "original_design_title": ""
-      },
-      "design_note": "Trzy przesunięte względem siebie obiegi otaczają dwa duże bloki ścian. Cele rozmieszczone przy przecięciach tras powodują konflikt transportu z parkowaniem. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 82.0874,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 24,
-        "assignment_gap": 16,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 28,
@@ -2242,74 +529,10 @@
         "####    ########",
         "################"
       ],
-      "path": "DLDDRRRDRRUURRRUULLDUULLLDDRRLLULRDRRDRRLLULLUURRRDDLDDDLLURDRUUDLLLLLUURDLDRRRDRRULLLLRRRRURUURRDRDDLULLUURRDRDLLRUULLULLLDDRRDULLUURRRDRRDDLLU",
-      "moves": 144,
-      "pushes": 33,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DLDDRRRDRRUURRRUULLDUULLLDDRRLLULRDRRDRRLLULLUURRRDDLDDDLLURDRUUDLLLLLUURDLDRRRDRRULLLLRRRRURUURRDRDDLULLUURRDRDLLRUULLULLLDDRRDULLUURRRDRRDDLLU",
-        "pushes": 33,
-        "moves": 144,
-        "expanded": 2203,
-        "visited": 2325,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 13,
-        "no_goal_removal": false,
-        "states": 2203,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         12,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-04",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 37,
-        "used_cells": 36,
-        "used_fraction": 0.973,
-        "crate_cells": 19,
-        "crate_span": [
-          9,
-          4
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 33,
-        "walking": 111,
-        "first_push": 1,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          0,
-          2,
-          4,
-          4,
-          3
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 16,
-        "motif": "0,2,3,4,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-04",
-        "original_design_title": ""
-      },
-      "design_note": "Jedynie37 pól podłogi. Krótka odległość do celów ukrywa potrzebę odstawiania skrzyń i wracania po nie w kolejnych etapach. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 83.0296,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 13,
-        "assignment_gap": 20,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 29,
@@ -2325,74 +548,10 @@
         "###  #   #######",
         "################"
       ],
-      "path": "RRDDDLLLDDLLULLRRURLULLLUURRRDDURLDDRRDDLLUDRRUURUUURRDDDLLLDDLLULLDLUUURRRURRLLDLLLDDRRRDRRUURRRUUULLDLLLULLLDDDURRRURRRURRDDDLLLDDLLUURLULLLUURRRDDLLLDLLUURLDDRRUU",
-      "moves": 165,
-      "pushes": 31,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRDDDLLLDDLLULLRRURLULLLUURRRDDURLDDRRDDLLUDRRUURUUURRDDDLLLDDLLULLDLUUURRRURRLLDLLLDDRRRDRRUURRRUUULLDLLLULLLDDDURRRURRRURRDDDLLLDDLLUURLULLLUURRRDDLLLDLLUURLDDRRUU",
-        "pushes": 31,
-        "moves": 165,
-        "expanded": 1984,
-        "visited": 2108,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 9,
-        "no_goal_removal": false,
-        "states": 1984,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-06",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 50,
-        "used_cells": 41,
-        "used_fraction": 0.82,
-        "crate_cells": 20,
-        "crate_span": [
-          9,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 31,
-        "walking": 134,
-        "first_push": 7,
-        "longest_walk_without_push": 24,
-        "crate_route_bends": [
-          1,
-          1,
-          3,
-          3,
-          2
-        ],
-        "goal_to_floor_pushes": 6,
-        "box_switches": 15,
-        "motif": "1,1,2,3,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-06",
-        "original_design_title": ""
-      },
-      "design_note": "Pięć celów rozdzielonych między trzy węzły. Mały dolny bufor i przesunięte bloki ścian wymagają uzgodnienia kolejności prac. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 84.8933,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 9,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 30,
@@ -2408,74 +567,10 @@
         "### ##.#      ##",
         "################"
       ],
-      "path": "RRRRRDDDDRRDRUDRRRUULLULLLRRRDRRDDLUDLLUURRLULLUULLDDDDRRRUULLRUULLDDRRULULLLLLRRRRRDDRRDRRDRUURUULDDD",
-      "moves": 102,
-      "pushes": 32,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRRRDDDDRRDRUDRRRUULLULLLRRRDRRDDLUDLLUURRLULLUULLDDDDRRRUULLRUULLDDRRULULLLLLRRRRRDDRRDRRDRUURUULDDD",
-        "pushes": 32,
-        "moves": 102,
-        "expanded": 4790,
-        "visited": 8788,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 18,
-        "initial_push_lower_bound": 10,
-        "no_goal_removal": false,
-        "states": 4790,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-12",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 39,
-        "used_fraction": 0.7358,
-        "crate_cells": 26,
-        "crate_span": [
-          12,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 32,
-        "walking": 70,
-        "first_push": 1,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          1,
-          0,
-          1,
-          3,
-          3
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 12,
-        "motif": "0,1,1,3,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-12",
-        "original_design_title": "Przełącznica"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 32 pchnięć przy niezależnym dolnym ograniczeniu 10, czyli 22 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 12 zmian obsługiwanej skrzyni i 1 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 74% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 87.0413,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 10,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 31,
@@ -2491,74 +586,10 @@
         "##   #  #    .##",
         "################"
       ],
-      "path": "RRRDRDDRDLDRUULLUDLLUULLRRDDRRURUURRDLULDDLDLLUULLDDLLLLUUURRDRRRURDURRRDDLURURLLLLRRDDRDRDDLUUULUURRDLDLURUL",
-      "moves": 109,
-      "pushes": 32,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRDRDDRDLDRUULLUDLLUULLRRDDRRURUURRDLULDDLDLLUULLDDLLLLUUURRDRRRURDURRRDDLURURLLLLRRDDRDRDDLUUULUURRDLDLURUL",
-        "pushes": 32,
-        "moves": 109,
-        "expanded": 8208,
-        "visited": 8841,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 21,
-        "initial_push_lower_bound": 10,
-        "no_goal_removal": false,
-        "states": 8208,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-05",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 40,
-        "used_fraction": 0.7547,
-        "crate_cells": 22,
-        "crate_span": [
-          9,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 32,
-        "walking": 77,
-        "first_push": 4,
-        "longest_walk_without_push": 20,
-        "crate_route_bends": [
-          2,
-          2,
-          6,
-          1,
-          1
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 14,
-        "motif": "1,1,2,2,6",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-05",
-        "original_design_title": "Pierścień przesyłowy"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 32 pchnięć przy niezależnym dolnym ograniczeniu 10, czyli 22 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 14 zmian obsługiwanej skrzyni i 3 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 75% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 87.7429,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 10,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 32,
@@ -2574,74 +605,10 @@
         "##  ##      .. #",
         "################"
       ],
-      "path": "RRDRDDRRURLDDDRRRUUURUULDDDDLDRRRRLLLLLLURLUURRLLDDDRRRUUUDDDLLURLLUURRRDDLDRRRLLUUURUULDRDLDDLLLULLUULULLDRURRDDDRRURUULLLLLDRURRRRDDLDLLUUDDRRURUULLLL",
-      "moves": 152,
-      "pushes": 35,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRDRDDRRURLDDDRRRUUURUULDDDDLDRRRRLLLLLLURLUURRLLDDDRRRUUUDDDLLURLLUURRRDDLDRRRLLUUURUULDRDLDDLLLULLUULULLDRURRDDDRRURUULLLLLDRURRRRDDLDLLUUDDRRURUULLLL",
-        "pushes": 35,
-        "moves": 152,
-        "expanded": 5905,
-        "visited": 7327,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 15,
-        "initial_push_lower_bound": 13,
-        "no_goal_removal": false,
-        "states": 5905,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H09",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 57,
-        "used_cells": 38,
-        "used_fraction": 0.6667,
-        "crate_cells": 21,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 35,
-        "walking": 117,
-        "first_push": 1,
-        "longest_walk_without_push": 15,
-        "crate_route_bends": [
-          1,
-          2,
-          3,
-          3,
-          2
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 11,
-        "motif": "1,2,2,3,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H09",
-        "original_design_title": "Wymiennik"
-      },
-      "design_note": "Dwa skrajne magazyny i cel posredni korzystaja ze wspolnego wezla; wykonanie jednego kursu zmienia dostep do nastepnego.",
-      "design_index": 90.3139,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 13,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 33,
@@ -2657,74 +624,10 @@
         "#####    ..#####",
         "################"
       ],
-      "path": "DDRRRRDRRRRUURLDDRUDLLLLUUULLULLDURRURRDDDULLULLDLDDRRRRDRRRRUUURULDDDRULUURURRDDDLLDDLLLLLULLLLUURURRURRDRRLLULLDLLDLDDRRRRDRRRRUURRRUUULLDDDLDDLLLLULLLLUURURRURRDRRRDDRRRUUULLDLLLLULLDLLDLDDRRRRDRRRRRUDLLLLLULLLLUURURRDRRDDLDRRRRLLLUUUURRRDDRRLLUURURRDDRRDDLLULLLUULLLULLDLLDDLDRRRRLLLUUURRDRRDDLDRRRLLUUUURRRDDRRRUUDDLLLUURDLDR",
-      "moves": 330,
-      "pushes": 47,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDRRRRDRRRRUURLDDRUDLLLLUUULLULLDURRURRDDDULLULLDLDDRRRRDRRRRUUURULDDDRULUURURRDDDLLDDLLLLLULLLLUURURRURRDRRLLULLDLLDLDDRRRRDRRRRUURRRUUULLDDDLDDLLLLULLLLUURURRURRDRRRDDRRRUUULLDLLLLULLDLLDLDDRRRRDRRRRRUDLLLLLULLLLUURURRDRRDDLDRRRRLLLUUUURRRDDRRLLUURURRDDRRDDLLULLLUULLLULLDLLDDLDRRRRLLLUUURRDRRDDLDRRRLLUUUURRRDDRRRUUDDLLLUURDLDR",
-        "pushes": 47,
-        "moves": 330,
-        "expanded": 17001,
-        "visited": 17682,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 44,
-        "initial_push_lower_bound": 31,
-        "no_goal_removal": false,
-        "states": 17001,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-05",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 51,
-        "used_cells": 50,
-        "used_fraction": 0.9804,
-        "crate_cells": 29,
-        "crate_span": [
-          11,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 47,
-        "walking": 283,
-        "first_push": 3,
-        "longest_walk_without_push": 24,
-        "crate_route_bends": [
-          3,
-          3,
-          3,
-          3,
-          4
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 20,
-        "motif": "3,3,3,3,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-05",
-        "original_design_title": ""
-      },
-      "design_note": "Układ lewego obiegu, środkowego przejścia i prawego zespołu doków. Obieg umożliwia dojście za skrzynię, ale transport wymaga powrotów przez wspólne przejścia. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 91.6915,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 31,
-        "assignment_gap": 16,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 34,
@@ -2740,74 +643,10 @@
         "#   . ##     ###",
         "################"
       ],
-      "path": "DDDDDRRRURRRUULUURRRRRRDULLLLLLDDRDDLLLUURLDDRRRUUUDDDLLLUURRLLDDRRRUULUURRRRDRRULLLLLRRRDRDDRDDLUDLLULLLLRRUULLLDDRRRRDRRRUURUDLURULDLUDRDDDLLULLUUUDDDRDRRRUUUUULL",
-      "moves": 164,
-      "pushes": 37,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDDDDRRRURRRUULUURRRRRRDULLLLLLDDRDDLLLUURLDDRRRUUUDDDLLLUURRLLDDRRRUULUURRRRDRRULLLLLRRRDRDDRDDLUDLLULLLLRRUULLLDDRRRRDRRRUURUDLURULDLUDRDDDLLULLUUUDDDRDRRRUUUUULL",
-        "pushes": 37,
-        "moves": 164,
-        "expanded": 3925,
-        "visited": 4392,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 13,
-        "initial_push_lower_bound": 15,
-        "no_goal_removal": false,
-        "states": 3925,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         14,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-02",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 45,
-        "used_fraction": 0.8491,
-        "crate_cells": 25,
-        "crate_span": [
-          9,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 37,
-        "walking": 127,
-        "first_push": 10,
-        "longest_walk_without_push": 17,
-        "crate_route_bends": [
-          1,
-          2,
-          4,
-          2,
-          2
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 16,
-        "motif": "1,2,2,2,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-02",
-        "original_design_title": "Podwójny rygiel"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 37 pchnięć przy niezależnym dolnym ograniczeniu 15, czyli 22 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 16 zmian obsługiwanej skrzyni i 1 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 85% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 91.7819,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 15,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 35,
@@ -2823,73 +662,10 @@
         "#    ##       ##",
         "################"
       ],
-      "path": "LDLURUULLDRDRUDDLLLLLUUULLUULLDURRDLULLDLLURRRRDLDDLDDRUUUULULLDRRURDDDLDDRUUUU",
-      "moves": 79,
-      "pushes": 31,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LDLURUULLDRDRUDDLLLLLUUULLUULLDURRDLULLDLLURRRRDLDDLDDRUUUULULLDRRURDDDLDDRUUUU",
-        "pushes": 31,
-        "moves": 79,
-        "expanded": 1046,
-        "visited": 1054,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 2,
-        "initial_push_lower_bound": 5,
-        "no_goal_removal": false,
-        "states": 1046,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H06",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 39,
-        "used_fraction": 0.661,
-        "crate_cells": 17,
-        "crate_span": [
-          12,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 31,
-        "walking": 48,
-        "first_push": 1,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          1,
-          2,
-          3,
-          3
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 9,
-        "motif": "1,2,3,3",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H06",
-        "original_design_title": "Obrotowa komora"
-      },
-      "design_note": "Trzy skrzynki trafiaja do gornej komory przez objazd wokol srodkowej przegrody; prawa komora stanowi dodatkowe ograniczenie transportu.",
-      "design_index": 92.0598,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 5,
-        "assignment_gap": 26,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 36,
@@ -2905,74 +681,10 @@
         "#    ##     # ##",
         "################"
       ],
-      "path": "RRRDDRRRURRRDDDRRRLLLUURRURDDULLLDDDLLUUULLLLUURDLDDLDDRUUUURULLDRDRRRUURRDLRRDDDDLLUUUDDDRRUUUULULLDURRDRDDDDLLUUULLLRRUURRDLDLLLULDDLDDRUUUURULDDRRRRUULD",
-      "moves": 155,
-      "pushes": 39,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRDDRRRURRRDDDRRRLLLUURRURDDULLLDDDLLUUULLLLUURDLDDLDDRUUUURULLDRDRRRUURRDLRRDDDDLLUUUDDDRRUUUULULLDURRDRDDDDLLUUULLLRRUURRDLDLLLULDDLDDRUUUURULDDRRRRUULD",
-        "pushes": 39,
-        "moves": 155,
-        "expanded": 10364,
-        "visited": 13061,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 29,
-        "initial_push_lower_bound": 17,
-        "no_goal_removal": false,
-        "states": 10364,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H04",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 44,
-        "used_fraction": 0.7458,
-        "crate_cells": 22,
-        "crate_span": [
-          13,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 39,
-        "walking": 116,
-        "first_push": 4,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          2,
-          4,
-          7,
-          1,
-          0
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 13,
-        "motif": "0,1,2,4,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H04",
-        "original_design_title": "Dwustronna przepompownia"
-      },
-      "design_note": "Dwa skrajne magazyny laczy srodkowy pas z celem na trasie; robot musi zachowac dojscie do bokow przenoszonych skrzynek.",
-      "design_index": 95.0467,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 17,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 37,
@@ -2988,73 +700,10 @@
         "##   ##    # ..#",
         "################"
       ],
-      "path": "DLLLUDRRDDRRRURRRRRDDRRULDLUULURURRDLDDLDRUULLURURDDDULLLLLDLLLLUURDLDRRRDRULURRRRURRDLLLLLULDRDLLLUULLLLDDRDRRUURULLLRRDDDLLULUUU",
-      "moves": 130,
-      "pushes": 39,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DLLLUDRRDDRRRURRRRRDDRRULDLUULURURRDLDDLDRUULLURURDDDULLLLLDLLLLUURDLDRRRDRULURRRRURRDLLLLLULDRDLLLUULLLLDDRDRRUURULLLRRDDDLLULUUU",
-        "pushes": 39,
-        "moves": 130,
-        "expanded": 1503,
-        "visited": 1683,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 3,
-        "initial_push_lower_bound": 15,
-        "no_goal_removal": false,
-        "states": 1503,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H05",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 47,
-        "used_fraction": 0.7966,
-        "crate_cells": 29,
-        "crate_span": [
-          14,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 39,
-        "walking": 91,
-        "first_push": 1,
-        "longest_walk_without_push": 19,
-        "crate_route_bends": [
-          0,
-          9,
-          1,
-          5
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 5,
-        "motif": "0,1,5,9",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H05",
-        "original_design_title": "Wspolny kanal"
-      },
-      "design_note": "Lewy gorny i prawy dolny magazyn obsluguje lamany kanal; skrzynki musza zmienic kierunek i zostawic miejsce dla kolejnych manewrow.",
-      "design_index": 96.5317,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 15,
-        "assignment_gap": 24,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 38,
@@ -3070,74 +719,10 @@
         "#####  .    ####",
         "################"
       ],
-      "path": "RRRDDDLDLLLUDRRDRRRRRRURRURULLRDDLLULLLLLDLLLUUDDRRRURULLLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRRLLUURRRDDLDRRRRLLLLDLLLULLUURRLLDDRRURRRRUULLLDURRRDDDLDLLLUURRRLLUURRRDDLDDDRRUULULDDLDRULLLULLUURRDRRRRUULLLDLDRRLUURRRDDDRRRUULLRRDDLLLLDLLLUUURURRRDDURRRDDLLLRDDRRRURRUULLDLUDLLLUUULLLDDRRDULLUURRRDDLDRRR",
-      "moves": 308,
-      "pushes": 49,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRDDDLDLLLUDRRDRRRRRRURRURULLRDDLLULLLLLDLLLUUDDRRRURULLLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRRLLUURRRDDLDRRRRLLLLDLLLULLUURRLLDDRRURRRRUULLLDURRRDDDLDLLLUURRRLLUURRRDDLDDDRRUULULDDLDRULLLULLUURRDRRRRUULLLDLDRRLUURRRDDDRRRUULLRRDDLLLLDLLLUUURURRRDDURRRDDLLLRDDRRRURRUULLDLUDLLLUUULLLDDRRDULLUURRRDDLDRRR",
-        "pushes": 49,
-        "moves": 308,
-        "expanded": 12574,
-        "visited": 18150,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 62,
-        "initial_push_lower_bound": 31,
-        "no_goal_removal": false,
-        "states": 12574,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-07",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 50,
-        "used_cells": 49,
-        "used_fraction": 0.98,
-        "crate_cells": 27,
-        "crate_span": [
-          12,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 49,
-        "walking": 259,
-        "first_push": 12,
-        "longest_walk_without_push": 20,
-        "crate_route_bends": [
-          4,
-          3,
-          7,
-          1,
-          8
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 20,
-        "motif": "1,3,4,7,8",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-07",
-        "original_design_title": ""
-      },
-      "design_note": "Zwężenia przy środkowych blokach łączą zachodni obieg ze wschodnią komorą. Skrzynie z obu części korzystają z tych samych miejsc przeładunku. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 97.2985,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 31,
-        "assignment_gap": 18,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 39,
@@ -3153,74 +738,10 @@
         "##      ## #   #",
         "################"
       ],
-      "path": "RDRRDRRDDDRURRRUUURULDDDDRRDRULLLUUUURRRDDLRUULLDLDDDRRRUULLRRDDLLLUUDDLLLLUURDLDRRRRUURRRDDLLLLLLDLUUDRRRRUULDRDLLLDLURUULRDDLUDRRRUURRUURRDULLLDRDL",
-      "moves": 149,
-      "pushes": 38,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RDRRDRRDDDRURRRUUURULDDDDRRDRULLLUUUURRRDDLRUULLDLDDDRRRUULLRRDDLLLUUDDLLLLUURDLDRRRRUURRRDDLLLLLLDLUUDRRRRUULDRDLLLDLURUULRDDLUDRRRUURRUURRDULLLDRDL",
-        "pushes": 38,
-        "moves": 149,
-        "expanded": 6361,
-        "visited": 7119,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 24,
-        "initial_push_lower_bound": 14,
-        "no_goal_removal": false,
-        "states": 6361,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-01",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 52,
-        "used_cells": 39,
-        "used_fraction": 0.75,
-        "crate_cells": 24,
-        "crate_span": [
-          9,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 38,
-        "walking": 111,
-        "first_push": 12,
-        "longest_walk_without_push": 13,
-        "crate_route_bends": [
-          3,
-          2,
-          1,
-          5,
-          2
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 12,
-        "motif": "1,2,2,3,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-01",
-        "original_design_title": "Przeplot magistral"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 38 pchnięć przy niezależnym dolnym ograniczeniu 14, czyli 24 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 12 zmian obsługiwanej skrzyni i 1 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 75% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 97.4108,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 14,
-        "assignment_gap": 24,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 40,
@@ -3236,74 +757,10 @@
         "####  # .   ####",
         "################"
       ],
-      "path": "RRDDLDDLDLLLULLLUUUULDLRRDDLUDRDDLUUDRRRRUUUDDDLLLUUUULLDRURDDDLUDDDRURRRUULLLDLDRRRLLUURRRDDUULLLUULLDRURDDRRRDDLLLULURRRLLUULLDRDRU",
-      "moves": 133,
-      "pushes": 36,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRDDLDDLDLLLULLLUUUULDLRRDDLUDRDDLUUDRRRRUUUDDDLLLUUUULLDRURDDDLUDDDRURRRUULLLDLDRRRLLUURRRDDUULLLUULLDRURDDRRRDDLLLULURRRLLUULLDRDRU",
-        "pushes": 36,
-        "moves": 133,
-        "expanded": 1520,
-        "visited": 1607,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 10,
-        "no_goal_removal": false,
-        "states": 1520,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-08",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 50,
-        "used_cells": 37,
-        "used_fraction": 0.74,
-        "crate_cells": 21,
-        "crate_span": [
-          7,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 36,
-        "walking": 97,
-        "first_push": 13,
-        "longest_walk_without_push": 13,
-        "crate_route_bends": [
-          0,
-          7,
-          3,
-          5,
-          0
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 15,
-        "motif": "0,0,3,5,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-08",
-        "original_design_title": "Śluza danych"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 36 pchnięć przy niezależnym dolnym ograniczeniu 10, czyli 26 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 15 zmian obsługiwanej skrzyni i 1 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 74% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 97.5464,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 10,
-        "assignment_gap": 26,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 41,
@@ -3319,74 +776,10 @@
         "#    # #   #  ##",
         "################"
       ],
-      "path": "DLDLLUULLLLLDDLDDRRRRUDLLLUULLLUURRRLLLDDRRDDRRRRUULDRDLLLDLURUULLLUURRRRRRDDLDDLLUUUDLLLUURRRDDDDLURUUULLLDDRRDRUDDRRUURUULLLRRRDDLDDLLUUUDDDRRUURURRULLLRDRRDRRURDRDDLUULLLULLDLDDRU",
-      "moves": 182,
-      "pushes": 38,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DLDLLUULLLLLDDLDDRRRRUDLLLUULLLUURRRLLLDDRRDDRRRRUULDRDLLLDLURUULLLUURRRRRRDDLDDLLUUUDLLLUURRRDDDDLURUUULLLDDRRDRUDDRRUURUULLLRRRDDLDDLLUUUDDDRRUURURRULLLRDRRDRRURDRDDLUULLLULLDLDDRU",
-        "pushes": 38,
-        "moves": 182,
-        "expanded": 3751,
-        "visited": 4498,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 8,
-        "initial_push_lower_bound": 12,
-        "no_goal_removal": false,
-        "states": 3751,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H03",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 43,
-        "used_fraction": 0.7288,
-        "crate_cells": 22,
-        "crate_span": [
-          10,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 38,
-        "walking": 144,
-        "first_push": 1,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          2,
-          3,
-          1,
-          4,
-          2
-        ],
-        "goal_to_floor_pushes": 4,
-        "box_switches": 16,
-        "motif": "1,2,2,3,4",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H03",
-        "original_design_title": "Zbiornik powrotny"
-      },
-      "design_note": "Trzy sasiednie cele na gorze i cel w przejsciu srodkowym wymagaja przygotowania dojscia od tylu; zajecie przejscia za wczesnie utrudnia dalszy transport.",
-      "design_index": 100.7228,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 12,
-        "assignment_gap": 26,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 42,
@@ -3402,74 +795,10 @@
         "#####.$  .  $ ##",
         "################"
       ],
-      "path": "DDLDLLRRURUULLLRRRDDLDLLUULLLLUURRRDRDDDRRULRRUULLLDLLLLULLLLDDRRRURUURRRDRRRRDDLDLLUULLLLRRRRDRRRUULLLDLLLLUURRRDRDLLLRRUULLLDLLLULLLDDRRDRRRUDLLLULLUURRRURRRDRRRDDLLLUUULLLDLLLDDRRURUURRRDDLDURUULLLDDRLUURRRDDDRDDRRRUUULULLLULLLDDLDLLUURRDDDRRDRRRUURRRDDLLLRRRURRDLLLRUULLLDDLLRRUULUUULLLDLDR",
-      "moves": 294,
-      "pushes": 53,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDLDLLRRURUULLLRRRDDLDLLUULLLLUURRRDRDDDRRULRRUULLLDLLLLULLLLDDRRRURUURRRDRRRRDDLDLLUULLLLRRRRDRRRUULLLDLLLLUURRRDRDLLLRRUULLLDLLLULLLDDRRDRRRUDLLLULLUURRRURRRDRRRDDLLLUUULLLDLLLDDRRURUURRRDDLDURUULLLDDRLUURRRDDDRDDRRRUUULULLLULLLDDLDLLUURRDDDRRDRRRUURRRDDLLLRRRURRDLLLRUULLLDDLLRRUULUUULLLDLDR",
-        "pushes": 53,
-        "moves": 294,
-        "expanded": 33410,
-        "visited": 36510,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 166,
-        "initial_push_lower_bound": 33,
-        "no_goal_removal": false,
-        "states": 33410,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-08",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 51,
-        "used_cells": 51,
-        "used_fraction": 1.0,
-        "crate_cells": 28,
-        "crate_span": [
-          11,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 53,
-        "walking": 241,
-        "first_push": 3,
-        "longest_walk_without_push": 24,
-        "crate_route_bends": [
-          8,
-          7,
-          5,
-          1,
-          2
-        ],
-        "goal_to_floor_pushes": 2,
-        "box_switches": 25,
-        "motif": "1,2,5,7,8",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-08",
-        "original_design_title": ""
-      },
-      "design_note": "Dolna trasa obiega blok środkowy i stanowi wspólną drogę transportu. Cele na tej trasie konkurują z przejazdem pozostałych skrzyń. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 106.5717,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 33,
-        "assignment_gap": 20,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 43,
@@ -3485,74 +814,10 @@
         "#    ##  # #@ ##",
         "################"
       ],
-      "path": "UUDLLUUUULLLDDDRDDLUUDLLLULRDRRRURRUURRRRDDLDLLUUDDRRURUULLLDDLLDLLLLUURDLDRRRDRULURRURURRRDDLDLLUDRRURUULLLULDDURRRRDDLDLLULRUDDRRURUULLLDDDRRUURULDDDLLUUUULDULLDDDUUURRDRDDLLDLURRRUULDRDLRDRRUUULLDLURUL",
-      "moves": 204,
-      "pushes": 40,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "UUDLLUUUULLLDDDRDDLUUDLLLULRDRRRURRUURRRRDDLDLLUUDDRRURUULLLDDLLDLLLLUURDLDRRRDRULURRURURRRDDLDLLUDRRURUULLLULDDURRRRDDLDLLULRUDDRRURUULLLDDDRRUURULDDDLLUUUULDULLDDDUUURRDRDDLLDLURRRUULDRDLRDRRUUULLDLURUL",
-        "pushes": 40,
-        "moves": 204,
-        "expanded": 8935,
-        "visited": 9903,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 18,
-        "initial_push_lower_bound": 12,
-        "no_goal_removal": false,
-        "states": 8935,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-11",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 38,
-        "used_fraction": 0.717,
-        "crate_cells": 24,
-        "crate_span": [
-          11,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 40,
-        "walking": 164,
-        "first_push": 1,
-        "longest_walk_without_push": 12,
-        "crate_route_bends": [
-          3,
-          0,
-          7,
-          5,
-          3
-        ],
-        "goal_to_floor_pushes": 6,
-        "box_switches": 16,
-        "motif": "0,3,3,5,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-11",
-        "original_design_title": "Matryca zależności"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 40 pchnięć przy niezależnym dolnym ograniczeniu 12, czyli 28 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 16 zmian obsługiwanej skrzyni i 6 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 72% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 107.8534,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 12,
-        "assignment_gap": 28,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 44,
@@ -3568,74 +833,10 @@
         "#####    ### ###",
         "################"
       ],
-      "path": "RRRDDDLDLLLUUDDRRRURRRRUUURRLLDDDLLLULLLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRRLLUURRRDDLDDLLLULLUURRLLDDRRURRRRUULLLDURRRDDLDDLLLUURRLLDDRRRURRRDRRRRUULLLDLDRRRLLUUULLRRDDLLLLDLLLUURUURRRDDUULLLDDRRLLUURRRDRRRDDLLLRRRUULLLDLLLLDLLUURRDRRRRUULLLDLDRRRLLLDDRRRURUURRRDDLLRRUULLLDLDDLLLUURRR",
-      "moves": 292,
-      "pushes": 48,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRDDDLDLLLUUDDRRRURRRRUUURRLLDDDLLLULLLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRRLLUURRRDDLDDLLLULLUURRLLDDRRURRRRUULLLDURRRDDLDDLLLUURRLLDDRRRURRRDRRRRUULLLDLDRRRLLUUULLRRDDLLLLDLLLUURUURRRDDUULLLDDRRLLUURRRDRRRDDLLLRRRUULLLDLLLLDLLUURRDRRRRUULLLDLDRRRLLLDDRRRURUURRRDDLLRRUULLLDLDDLLLUURRR",
-        "pushes": 48,
-        "moves": 292,
-        "expanded": 10660,
-        "visited": 11911,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 45,
-        "initial_push_lower_bound": 24,
-        "no_goal_removal": false,
-        "states": 10660,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-11",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 44,
-        "used_fraction": 0.8302,
-        "crate_cells": 25,
-        "crate_span": [
-          12,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 48,
-        "walking": 244,
-        "first_push": 12,
-        "longest_walk_without_push": 20,
-        "crate_route_bends": [
-          0,
-          5,
-          5,
-          6,
-          7
-        ],
-        "goal_to_floor_pushes": 4,
-        "box_switches": 22,
-        "motif": "0,5,5,6,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-11",
-        "original_design_title": ""
-      },
-      "design_note": "Trzy części układu z przesuniętymi przejściami. W pokazanym rozwiązaniu skrzynie wielokrotnie wymieniają funkcję transportowanego ładunku i przeszkody. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 108.0834,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 24,
-        "assignment_gap": 24,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 45,
@@ -3651,74 +852,10 @@
         "##### .    .$.##",
         "################"
       ],
-      "path": "RDLLLLLUUUULURDDDLULLDDDRRRRRRRLLLLUULDUULLDDDRRRRRLLUUUUULDDDULLUULLDRURDDRRDRDDLLLUUURRDDRDLUUULLUDRRUURRRRDRRULLLL",
-      "moves": 117,
-      "pushes": 40,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RDLLLLLUUUULURDDDLULLDDDRRRRRRRLLLLUULDUULLDDDRRRRRLLUUUUULDDDULLUULLDRURDDRRDRDDLLLUUURRDDRDLUUULLUDRRUURRRRDRRULLLL",
-        "pushes": 40,
-        "moves": 117,
-        "expanded": 13527,
-        "visited": 17232,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 45,
-        "initial_push_lower_bound": 12,
-        "no_goal_removal": false,
-        "states": 13527,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-13",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 50,
-        "used_cells": 39,
-        "used_fraction": 0.78,
-        "crate_cells": 26,
-        "crate_span": [
-          10,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 40,
-        "walking": 77,
-        "first_push": 3,
-        "longest_walk_without_push": 10,
-        "crate_route_bends": [
-          2,
-          2,
-          1,
-          2,
-          1
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 9,
-        "motif": "1,1,2,2,2",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-13",
-        "original_design_title": "Wspólny bufor"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 40 pchnięć przy niezależnym dolnym ograniczeniu 12, czyli 28 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 9 zmian obsługiwanej skrzyni i 3 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 78% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 108.3937,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 12,
-        "assignment_gap": 28,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 46,
@@ -3734,74 +871,10 @@
         "##### .      .##",
         "################"
       ],
-      "path": "RRRDDURLDLDRRRRURDDULLLDDRRRRLLLLLLULLLUUDDRRRUULLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRRLLUURRRDDLDDDRRUULULDDLLLULLUURRLLDDRRURRRRUULLLDURRRDDDLDLLLUURRRLLUURRRDDLDRULLLLDLLUURRDRRRRUULLLDLDRRLUURRRDDDRDDRRRUULLLLUUULLLDDRRLLUURRRDDLDRULLLLDDRRDRULLLUURRRRDRDDLRRRRUULL",
-      "moves": 274,
-      "pushes": 53,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRRDDURLDLDRRRRURDDULLLDDRRRRLLLLLLULLLUUDDRRRUULLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRRLLUURRRDDLDDDRRUULULDDLLLULLUURRLLDDRRURRRRUULLLDURRRDDDLDLLLUURRRLLUURRRDDLDRULLLLDLLUURRDRRRRUULLLDLDRRLUURRRDDDRDDRRRUULLLLUUULLLDDRRLLUURRRDDLDRULLLLDDRRDRULLLUURRRRDRDDLRRRRUULL",
-        "pushes": 53,
-        "moves": 274,
-        "expanded": 22148,
-        "visited": 28128,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 111,
-        "initial_push_lower_bound": 31,
-        "no_goal_removal": false,
-        "states": 22148,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-10",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 56,
-        "used_cells": 43,
-        "used_fraction": 0.7679,
-        "crate_cells": 25,
-        "crate_span": [
-          12,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 53,
-        "walking": 221,
-        "first_push": 4,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          6,
-          3,
-          0,
-          8,
-          9
-        ],
-        "goal_to_floor_pushes": 7,
-        "box_switches": 24,
-        "motif": "0,3,6,8,9",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-10",
-        "original_design_title": ""
-      },
-      "design_note": "Początkowa grupa skrzyń w górnym węźle musi zostać rozprowadzona pomiędzy dokami wewnętrznymi i dolnym obejściem. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 110.0361,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 31,
-        "assignment_gap": 22,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 47,
@@ -3817,74 +890,10 @@
         "#       #.   ###",
         "################"
       ],
-      "path": "RDDLLLDLDDRUDLLLLLUUULUURRRRRDDDUUULLLLLDDRRRDRLULLLUURRRRRDDRRRRUULDRDLLLUULLLLLLDDRDDDRRRRRUUDDLLLLLUUURRDRRLLULLLUURRRRRDDRRRURDDDURRDDLLUUULLLUULLLLLLDDRDDDRRRRRUUDDLLLLLUUURRDRRLLULLDDDRRRRUDLLLLUUULUURRRRRDDRRRURDDULLLUULLLLLLDDRDDDRRRRURUDDLLLLLUUURRDRRURRRUURRRRDDLDLLUUDLLLLDDRULURRRLLUULLLLLDDRRDRRURRRUURR",
-      "moves": 316,
-      "pushes": 49,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RDDLLLDLDDRUDLLLLLUUULUURRRRRDDDUUULLLLLDDRRRDRLULLLUURRRRRDDRRRRUULDRDLLLUULLLLLLDDRDDDRRRRRUUDDLLLLLUUURRDRRLLULLLUURRRRRDDRRRURDDDURRDDLLUUULLLUULLLLLLDDRDDDRRRRRUUDDLLLLLUUURRDRRLLULLDDDRRRRUDLLLLUUULUURRRRRDDRRRURDDULLLUULLLLLLDDRDDDRRRRURUDDLLLLLUUURRDRRURRRUURRRRDDLDLLUUDLLLLDDRULURRRLLUULLLLLDDRRDRRURRRUURR",
-        "pushes": 49,
-        "moves": 316,
-        "expanded": 1654,
-        "visited": 2001,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 4,
-        "initial_push_lower_bound": 23,
-        "no_goal_removal": false,
-        "states": 1654,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-09",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 62,
-        "used_cells": 53,
-        "used_fraction": 0.8548,
-        "crate_cells": 23,
-        "crate_span": [
-          11,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 49,
-        "walking": 267,
-        "first_push": 4,
-        "longest_walk_without_push": 26,
-        "crate_route_bends": [
-          7,
-          5,
-          4,
-          4,
-          1
-        ],
-        "goal_to_floor_pushes": 5,
-        "box_switches": 21,
-        "motif": "1,4,4,5,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-09",
-        "original_design_title": ""
-      },
-      "design_note": "Dwa duże obiegi połączone środkowymi przejściami. Wszystkie skrzynie istotnie uczestniczą w rozwiązaniu; każda w pokazanym optimum jest pchana co najmniej5 razy. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 110.6564,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 23,
-        "assignment_gap": 26,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 48,
@@ -3900,74 +909,10 @@
         "#   ..  ### ####",
         "################"
       ],
-      "path": "RDURRDDDRRURRRDDRRRUUDDLLULUURDLDDRRRUURULLLDDUURRDDDLLUULLLLUURDLDDDDLLUDRRUULLUUULLDLDDRRRRLUUULLDDLDRUUURRDDDDDRRUULLUUULLDDDRLUUURRDDDDURRUUDRRRDRDRRUUULLULDRRRDDDLLUULLLULDDDRDLUUURRRDRDRRUUULLULDRDLLLULDD",
-      "moves": 210,
-      "pushes": 45,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RDURRDDDRRURRRDDRRRUUDDLLULUURDLDDRRRUURULLLDDUURRDDDLLUULLLLUURDLDDDDLLUDRRUULLUUULLDLDDRRRRLUUULLDDLDRUUURRDDDDDRRUULLUUULLDDDRLUUURRDDDDURRUUDRRRDRDRRUUULLULDRRRDDDLLUULLLULDDDRDLUUURRRDRDRRUUULLULDRDLLLULDD",
-        "pushes": 45,
-        "moves": 210,
-        "expanded": 45082,
-        "visited": 51664,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 107,
-        "initial_push_lower_bound": 19,
-        "no_goal_removal": false,
-        "states": 45082,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-14",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 48,
-        "used_fraction": 0.9057,
-        "crate_cells": 29,
-        "crate_span": [
-          11,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 45,
-        "walking": 165,
-        "first_push": 2,
-        "longest_walk_without_push": 15,
-        "crate_route_bends": [
-          2,
-          6,
-          2,
-          5,
-          3
-        ],
-        "goal_to_floor_pushes": 1,
-        "box_switches": 16,
-        "motif": "2,2,3,5,6",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-14",
-        "original_design_title": "Odwrócona kolejność"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 45 pchnięć przy niezależnym dolnym ograniczeniu 19, czyli 26 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 16 zmian obsługiwanej skrzyni i 1 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 91% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 110.962,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 19,
-        "assignment_gap": 26,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 49,
@@ -3983,74 +928,10 @@
         "##  #     #  ###",
         "################"
       ],
-      "path": "DDDLLDDLLULULLLUUURRDRRLDDDDRRRULLDLURRRUULDRDDLLURLLULLLUUURRDRRURDDDRRRURRDLDDRUUUDLLLLULULLLULLDDDRRRDDRRRUDLLURLLULLLUUURRDRRRDDRRRURRDDLURULDLLLULULLLULLDDDRRRDDRRRUDLLURURRRURRDDLUUDLLLLDDRULURRRLLDLLLUUDDRRURRRURUDRDDLULLLDLLLULLLUUURRDRRURD",
-      "moves": 248,
-      "pushes": 47,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDDLLDDLLULULLLUUURRDRRLDDDDRRRULLDLURRRUULDRDDLLURLLULLLUUURRDRRURDDDRRRURRDLDDRUUUDLLLLULULLLULLDDDRRRDDRRRUDLLURLLULLLUUURRDRRRDDRRRURRDDLURULDLLLULULLLULLDDDRRRDDRRRUDLLURURRRURRDDLUUDLLLLDDRULURRRLLDLLLUUDDRRURRRURUDRDDLULLLDLLLULLLUUURRDRRURD",
-        "pushes": 47,
-        "moves": 248,
-        "expanded": 3319,
-        "visited": 3902,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 7,
-        "initial_push_lower_bound": 19,
-        "no_goal_removal": false,
-        "states": 3319,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         14,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-07",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 51,
-        "used_cells": 44,
-        "used_fraction": 0.8627,
-        "crate_cells": 24,
-        "crate_span": [
-          8,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 47,
-        "walking": 201,
-        "first_push": 4,
-        "longest_walk_without_push": 24,
-        "crate_route_bends": [
-          5,
-          7,
-          5,
-          1,
-          3
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 23,
-        "motif": "1,3,5,5,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-07",
-        "original_design_title": "Kanał zwrotny"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 47 pchnięć przy niezależnym dolnym ograniczeniu 19, czyli 28 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 23 zmian obsługiwanej skrzyni i 3 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 86% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 113.5634,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 19,
-        "assignment_gap": 28,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 50,
@@ -4066,74 +947,10 @@
         "#####   .#######",
         "################"
       ],
-      "path": "RRDRRRDDLDRRLUURRRUULLDLDRUUULLLDLDDDRRDRULLLUURRRLLLDDRRRURRLLDLLLUUULLDDRLUURRRURRRDDLLRDDLLLUUDDRRRUULLRRDDLLLULLUURRLLDDRRURRRRURRDRDDLULLULLLLDDRRRURUURRDRDLUULLDLLLRRRUULLLDLDDURULL",
-      "moves": 187,
-      "pushes": 43,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRDRRRDDLDRRLUURRRUULLDLDRUUULLLDLDDDRRDRULLLUURRRLLLDDRRRURRLLDLLLUUULLDDRLUURRRURRRDDLLRDDLLLUUDDRRRUULLRRDDLLLULLUURRLLDDRRURRRRURRDRDDLULLULLLLDDRRRURUURRDRDLUULLDLLLRRRUULLLDLDDURULL",
-        "pushes": 43,
-        "moves": 187,
-        "expanded": 5278,
-        "visited": 5697,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 14,
-        "initial_push_lower_bound": 13,
-        "no_goal_removal": false,
-        "states": 5278,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         12,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-13",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 37,
-        "used_cells": 37,
-        "used_fraction": 1.0,
-        "crate_cells": 23,
-        "crate_span": [
-          9,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 43,
-        "walking": 144,
-        "first_push": 1,
-        "longest_walk_without_push": 13,
-        "crate_route_bends": [
-          7,
-          5,
-          4,
-          1,
-          4
-        ],
-        "goal_to_floor_pushes": 5,
-        "box_switches": 24,
-        "motif": "1,4,4,5,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-13",
-        "original_design_title": ""
-      },
-      "design_note": "Zwarty finał37 pól: początkowy koszt niezależnego ustawienia skrzyń to13 pchnięć, a rzeczywiste optimum 43. Duża nadwyżka wynika z wzajemnych ograniczeń dostępu. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 114.1677,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 13,
-        "assignment_gap": 30,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 51,
@@ -4149,74 +966,10 @@
         "##### $+$.  ####",
         "################"
       ],
-      "path": "RRUURRDDLRUULLLLLDLDRUUULLUURRRDDLDRRRUULRDDLLULLLUURRRDDURRDDLLULLLLDDRRRURULLLULLLDDRRURRRDRRRRRDRULUULLDDRRDRRRUULLDLLLUURRDRDLLLLLULLLLDDRRRURULLLRRDRRRUULRDDLLULLLUURRRDDLDDLLLULLUURRLLDDRRURRRRURRDDLLULLLLDDRRRURULLLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRLUURRRDDDLDLLLULLUUR",
-      "moves": 283,
-      "pushes": 51,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RRUURRDDLRUULLLLLDLDRUUULLUURRRDDLDRRRUULRDDLLULLLUURRRDDURRDDLLULLLLDDRRRURULLLULLLDDRRURRRDRRRRRDRULUULLDDRRDRRRUULLDLLLUURRDRDLLLLLULLLLDDRRRURULLLRRDRRRUULRDDLLULLLUURRRDDLDDLLLULLUURRLLDDRRURRRRURRDDLLULLLLDDRRRURULLLRRRUULLLDLDRUURRRDDDLDLLLUDRRRUURUULLLDDRLUURRRDDDLDLLLULLUUR",
-        "pushes": 51,
-        "moves": 283,
-        "expanded": 16703,
-        "visited": 17891,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 67,
-        "initial_push_lower_bound": 25,
-        "no_goal_removal": false,
-        "states": 16703,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-12",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 51,
-        "used_cells": 51,
-        "used_fraction": 1.0,
-        "crate_cells": 27,
-        "crate_span": [
-          11,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 51,
-        "walking": 232,
-        "first_push": 1,
-        "longest_walk_without_push": 19,
-        "crate_route_bends": [
-          10,
-          8,
-          6,
-          0,
-          1
-        ],
-        "goal_to_floor_pushes": 7,
-        "box_switches": 17,
-        "motif": "0,1,6,8,10",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-12",
-        "original_design_title": ""
-      },
-      "design_note": "Skrzynie rozpoczynają w dwóch grupach na północy i południu. Cele w środku układu wymagają skoordynowania transferów pomiędzy tymi grupami. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 115.6685,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 25,
-        "assignment_gap": 26,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 52,
@@ -4232,74 +985,10 @@
         "#####    ## ####",
         "################"
       ],
-      "path": "RDDLLLRRRURRLLDLLLULLLLUURRRRDRLULLLLDDLDDRRDRUURULLLRRDRRRDRRULLLLULLLULLLDDRRDRRRUDLLLULLUURRRURRRRDDLLLRDRRRDRRULLLULLDDLLLUUDDRRRUULLRRDDLLLULLUURRLLDDRRURRRRRDLULLLLDDRRRUDLLLUURRRDRRUUULLLLDURRRRDDDLLULLRRDDLLLULLUURRDDURRRDRRULLLLRRRRUULLLLD",
-      "moves": 248,
-      "pushes": 47,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RDDLLLRRRURRLLDLLLULLLLUURRRRDRLULLLLDDLDDRRDRUURULLLRRDRRRDRRULLLLULLLULLLDDRRDRRRUDLLLULLUURRRURRRRDDLLLRDRRRDRRULLLULLDDLLLUUDDRRRUULLRRDDLLLULLUURRLLDDRRURRRRRDLULLLLDDRRRUDLLLUURRRDRRUUULLLLDURRRRDDDLLULLRRDDLLLULLUURRDDURRRDRRULLLLRRRRUULLLLD",
-        "pushes": 47,
-        "moves": 248,
-        "expanded": 4999,
-        "visited": 5131,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 15,
-        "initial_push_lower_bound": 17,
-        "no_goal_removal": false,
-        "states": 4999,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-14",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 50,
-        "used_cells": 42,
-        "used_fraction": 0.84,
-        "crate_cells": 24,
-        "crate_span": [
-          12,
-          4
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 47,
-        "walking": 201,
-        "first_push": 5,
-        "longest_walk_without_push": 18,
-        "crate_route_bends": [
-          0,
-          6,
-          0,
-          7,
-          7
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 20,
-        "motif": "0,0,6,7,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-14",
-        "original_design_title": ""
-      },
-      "design_note": "Pięć skrzyń rozłożonych przy środkowych trasach; cele wyglądają na bliskie. Rozwiązanie wymaga30 pchnięć ponad dolne ograniczenie niezależnych skrzyń. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 118.0969,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 17,
-        "assignment_gap": 30,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 53,
@@ -4315,74 +1004,10 @@
         "#  ###      .. #",
         "################"
       ],
-      "path": "LLLLLRRRRRDDLURULLLLDDRDDLUUUDDDRRRDRRRRUUULUURDDDDRDRRULLDLLLULLDRRRRRRLLUUULUURDDDDRDLLLULLDRRRRR",
-      "moves": 99,
-      "pushes": 49,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLLLLRRRRRDDLURULLLLDDRDDLUUUDDDRRRDRRRRUUULUURDDDDRDRRULLDLLLULLDRRRRRRLLUUULUURDDDDRDLLLULLDRRRRR",
-        "pushes": 49,
-        "moves": 99,
-        "expanded": 2065,
-        "visited": 2101,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 3,
-        "initial_push_lower_bound": 19,
-        "no_goal_removal": false,
-        "states": 2065,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout HYDRO-H16",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 59,
-        "used_cells": 41,
-        "used_fraction": 0.6949,
-        "crate_cells": 23,
-        "crate_span": [
-          13,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 49,
-        "walking": 50,
-        "first_push": 1,
-        "longest_walk_without_push": 11,
-        "crate_route_bends": [
-          0,
-          1,
-          1,
-          3,
-          5
-        ],
-        "goal_to_floor_pushes": 0,
-        "box_switches": 6,
-        "motif": "0,1,1,3,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "HYDRO-H16",
-        "original_design_title": "Siec rozdzielcza"
-      },
-      "design_note": "Piec skrzynek obsluguje dwa magazyny przez rozgaleziony obieg; rozwiazanie wielokrotnie przelacza aktywna skrzynke.",
-      "design_index": 118.9454,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 19,
-        "assignment_gap": 30,
-        "interleaving_required": true,
-        "goal_to_floor_required": false,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 54,
@@ -4398,74 +1023,10 @@
         "#     ##    ####",
         "################"
       ],
-      "path": "DDRDLUUURDRRDDRRLULUURDDULLLLDDRULURRRURDURRDDRDDLURUUULLLDLDDRRRDDLLLUDRRRUUURUULLLDLLLDDLLLULLDRRRRDRULUURRRURRRRDDLDDDLLLUURRRURUULLLDDULLLLDDRULURRRURRRRDDLDDDLLLUUUDDDRRRUULLRRURUULLLDLLLULDRRRURRRRDDLURULL",
-      "moves": 211,
-      "pushes": 44,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDRDLUUURDRRDDRRLULUURDDULLLLDDRULURRRURDURRDDRDDLURUUULLLDLDDRRRDDLLLUDRRRUUURUULLLDLLLDDLLLULLDRRRRDRULUURRRURRRRDDLDDDLLLUURRRURUULLLDDULLLLDDRULURRRURRRRDDLDDDLLLUUUDDDRRRUULLRRURUULLLDLLLULDRRRURRRRDDLURULL",
-        "pushes": 44,
-        "moves": 211,
-        "expanded": 54813,
-        "visited": 60706,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 155,
-        "initial_push_lower_bound": 12,
-        "no_goal_removal": false,
-        "states": 54813,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         14,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-10",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 51,
-        "used_cells": 43,
-        "used_fraction": 0.8431,
-        "crate_cells": 25,
-        "crate_span": [
-          11,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 44,
-        "walking": 167,
-        "first_push": 1,
-        "longest_walk_without_push": 21,
-        "crate_route_bends": [
-          5,
-          4,
-          2,
-          2,
-          2
-        ],
-        "goal_to_floor_pushes": 4,
-        "box_switches": 18,
-        "motif": "2,2,2,4,5",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-10",
-        "original_design_title": "Kolejka obiegowa"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 44 pchnięć przy niezależnym dolnym ograniczeniu 12, czyli 32 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 18 zmian obsługiwanej skrzyni i 4 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 84% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 122.2167,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 12,
-        "assignment_gap": 32,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 55,
@@ -4481,74 +1042,10 @@
         "##       #  ####",
         "################"
       ],
-      "path": "DRRDDRRUUDLLURURRRURRRRRRDDDLLULLLULLLLUURDLDRRRUURRDLULDRRRRRRDDDLLULLLULLLDLDDRUULUURULDDRRRUURRDLULDRRRRRRDDLUDDLLURDRURUULLLLLRRRRRDDLURULLLRRDDLLLLULLLULDRRRRDRRRRUULLULLLDURRRDRRDDLLLLULUURDURRDLL",
-      "moves": 202,
-      "pushes": 53,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DRRDDRRUUDLLURURRRURRRRRRDDDLLULLLULLLLUURDLDRRRUURRDLULDRRRRRRDDDLLULLLULLLDLDDRUULUURULDDRRRUURRDLULDRRRRRRDDLUDDLLURDRURUULLLLLRRRRRDDLURULLLRRDDLLLLULLLULDRRRRDRRRRUULLULLLDURRRDRRDDLLLLULUURDURRDLL",
-        "pushes": 53,
-        "moves": 202,
-        "expanded": 67813,
-        "visited": 81166,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 206,
-        "initial_push_lower_bound": 23,
-        "no_goal_removal": false,
-        "states": 67813,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-04",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 45,
-        "used_fraction": 0.8491,
-        "crate_cells": 23,
-        "crate_span": [
-          11,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 53,
-        "walking": 149,
-        "first_push": 2,
-        "longest_walk_without_push": 17,
-        "crate_route_bends": [
-          6,
-          3,
-          5,
-          3,
-          7
-        ],
-        "goal_to_floor_pushes": 12,
-        "box_switches": 21,
-        "motif": "3,3,5,6,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-04",
-        "original_design_title": "Węzeł buforów"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 53 pchnięć przy niezależnym dolnym ograniczeniu 23, czyli 30 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 21 zmian obsługiwanej skrzyni i 12 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 85% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 127.494,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 23,
-        "assignment_gap": 30,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 56,
@@ -4564,74 +1061,10 @@
         "#####     ######",
         "################"
       ],
-      "path": "ULLLLUURRRRDRRLLULLLLDDRRRDULLLUURRRRDRRRLLLULLLLDDRRRDRRRRURRRUULLDLDDLLLLULLLUURRRRDDURRRDDDLDLLLUUDDRRRUURUULLLDLLRRUULLLLDDDDRRDRUDRRRUURUULLLDLLLRRRURRRDDDLDLLLUUDDRRRUURUULLLDLLRRURRRDRRDDRRUULLLRRUULLDLLLLDLDDDRRRUURURUURRDDLRUULLDLDDDLDLLLUURLDDRRRUURUULLRRDDDLDLLLUURRLLDLLLULLUURRURRRRDRRRRURRDDLLULLLLULLLLDLLDDRRDRRDRRRRURUUDDLDLLLUURRRLLLDLLLULLUURRURRRRDDLDDDRRRUULLUUULLLLDDD",
-      "moves": 390,
-      "pushes": 45,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "ULLLLUURRRRDRRLLULLLLDDRRRDULLLUURRRRDRRRLLLULLLLDDRRRDRRRRURRRUULLDLDDLLLLULLLUURRRRDDURRRDDDLDLLLUUDDRRRUURUULLLDLLRRUULLLLDDDDRRDRUDRRRUURUULLLDLLLRRRURRRDDDLDLLLUUDDRRRUURUULLLDLLRRURRRDRRDDRRUULLLRRUULLDLLLLDLDDDRRRUURURUURRDDLRUULLDLDDDLDLLLUURLDDRRRUURUULLRRDDDLDLLLUURRLLDLLLULLUURRURRRRDRRRRURRDDLLULLLLULLLLDLLDDRRDRRDRRRRURUUDDLDLLLUURRRLLLDLLLULLUURRURRRRDDLDDDRRRUULLUUULLLLDDD",
-        "pushes": 45,
-        "moves": 390,
-        "expanded": 14830,
-        "visited": 16906,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 57,
-        "initial_push_lower_bound": 9,
-        "no_goal_removal": false,
-        "states": 14830,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout REACTOR-reactor-15",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 52,
-        "used_cells": 52,
-        "used_fraction": 1.0,
-        "crate_cells": 24,
-        "crate_span": [
-          11,
-          4
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 45,
-        "walking": 345,
-        "first_push": 1,
-        "longest_walk_without_push": 28,
-        "crate_route_bends": [
-          7,
-          2,
-          6,
-          3,
-          2
-        ],
-        "goal_to_floor_pushes": 8,
-        "box_switches": 25,
-        "motif": "2,2,3,6,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "REACTOR-reactor-15",
-        "original_design_title": ""
-      },
-      "design_note": "Jedna skrzynia zaczyna na celu, a cele leżą blisko pozostałych. Dolne ograniczenie to9 pchnięć, rzeczywiste optimum 45. W dostarczonym optimum występuje8 zdjęć skrzyni z celu i25 zmian obsługiwanej skrzyni. Dowiedzione są konieczne przeplatanie operacji między skrzyniami i konieczne zdejmowanie skrzyni z celu. Pozostałe opisy motywów wynikają z geometrii i konkretnego świadka, nie stanowią dowodu jedynej strategii.",
-      "design_index": 129.5135,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 9,
-        "assignment_gap": 36,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 57,
@@ -4647,74 +1080,10 @@
         "#   ##+#  ##   #",
         "################"
       ],
-      "path": "ULLLRRURUUDDDLLLDLURUULLDRURDLDRRRURDUUULDDRDLLLRRURRRRRRDRULUURRDLULDRDLLLLDDRULULLULDRDLURRRRRRDRULUURRDLULDRDLLLLL",
-      "moves": 117,
-      "pushes": 48,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "ULLLRRURUUDDDLLLDLURUULLDRURDLDRRRURDUUULDDRDLLLRRURRRRRRDRULUURRDLULDRDLLLLDDRULULLULDRDLURRRRRRDRULUURRDLULDRDLLLLL",
-        "pushes": 48,
-        "moves": 117,
-        "expanded": 7610,
-        "visited": 8057,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 12,
-        "initial_push_lower_bound": 12,
-        "no_goal_removal": false,
-        "states": 7610,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         16,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-15",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 39,
-        "used_fraction": 0.7358,
-        "crate_cells": 23,
-        "crate_span": [
-          11,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 48,
-        "walking": 69,
-        "first_push": 1,
-        "longest_walk_without_push": 8,
-        "crate_route_bends": [
-          0,
-          2,
-          5,
-          7,
-          5
-        ],
-        "goal_to_floor_pushes": 6,
-        "box_switches": 10,
-        "motif": "0,2,5,5,7",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-15",
-        "original_design_title": "Ostatni pakiet"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 48 pchnięć przy niezależnym dolnym ograniczeniu 12, czyli 36 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 10 zmian obsługiwanej skrzyni i 6 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 74% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 131.6443,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 12,
-        "assignment_gap": 36,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 58,
@@ -4730,74 +1099,10 @@
         "#@ ##  # ##   ##",
         "################"
       ],
-      "path": "RUUDRRRURLDDRUURRDRULLLULUULLLLDURRRRDDDDLLLUURDLDRRRUUUULLLDURRRDDDRRRRRRUUULLDDUURRDDDLLLLLULUULLLDDRDDRRDRULURRRDRULLLLUDDLLUULUURRRRDULLLLDDRDDRRURRRRRRUUULLDDUURRDDDLLLLLDLLLUULUURRRRDDLDRRRDRULLLULURULLRDDDRDDLULLLUDRRRRUULDRDLL",
-      "moves": 234,
-      "pushes": 52,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "RUUDRRRURLDDRUURRDRULLLULUULLLLDURRRRDDDDLLLUURDLDRRRUUUULLLDURRRDDDRRRRRRUUULLDDUURRDDDLLLLLULUULLLDDRDDRRDRULURRRDRULLLLUDDLLUULUURRRRDULLLLDDRDDRRURRRRRRUUULLDDUURRDDDLLLLLDLLLUULUURRRRDDLDRRRDRULLLULURULLRDDDRDDLULLLUDRRRRUULDRDLL",
-        "pushes": 52,
-        "moves": 234,
-        "expanded": 12282,
-        "visited": 13212,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 33,
-        "initial_push_lower_bound": 14,
-        "no_goal_removal": false,
-        "states": 12282,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-09",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 52,
-        "used_cells": 42,
-        "used_fraction": 0.8077,
-        "crate_cells": 24,
-        "crate_span": [
-          9,
-          5
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 52,
-        "walking": 182,
-        "first_push": 2,
-        "longest_walk_without_push": 25,
-        "crate_route_bends": [
-          0,
-          10,
-          5,
-          2,
-          4
-        ],
-        "goal_to_floor_pushes": 6,
-        "box_switches": 24,
-        "motif": "0,2,4,5,10",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-09",
-        "original_design_title": "Przesmyk"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 52 pchnięć przy niezależnym dolnym ograniczeniu 14, czyli 38 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 24 zmian obsługiwanej skrzyni i 6 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 81% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 140.2679,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 14,
-        "assignment_gap": 38,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 59,
@@ -4813,74 +1118,10 @@
         "## ##   # # . ##",
         "################"
       ],
-      "path": "LLLLULLLUULLLLDDRDDRRDRUUDLLLUULUURRRDDDRULUULLLDDRDDRRUURRRRDDLURRRRRDDLURULLLLUURRRDDDULLLULLLDLUDDLLUULUURRRRDULLLLDDRDDRRUURRRLLLURULDDRRRURRRRDDLLLDLURRRRUULLLDLDRRLULLLDLDDRUULURRRURDDULLLUULDDDRDL",
-      "moves": 203,
-      "pushes": 51,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "LLLLULLLUULLLLDDRDDRRDRUUDLLLUULUURRRDDDRULUULLLDDRDDRRUURRRRDDLURRRRRDDLURULLLLUURRRDDDULLLULLLDLUDDLLUULUURRRRDULLLLDDRDDRRUURRRLLLURULDDRRRURRRRDDLLLDLURRRRUULLLDLDRRLULLLDLDDRUULURRRURDDULLLUULDDDRDL",
-        "pushes": 51,
-        "moves": 203,
-        "expanded": 39080,
-        "visited": 44782,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 105,
-        "initial_push_lower_bound": 9,
-        "no_goal_removal": false,
-        "states": 39080,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-06",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 51,
-        "used_cells": 42,
-        "used_fraction": 0.8235,
-        "crate_cells": 23,
-        "crate_span": [
-          9,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 51,
-        "walking": 152,
-        "first_push": 1,
-        "longest_walk_without_push": 17,
-        "crate_route_bends": [
-          4,
-          0,
-          4,
-          5,
-          6
-        ],
-        "goal_to_floor_pushes": 3,
-        "box_switches": 19,
-        "motif": "0,4,4,5,6",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-06",
-        "original_design_title": "Przesunięte bramy"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 51 pchnięć przy niezależnym dolnym ograniczeniu 9, czyli 42 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 19 zmian obsługiwanej skrzyni i 3 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 82% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 148.7759,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 9,
-        "assignment_gap": 42,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     },
     {
       "number": 60,
@@ -4896,74 +1137,10 @@
         "###  #   .#  ###",
         "################"
       ],
-      "path": "DDRDLLDLUULUURDDDRRRRDDLURULULUURDURRDLLDDUUULDRDDRDDLUUUULURDDDLUDLDDLLURDRULURRLLUDRRURDRDDLUUUDLLLULUULLLDDRRLLUURRRRDDDRDDLLURDRULUUUULLLLDDRRRURDDDLDRUURRURDRDDLURULLLDLUU",
-      "moves": 176,
-      "pushes": 57,
-      "push_solver": {
-        "status": "SOLVED",
-        "path": "DDRDLLDLUULUURDDDRRRRDDLURULULUURDURRDLLDDUUULDRDDRDDLUUUULURDDDLUDLDDLLURDRULURRLLUDRRURDRDDLUUUDLLLULUULLLDDRRLLUURRRRDDDRDDLLURDRULUUUULLLLDDRRRURDDDLDRUURRURDRDDLURULLLDLUU",
-        "pushes": 57,
-        "moves": 176,
-        "expanded": 22405,
-        "visited": 22660,
-        "optimal_pushes_proven": true,
-        "unsolvability_proven": false,
-        "elapsed_ms": 45,
-        "initial_push_lower_bound": 11,
-        "no_goal_removal": false,
-        "states": 22405,
-        "metric": "proven minimum pushes by admissible A*; witness moves NOT globally optimal; states=expanded canonical push states"
-      },
       "visual_size": [
         15,
         8
-      ],
-      "change": "redesigned",
-      "source": "CAMP3 original layout DATA-data-03",
-      "owner": "OWNER_PENDING",
-      "activity": {
-        "free_cells": 53,
-        "used_cells": 38,
-        "used_fraction": 0.717,
-        "crate_cells": 20,
-        "crate_span": [
-          7,
-          6
-        ],
-        "all_boxes_moved": true
-      },
-      "features": {
-        "pushes": 57,
-        "walking": 119,
-        "first_push": 1,
-        "longest_walk_without_push": 14,
-        "crate_route_bends": [
-          8,
-          2,
-          2,
-          3,
-          11
-        ],
-        "goal_to_floor_pushes": 6,
-        "box_switches": 22,
-        "motif": "2,2,3,8,11",
-        "evidence_scope": "Measurements of this witness only; not required minima"
-      },
-      "provenance": {
-        "origin": "CAMP3 original design",
-        "candidate_id": "DATA-data-03",
-        "original_design_title": "Rozdzielnia"
-      },
-      "design_note": "Pięć aktywnych skrzyń; optimum 57 pchnięć przy niezależnym dolnym ograniczeniu 11, czyli 46 pchnięć narzutu wynikającego z ograniczeń wspólnej planszy. W zweryfikowanym rozwiązaniu 22 zmian obsługiwanej skrzyni i 6 odsunięć z celu na podłogę. Rozwiązanie wykorzystuje 72% pól podłogi. Wyczerpujący test potwierdza konieczność wracania do wcześniej obsługiwanej skrzyni. Wyczerpujący test potwierdza konieczność zdjęcia skrzyni z celu.",
-      "design_index": 162.0511,
-      "difficulty_evidence": {
-        "assignment_lower_bound": 11,
-        "assignment_gap": 46,
-        "interleaving_required": true,
-        "goal_to_floor_required": true,
-        "human_difficulty": "NOT_PLAYTESTED",
-        "engine_integration": "NOT_TESTED"
-      }
+      ]
     }
   ]
 }

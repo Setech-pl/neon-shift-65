@@ -8,7 +8,7 @@ from atr import offset
 from product1_data import load
 
 def prepare(out,source):
-    campaign,levels=load();digest=hashlib.sha256(campaign).digest()[:4]
+    campaign,levels=load();digest=bytes.fromhex(json.loads(campaign)['id'])
     (out/'campaign-id.h').write_text('static const unsigned char campaign_id[4]={'+','.join(map(str,digest))+'};\n')
     if os.environ.get('NEON_FINISH2_START','0')!='0':
         identity=hashlib.sha256(b'FINISH2 hardware test '+os.environ['NEON_FINISH2_START'].encode()+campaign).digest()[:4]
@@ -23,12 +23,16 @@ def prepare(out,source):
 
 def pack(image,out):
     campaign,levels=load()
-    digest=hashlib.sha256(campaign).digest()[:4]
+    digest=bytes.fromhex(json.loads(campaign)['id'])
     # Production has exactly 60 disk levels. Remove unreachable inherited
     # qualification packs (including First Dock), preserving menu/music slots.
     image[offset(512,128):offset(896,128)]=bytes((896-512)*128)
     directory=bytearray(image[offset(4,128):offset(4,128)+128])
     struct.pack_into('<H',directory,18,1101)
+    if os.environ.get('NEON_PMG_INDUSTRIAL1')=='1':
+        struct.pack_into('<HH',directory,20,48,6080)
+    elif os.environ.get('NEON_PMG1')=='1':
+        struct.pack_into('<HH',directory,20,48,6080)
     directory[32:64]=bytes(32)
     struct.pack_into('<H',directory,126,crc16(directory[:126]))
     image[offset(4,128):offset(4,128)+128]=directory
@@ -47,6 +51,12 @@ def pack(image,out):
         board[48:48+len(boxes)]=bytes(boxes);name=l['name'].encode('ascii');board[68:68+len(name)]=name
         struct.pack_into('<H',board,126,crc16(board[:126]))
         asset=(out/f"art-area-{l['area']}/level-{i+1:02d}/scene-0.nrq").read_bytes()
-        assert len(asset)==8768
+        if os.environ.get('NEON_PMG_INDUSTRIAL1')=='1':
+            from pmg_industrial1_art import bind_overlay
+            asset=bind_overlay(asset,(out/'renderer.bin').read_bytes())
+        elif os.environ.get('NEON_PMG1')=='1':
+            from pmg1_art import bind_overlay
+            asset=bind_overlay(asset,(out/'renderer.bin').read_bytes())
+        else:assert len(asset)==8768
         sector=1100+i*70;at=offset(sector,128)
         image[at:at+128]=board;image[at+128:at+128+len(asset)]=asset

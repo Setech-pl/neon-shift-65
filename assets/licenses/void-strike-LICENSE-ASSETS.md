@@ -16,7 +16,7 @@ provided you give appropriate credit and license your adaptations under the same
 terms.
 
 The source code of this repository is **not** covered by this file. It is
-licensed under the MIT licence in [`LICENSE`](LICENSE).
+licensed under the MIT licence in [`LICENSE`](https://github.com/Setech-pl/void-strike-65/blob/main/LICENSE).
 
 ---
 
@@ -48,7 +48,7 @@ licensed under the MIT licence in [`LICENSE`](LICENSE).
 - **Source code and build tooling** — `src/`, `scripts/`, `tests/`, `cfg/`,
   `Makefile`, `package.json`, `package-lock.json`, the reference renderer and
   synth under `assets/music/preview/` (`render.py`, `pokey_synth.py`) and the
-  rest of the build system: MIT, see [`LICENSE`](LICENSE).
+  rest of the build system: MIT, see [`LICENSE`](https://github.com/Setech-pl/void-strike-65/blob/main/LICENSE).
 - **Engineering documentation** — `docs/**` other than the `docs/media/**`
   images (architecture, status, memory map, decisions, diagnostics, `.mmd`
   diagrams, the evidence `.json` files and `docs/media/manifest.json`), the
@@ -102,7 +102,7 @@ same: **the licence follows the substance, not the file extension.**
 No third-party code is vendored here, and the ATR carries only this project's
 own code and data. External tools, machine-generated images and committed
 material whose origin is not recorded are listed in
-[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md); third-party material keeps
+[`THIRD_PARTY_NOTICES.md`](https://github.com/Setech-pl/void-strike-65/blob/main/THIRD_PARTY_NOTICES.md); third-party material keeps
 its own licence.
 
 This project is a non-commercial hobby work, not affiliated with or endorsed by

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "asset": "neon-shift65.atr",
+  "sha256": "a22992f1c4350d0e5c72150c6902aefdd2f485c3be5979f9da2a7bc2d32f3407",
+  "bytes": 1048592,
+  "machine": {
+    "family": "Atari XL/XE",
+    "video": "PAL",
+    "ramKB": 64,
+    "basic": false
+  },
+  "campaign": {
+    "levels": 60,
+    "id": "131c57e2"
+  },
+  "licences": {
+    "code": "MIT",
+    "content": "CC-BY-NC-SA-4.0"
+  },
+  "physicalAtariTest": "unconfirmed",
+  "ownerListening": "unconfirmed"
+}

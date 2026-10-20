@@ -1,67 +1,41 @@
 [English](README.md) · **Polski**
 
-**HWVIS1 — OWNER_PENDING. Atari XL/XE PAL 64 KB + SIO2SD:** przy włączaniu trzymaj **OPTION**, aby wyłączyć BASIC. Nowy obraz czeka na odbiór wyglądu, przejść, zapisów i dźwięku na Atari; prawa pozostają otwarte. Raport: [HWVIS1](docs/hwvis1/REPORT.md).
-
 # NEON SHIFT 65
 
-**Gra logiczna Sokoban na Atari 65XE PAL: 60 poziomów w czterech przemysłowych obszarach.**
+**Industrialny Sokoban dla Atari XL/XE PAL, 64 KB.** Poprowadź robota serwisowego przez 60 poziomów. Umieść każdą skrzynię na doku. Skrzyń nie można ciągnąć ani pchać dwóch naraz.
 
-Steruj robotem serwisowym, przepychaj ładunki na doki i przywracaj stację do działania, pokój po pokoju. Energy, Hydroponic, Data Hub i Reactor mają po 15 poziomów. Cały pokój pozostaje widoczny; planowanie i cofanie pomyłek są częścią zmiany.
+[Zagraj w Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Pobierz ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.0/neon-shift65.atr) · [Instrukcja](docs/how-to-play.pl.md) · [Budowanie](docs/building.pl.md)
 
-**[Pobierz normalny ATR](dist/neon-shift65-v1.0.0.atr)** · [ZIP gracza](dist/neon-shift65-v1.0.0.zip) · [Wydania GitHub](https://github.com/Setech-pl/neon-shift-65/releases)
+![NEON SHIFT 65 gameplay](docs/media/neon-shift65.gif)
 
-**Przygotowanie 1.0.0: DRAFT.** Wydanie stabilne nie jest jeszcze opublikowane. Odbiór sprzętu/wyglądu i konkretne decyzje prawne pozostają otwarte.
+Cztery animowane obszary: Energy (01–15), Hydroponic H2 (16–30), Data Hub (31–45) i Reactor R1 (46–60). Do 256 kroków undo, restart poziomu, zapis postępu i Continue. Wszystkie 60 map początkowych ma niezależnie zweryfikowane rozwiązania. Błędny ruch może zablokować skrzynię — użyj undo lub restartu.
 
-![Szesnastosekundowy montaż rzeczywistej gry: dokowanie i undo w Energy, następnie fragmenty Hydroponic, Data Hub i Reactor](docs/media/neon-shift65.gif)
-
-*Cztery zmontowane fragmenty gry; nagranie z zamrożonych ATR-ów w Atari800, czas PAL, całkowitoliczbowe 2× nearest-neighbour. Hydro/Data/Reactor nagrano ze startów testowych. To nośniki testowe, a nie wybór obszaru w normalnej grze. [Pochodzenie nagrania i GIF-y obszarów](docs/media/README.pl.md).*
-
-## Cztery obszary
-
-| Energy · poziomy 01–15 | Hydroponic · poziomy 16–30 |
+| Energy | Hydroponic H2 |
 | --- | --- |
-| ![Żółte urządzenia Energy wokół robota, skrzyń i doków](docs/media/energy.png) | ![Zielony pokój Hydroponic z czterema skrzyniami i dokami](docs/media/hydro.png) |
-| **Data Hub · poziomy 31–45** | **Reactor · poziomy 46–60** |
-| ![Urządzenia Data Hub w kolorze fuksji i zagadka ze skrzyniami](docs/media/data.png) | ![Czerwony pokój Reactor, robot i ładunki](docs/media/reactor.png) |
+| ![Energy](docs/media/energy.png) | ![Hydroponic](docs/media/hydro.png) |
+| Data Hub | Reactor R1 |
+| ![Data Hub](docs/media/data.png) | ![Reactor](docs/media/reactor.png) |
 
-| Menu | Loader |
-| --- | --- |
-| ![Menu główne z BEGIN SHIFT i CONTINUE](docs/media/menu.png) | ![Rzeczywisty ekran ładowania przed grą](docs/media/loader.png) |
-## Rozpocznij zmianę
+Rzeczywiste obrazy publikowanego ATR; powiększenie 2× bez wygładzania. [Media](docs/media/README.md)
 
-1. Przed grą skopiuj `neon-shift65-v1.0.0.atr`; zapis postępu modyfikuje obraz dysku.
-2. Zamontuj zapisywalną kopię jako **D1:**. Ustaw **PAL**, **64 KB XL/XE**, **BASIC wyłączony**. Na prawdziwym 65XE trzymaj **OPTION** przy włączaniu, aby wyłączyć BASIC.
-3. Poczekaj na loader i menu; wybierz **BEGIN SHIFT** joystickiem w porcie 1 i FIRE. **CONTINUE** odtwarza zapisany postęp.
+## Uruchomienie
 
-| Wejście | Podczas gry |
-| --- | --- |
-| Kierunki joysticka | Chodzenie; pchanie jednej skrzyni, bez ciągnięcia |
-| FIRE lub SELECT | Cofnięcie udanego kroku, do 256 kroków |
-| OPTION | Restart bieżącego poziomu; zerowanie liczników i undo |
-| START | Pauza; ponowny START wznawia |
-| SELECT w pauzie | Zapis i powrót do menu tytułowego |
-| FIRE w pauzie | Konfiguracja: lewo/prawo muzyka, FIRE efekty, START powrót |
+Zamontuj **zapisywalną kopię** normalnego ATR jako **D1:**. Wybierz PAL, XL/XE 64 KB i **BASIC OFF** (na Atari przytrzymaj OPTION podczas zimnego startu). Po menu wybierz BEGIN SHIFT albo CONTINUE joystickiem i FIRE. Obraz ma 8192 sektory po 128 B; SIO2SD musi obsługiwać ten format i zapis.
 
-Po rozwiązaniu poziomu zwolnij sterowanie i naciśnij **świeży FIRE**, aby przejść dalej; **SELECT** nadal cofa ostatnie pchnięcie. FIRE odebrany podczas ruchu zachowuje intencję undo. Przejście dalej automatycznie zapisuje następny poziom, a finał zapisuje ukończenie. Zimne CONTINUE odtwarza planszę i liczniki z **pustym undo**. Błąd zapisu pozwala ponowić próbę; nie wyjmuj dysku podczas I/O.
+Sterowanie: joystick — ruch/pchanie; FIRE lub SELECT — undo; OPTION — restart; START — pauza. SELECT podczas pauzy zapisuje i wraca do menu. Pełny opis zapisu i konfiguracji w instrukcji.
 
-Undo wykonuje jedną akcję na naciśnięcie; przed następną zwolnij przycisk. Pauza zachowuje undo w tej samej sesji; nowy poziom i restart je zerują. Bardzo krótki impuls kierunku podczas kończenia kroku może zostać pominięty; używaj świadomego przytrzymania/zwolnienia. Ustawienia muzyki/efektów utrwalają się z udanym zapisem gry.
+## Źródła
 
-Launcher właściciela mapuje WASD/M i F2/F3/F4 na joystick/FIRE i OPTION/SELECT/START. Inne emulatory mają własne mapowanie.
+```sh
+python3 tools/build.py --out build/release
+```
 
-## Wymagania i ograniczenia
+Python 3, Node.js, cc65 i clang. Build nie wymaga ROM-u ani emulatora. [Build](docs/building.pl.md)
 
-Cel: Atari 65XE PAL, standardowe 64 KB, joystick w porcie 1, zapisywalne D1: SIO2SD obsługujące obraz **8192 × 128 B** (1 048 592 B z nagłówkiem). BASIC musi być wyłączony; gra używa pamięci pod BASIC. ATR nie jest obrazem fizycznej dyskietki 720 × 256 B. NTSC, CA-2001, inne maszyny i firmware nie są zakwalifikowane.
+Normalny ATR odtworzono ze źródeł; odpowiada wersji sprawdzonej w emulatorze, obejmującej przejście 60/60 poziomów. Test fizycznego Atari/SIO2SD i odsłuch właściciela pozostają niepotwierdzone. Nie deklarujemy zgodności NTSC.
 
-Dowody emulatorowe RELEASE1 obejmują 60/60 poziomów, przejścia i finał, undo256, zapisy, zimne Continue i standardowe OS SIO. Niezależny re-review zamyka A-01–A-03 dla dokładnych bajtów dystrybucji. **Sprzęt fizyczny i ostateczny wygląd: OWNER_PENDING.** To osobne wyniki względem emulacji. Nie deklarujemy badań graczy ani udowodnionej liniowej trudności.
+## Twórcy i licencje
 
-## Instrukcje i rozwój
+© 2026 Marcin Krzetowski / **Setech Game Studio**. Gra rozwijana z pomocą Claude Code i Codex. [Credits](docs/credits.pl.md)
 
-[Jak grać](docs/how-to-play.pl.md) · [Szybki start](docs/quick-start.pl.md) · [Dokumentacja](docs/README.md) · [Bieżący build](docs/building.md) · [Informacje o wydaniu](docs/release-notes.pl.md) · [Odbiór właściciela](docs/owner-smoke.pl.md)
-
-Produkcyjny builder: `python3 tools/v1_build.py --out build/my-release` (nowy katalog wyjściowy). Główny Makefile dotyczy archiwalnego prototypu. Pakowanie nie przebudowuje ani nie zmienia zaakceptowanego ATR. Rozwój funkcjonalny zamrożony; utrzymanie obejmuje wyłącznie potwierdzone błędy.
-
-## Autorzy i licencje
-
-Marcin Krzetowski / **Setech Game Studio**, z udokumentowaną pomocą Codex przy implementacji i narzędziach oraz niezależnym audytem Claude. [Autorzy i pochodzenie](docs/credits.pl.md).
-
-Własny kod, narzędzia i dokumentacja techniczna: [MIT](LICENSE). Własna grafika, fonty, mapy, kreatywne teksty i materiały wizualne: [CC BY-NC-SA 4.0](LICENSE-ASSETS), z jawnymi wyjątkami. Linkowany runtime cc65 i adaptacje Void Strike zachowują swoje notices. **Prawa muzyki i pochodzenie historycznego First Dock nadal otwarte**; zobacz [notices](THIRD_PARTY_NOTICES.md). Nazwy i logo studia są zastrzeżonymi oznaczeniami; licencje nie przyznają praw do marki.
+Kod, narzędzia i dokumentacja techniczna: [MIT License](LICENSE). Grafika, fonty, mapy, twórcze teksty i obrazy z gry: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE-ASSETS). Pełny tekst CC znajduje się [tutaj](docs/licenses/CC-BY-NC-SA-4.0.txt). Licencja podąża za treścią także w plikach mieszanych. Cały ATR jest udostępniany na CC BY-NC-SA 4.0 z zachowaniem notices kodu MIT i cc65. Wcześniejsza deklaracja CC0 dla „Service Current” pozostaje ważna; cc65 oraz adaptacje Void Strike zachowują własne warunki i autorstwo. Nazwy i znaki studia są zastrzeżone. [Komponenty i wyjątki](THIRD_PARTY_NOTICES.md).

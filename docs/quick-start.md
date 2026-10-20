@@ -1,15 +1,17 @@
-**English** · [Polski](quick-start.pl.md)
-
-**HWVIS1 — OWNER_PENDING. Atari XL/XE PAL 64 KB + SIO2SD:** hold **OPTION** at power-on to disable BASIC. The new image awaits actual Atari visual, transition, save and sound acceptance; rights remain open. Report: [HWVIS1](hwvis1/REPORT.md).
+[English](quick-start.md) · [Polski](quick-start.pl.md)
 
 # Quick start
 
-Download `neon-shift65-v1.0.0.zip` or the standalone ATR from [dist](../dist/). Stable publication is pending; these are the unchanged 1.0.0 candidate bytes. Extract the ZIP and keep its original ATR untouched.
+1. Copy the normal `neon-shift65.atr` onto writable media. The game saves progress inside its own disk image.
+2. Mount the copy as **D1:**. Hold **OPTION / BASIC OFF** during a cold Atari start.
+3. Wait for the menu. Joystick port 1 and FIRE select **BEGIN SHIFT** or **CONTINUE**.
 
-1. Make a writable play copy. Mount it as **D1:**, not as an executable/XEX.
-2. Atari800: `atari800 -xl -pal -nobasic -no-mapram -nopatch play.atr`. Configure RAM to 64 KB and joystick port 1. The ROM and emulator are supplied separately by you.
-3. Real 65XE: select that copy on SIO2SD D1:, permit writes and hold OPTION at power-on to disable BASIC. The device must support 8192 sectors of 128 B. Physical acceptance remains OWNER_PENDING.
-4. Select BEGIN SHIFT, press FIRE. Joystick moves, FIRE/SELECT undo, OPTION restarts, START pauses. In pause, SELECT saves and exits.
-5. At a solved board release FIRE, then press it again to advance. SELECT undoes the winning push instead. After cold boot use CONTINUE; undo starts empty.
+Hardware target: Atari 65XE PAL, 64 KB RAM; XL/XE PAL 64 KB has been tested in emulation. The image has 8192 sectors of 128 bytes (1,048,592 bytes including header). SIO2SD must support this format and writing. NTSC, physical disk drives and other configurations are unqualified.
 
-The supplied owner launcher uses WASD/M, F2=OPTION, F3=SELECT, F4=START. Generic emulator keys depend on your mapping. NTSC and CA-2001 are unqualified. Never swap D1: while running or during writes. [Full rules](how-to-play.md).
+## Emulator
+
+Atari800: PAL, XL/XE 64 KB, BASIC OFF, standard OS SIO (`-nopatch`). Mount a writable copy as D1: and cold-boot. Configure joystick 1 in the emulator settings. With the Atari800 keyboard profile used here, WASD moves and M is FIRE; F2 = OPTION, F3 = SELECT, F4 = START. Other emulators have their own mappings. Supply your own legal OS configuration; no ROM or emulator is bundled.
+
+Setech Arcade: arrows/WASD = movement, Z/X = FIRE, F2 = OPTION, F3 = SELECT, F4 = START. Progress is stored in this browser's IndexedDB; clearing site data removes it. A downloaded ATR is a fresh disk, separate from browser progress. Full console-key controls require a keyboard; touch/gamepad expose movement and FIRE.
+
+[How to play](how-to-play.md) · [README](../README.md)

@@ -1,8 +1,11 @@
-# Preserved upstream notices
+# Licence texts
 
-cc65.txt, void-strike-MIT.txt and void-strike-LICENSE-ASSETS.md are unmodified
-copies of notices used by the product. Relative LICENSE and THIRD_PARTY_NOTICES
-links inside the upstream asset notice refer to the upstream repository:
-https://github.com/Setech-pl/void-strike-65/tree/main . They do not license
-unidentified NEON SHIFT assets. The adapted font notice points to the project's
-maintained attribution. Current scope: ../../LICENSE-ASSETS and ../../THIRD_PARTY_NOTICES.md.
+- [MIT — project code](../../LICENSE)
+- [Content scope](../../LICENSE-ASSETS), [full CC BY-NC-SA 4.0 text](CC-BY-NC-SA-4.0.txt)
+- [cc65](cc65.txt)
+- [Void Strike MIT](void-strike-MIT.txt), [Void Strike content](void-strike-LICENSE-ASSETS.md)
+- [Font adaptation](mono-font-NOTICE.md)
+- [Service Current — original CC0/MIT notice](service-current-LICENSE-music.md)
+
+The content licence model matches Void Strike 65's LICENSE-ASSETS; the above
+upstream notices apply to the specifically identified adaptations.

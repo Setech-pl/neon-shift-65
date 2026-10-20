@@ -345,10 +345,7 @@ def main():
     results=[]
     for i,l in enumerate(ll):
         parse('\n'.join(l['rows']))
-        # The medium puzzle solution is translated unchanged from its source.
-        if l.get('fixture')=='energy-service-bay-obstacles-v1':
-            path=(SOURCE/'energy-service-bay-obstacles-v1.solution').read_text().strip();states='provided, nonoptimal; verified by actual C and native6502 replay'
-        else:path,states=solve_path('\n'.join(l['rows']))
+        path,states=solve_path('\n'.join(l['rows']))
         assert path is not None,(i,states)
         results.append(dict(scene=i,path=path,states=states))
     (OUT/'solutions.json').write_text(json.dumps(results,indent=2)+'\n')
@@ -383,7 +380,6 @@ def main():
         for d in result['path']:
             dx,dy={'U':(0,-1),'D':(0,1),'L':(-1,0),'R':(1,0)}[d]
             replay+=f'assert(game_step(&g,{dx},{dy},&p));++n;\n'
-        if ll[result['scene']].get('fixture')=='energy-service-bay-obstacles-v1':replay+='assert(g.moves==69 && g.pushes==11);\n'
         replay+='assert(level_is_solved(&g));while(n--)assert(undo_pop(&g));assert(!memcmp(&g,&original,sizeof(g)));\n'
     replay+='puts("PASS qualification solver paths in real C logic and full undo");return 0;}\n'
     (OUT/'replay.c').write_text(replay)

@@ -1,9 +1,0 @@
-{
-  "version": 1,
-  "sector_bytes": 128,
-  "sectors": 8192,
-  "image_id": 1,
-  "scene_starts": [254, 2046],
-  "future_reserve_bytes": 196608,
-  "target": "SIO2SD and emulators; physical floppy capacity is not a release constraint"
-}

@@ -281,6 +281,33 @@ sio_command:
     if os.environ.get('NEON_HWVIS1')=='1':
         from hwvis1_overlay import install
         install(source)
+    if os.environ.get('NEON_PMG1')=='1':
+        assert os.environ.get('NEON_HWVIS1')=='1'
+        from pmg1_overlay import install
+        install(source,out)
+    if os.environ.get('NEON_PMG_INDUSTRIAL1')=='1':
+        from pmg_industrial1_overlay import install
+        install(source,out)
+    if os.environ.get('NEON_ENERGY_DETAIL1')=='1':
+        from energy_detail1_overlay import install
+        install(source)
+    if os.environ.get('NEON_ENERGY_FINAL1')=='1':
+        f=source/'display.c'
+        s=f.read_text()
+        assert 'DESC[536]==(area==1?40:238)' in s
+        f.write_text(s.replace('DESC[536]==(area==1?40:238)','DESC[536]==238'))
+    if os.environ.get('NEON_ENERGY_FIX1')=='1':
+        from energy_fix1_ambient import install
+        install(source)
+    if os.environ.get('NEON_ENERGY_NEON1')=='1':
+        from energy_neon1 import install
+        install(source)
+    if os.environ.get('NEON_AREAS1')=='1':
+        from neon_areas1_art import install_runtime
+        install_runtime(source)
+    if os.environ.get('NEON_FINAL_FIX1')=='1':
+        from final_fix1_overlay import install
+        install(source)
     env=dict(os.environ,NEON_ART2_BUILD=str(out),NEON_ART2_AREA=str(a.area),NEON_ART2_FIXTURE='obstacles',ART3_VARIANT='B',NEON_VISUAL2=str(int(a.visual2)))
     env['NEON_ART_FINAL']=str(int(a.art_final))
     env['NEON_FINISH1']=str(int(a.finish1))
