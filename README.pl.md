@@ -4,7 +4,7 @@
 
 **Industrialny Sokoban dla Atari XL/XE PAL, 64 KB.** Poprowadź robota serwisowego przez 60 poziomów. Umieść każdą skrzynię na doku. Skrzyń nie można ciągnąć ani pchać dwóch naraz.
 
-[Zagraj w Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Pobierz ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.1/neon-shift65.atr) · [Instrukcja](docs/how-to-play.pl.md) · [Budowanie](docs/building.pl.md)
+[Zagraj w Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Pobierz ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.1/neon-shift65.atr) · [Instrukcja](docs/how-to-play.pl.md) · [Emulator Windows / macOS](docs/quick-start.pl.md) · [Budowanie](docs/building.pl.md)
 
 ![NEON SHIFT 65 gameplay](docs/media/neon-shift65.gif)
 
@@ -20,7 +20,9 @@ Rzeczywiste obrazy publikowanego ATR; powiększenie 2× bez wygładzania. [Media
 
 ## Uruchomienie
 
-Zamontuj **zapisywalną kopię** normalnego ATR jako **D1:**. Wybierz PAL, XL/XE 64 KB i **BASIC OFF** (na Atari przytrzymaj OPTION podczas zimnego startu). Po menu wybierz BEGIN SHIFT albo CONTINUE joystickiem i FIRE. Obraz ma 8192 sektory po 128 B; SIO2SD musi obsługiwać ten format i zapis.
+Zamontuj **zapisywalną kopię** normalnego ATR jako **D1:**. Wybierz PAL, XL/XE 64 KB i **BASIC OFF** (na Atari przytrzymaj OPTION podczas zimnego startu). W menu wybierz BEGIN SHIFT albo CONTINUE joystickiem i FIRE. Obraz ma 8192 sektory po 128 B; SIO2SD musi obsługiwać ten format i zapis.
+
+**Windows:** skorzystaj z [instrukcji Altirra](docs/quick-start.pl.md#windows--altirra). **macOS:** skorzystaj z [instrukcji Atari800](docs/quick-start.pl.md#macos--atari800). Obie opisują pobranie gry, ustawienie joysticka w porcie 1, klawisze konsoli i zapis postępu. Do grania nie potrzebujesz narzędzi programistycznych.
 
 Sterowanie: joystick — ruch/pchanie; FIRE lub SELECT — undo; OPTION — restart; START — pauza. SELECT podczas pauzy zapisuje i wraca do menu. Pełny opis zapisu i konfiguracji w instrukcji.
 
