@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 source=Path(sys.argv[1]);out=Path(os.environ['NEON_ART2_BUILD']);area=int(os.environ['NEON_ART2_AREA'])
 sys.path.insert(0,str(source))
 import compile as c
-spec=importlib.util.spec_from_file_location('product_art',ROOT/'experiments/product1/art.py');art=importlib.util.module_from_spec(spec);spec.loader.exec_module(art)
+spec=importlib.util.spec_from_file_location('product_art',ROOT/'tools/product1/art.py');art=importlib.util.module_from_spec(spec);spec.loader.exec_module(art)
 a=c.arrays()
 # Same historical fixture before/after, same absolute geometry and settings.
 before=out/'comparison-before';after=out/'comparison-after'
@@ -19,28 +19,28 @@ for f in out.glob('scene-0*'):shutil.copyfile(f,after/f.name)
 from product1_data import load
 raw,levels=load()
 if os.environ.get('NEON_VISUAL2')=='1' and area==1:
-    spec=importlib.util.spec_from_file_location('visual2',ROOT/'experiments/product1/visual2.py')
+    spec=importlib.util.spec_from_file_location('visual2',ROOT/'tools/product1/visual2.py')
     visual2=importlib.util.module_from_spec(spec);spec.loader.exec_module(visual2)
     direction=os.environ.get('NEON_ART4')
     if direction:
-        spec=importlib.util.spec_from_file_location('art4',ROOT/'experiments/art4-a/art.py')
+        spec=importlib.util.spec_from_file_location('art4',ROOT/'tools/art4-a/art.py')
         art4=importlib.util.module_from_spec(spec);spec.loader.exec_module(art4)
         visual2.install(c,art4.Art(direction))
     else:visual2.install(c)
 if os.environ.get('NEON_ART_FINAL')=='1' and area==1:
-    spec=importlib.util.spec_from_file_location('art_final',ROOT/'experiments/art-final/energy.py')
+    spec=importlib.util.spec_from_file_location('art_final',ROOT/'tools/art-final/energy.py')
     art_final=importlib.util.module_from_spec(spec);spec.loader.exec_module(art_final)
     art_final.install(c)
 if os.environ.get('NEON_FINISH1')=='1':
-    spec=importlib.util.spec_from_file_location('finish1_art',ROOT/'experiments/finish1/art.py')
+    spec=importlib.util.spec_from_file_location('finish1_art',ROOT/'tools/finish1/art.py')
     finish1=importlib.util.module_from_spec(spec);spec.loader.exec_module(finish1)
     finish1.install(c)
 if os.environ.get('NEON_FINISH2')=='1':
-    spec=importlib.util.spec_from_file_location('finish2_art',ROOT/'experiments/finish2/art.py')
+    spec=importlib.util.spec_from_file_location('finish2_art',ROOT/'tools/finish2/art.py')
     finish2=importlib.util.module_from_spec(spec);spec.loader.exec_module(finish2)
     finish2.install(c)
 if os.environ.get('NEON_RELEASE1')=='1':
-    spec=importlib.util.spec_from_file_location('release1_art',ROOT/'experiments/release1/art.py')
+    spec=importlib.util.spec_from_file_location('release1_art',ROOT/'tools/release1/art.py')
     release1=importlib.util.module_from_spec(spec);spec.loader.exec_module(release1)
     release1.install(c)
 previous_devices=c.decoration.devices

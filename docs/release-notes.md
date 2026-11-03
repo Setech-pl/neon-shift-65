@@ -1,11 +1,11 @@
-# NEON SHIFT 65 v1.0.1
+# v1.0.2-archive-r6 — archival candidate / kandydat archiwalny
 
-60 levels across four animated industrial areas. Joystick movement and pushing, undo256, restart, pause, disk saves and Continue. Atari XL/XE PAL, standard 64 KB, BASIC OFF.
+This prerelease preserves the current local MENUFIX1 + SELECTART1 R6 version. It is a normal commit based on public history, without importing local experimental history. Development is suspended; the owner currently plans no further development. Existing stable v1.0.1 is retained.
 
-[Play](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.1/neon-shift65.atr) · [Manual](how-to-play.md)
+60 levels, four areas with current graphics and four distinct scores, PMG robot, HUD, level selection with confirmation, options with music/SFX and confirmed exit, movement/push, undo256, restart, pause, save and Continue are preserved. The ATR is byte-identical to the owner launcher's immutable R6 master. The owner's writable save disks are private and excluded.
 
-The player package contains one normal ATR, PL/EN instructions and licences. The source archive contains the complete builder inputs. SHA256SUMS identifies the release assets.
+Open: loading/menu delays (LOAD-FIX1 NOT DONE), final graphics acceptance (including Hydroponic), physical Atari PAL 64 KB/SIO2SD, live host F2. No fixes or hardware tests are claimed. Historical Service Current music authority and First Dock provenance exceptions remain open; licences/notices retain these limitations.
 
-The reproducible build matches the ATR verified in emulation, including 60/60 levels. Physical Atari/SIO2SD testing and owner listening remain unconfirmed.
+ATR SHA-256: `72f1d0643c562937312d71beeaa7965cda5fd5213b9e3891f292bf55f12dc477`. Assets: normal ATR, bilingual player ZIP, minimal complete source ZIP, SHA256SUMS. Source build runs host/6502 replays and budget checks; bounded emulator smoke covers menu, selector, four areas, options, actions, saving and cold Continue. Area selection in smoke uses private save fixtures. It is not physical hardware evidence.
 
-[Licences](../LICENSE-ASSETS) · [Credits](credits.md)
+Rozwój wstrzymany. To osobny prerelease bieżącej wersji R6. Zachowano grafikę, muzykę, poziomy i funkcje; zapisów właściciela nie opublikowano. LOAD-FIX1 nie wykonano. Odbiór grafiki i fizyczne Atari pozostają niepotwierdzone. Stabilne v1.0.1 pozostaje bez zmian. [Instrukcja PL](how-to-play.pl.md).

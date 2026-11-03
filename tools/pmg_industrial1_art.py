@@ -47,6 +47,10 @@ def install(c):
     if areas:
         from neon_areas1_art import install as install_areas
         energy=install_areas(c,energy);final=True
+    atmosphere=os.environ.get('NEON_ATMOSPHERE1')=='1'
+    if atmosphere:
+        from atmosphere1 import artwork
+        artwork(energy)
     previous=c.scene
     old_devices=c.decoration.devices
     old_device=c.device
@@ -130,18 +134,25 @@ def install(c):
         desc[4]=0;desc[128:536]=bytes(408)
         desc[536:541]=bytes([238,{1:0xe8,2:0xb8,3:0x48,4:0x38}[c.themes.AREA],2,6,0])
         if energy:desc[536]=0xee if final else 0x28
+        if atmosphere:
+            from atmosphere1 import LIGHTS
+            desc[536]=LIGHTS[c.themes.AREA]
         desc[541:544]=bytes([vw,vh,4])
         ambient=[]
         if final and os.environ.get('NEON_ENERGY_FIX1')=='1':
             if areas:
-                from neon_areas1_art import descriptors
+                if atmosphere:
+                    from atmosphere1 import descriptors
+                else:
+                    from neon_areas1_art import descriptors
             else:
                 from energy_fix1_ambient import descriptors
             entries,ambient=descriptors(energy,level,fonts,screen)
             desc[4]=len(ambient);desc[128:128+len(entries)]=entries
         if areas:
             from neon_areas1_art import neon_data
-            desc[160:258]=neon_data(c.themes.AREA)
+            start=192 if atmosphere else 160
+            desc[start:start+98]=neon_data(c.themes.AREA)
         parts=[(a,b''.join(f)+bytes(1024-len(f)*8)) for a,f in zip(BANKS,fonts)]
         parts += [(0xa400,bytes(1024)),(0x9800,bytes(screen)),(0x1400,bytes(comp)),(0xb160,frames()),(0x9de0,bytes(desc))]
         raw=package(parts);assert len(raw)==6080

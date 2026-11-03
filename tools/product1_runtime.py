@@ -27,6 +27,9 @@ def pack(image,out):
     # Production has exactly 60 disk levels. Remove unreachable inherited
     # qualification packs (including First Dock), preserving menu/music slots.
     image[offset(512,128):offset(896,128)]=bytes((896-512)*128)
+    if os.environ.get('NEON_ATMOSPHERE1')=='1':
+        from atmosphere1_music import pack
+        pack(image,out)
     directory=bytearray(image[offset(4,128):offset(4,128)+128])
     struct.pack_into('<H',directory,18,1101)
     if os.environ.get('NEON_PMG_INDUSTRIAL1')=='1':
@@ -60,3 +63,9 @@ def pack(image,out):
         else:assert len(asset)==8768
         sector=1100+i*70;at=offset(sector,128)
         image[at:at+128]=board;image[at+128:at+128+len(asset)]=asset
+    if os.environ.get('NEON_LEVELSELECT1')=='1':
+        from levelselect1 import pack
+        pack(image,out)
+
+        from menufix1 import pack as pack_options
+        pack_options(image,out)

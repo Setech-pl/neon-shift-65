@@ -85,7 +85,7 @@ def descriptors(background, level, fonts, screen):
 
 def install(source):
     """Restore the existing ambient path after the industrial source transform."""
-    original = (ROOT / 'experiments/eng3-observed-input-3pal/hardware.s').read_text()
+    original = (ROOT / 'src/engine/hardware.s').read_text()
     f = source / 'hardware.s'
     s = f.read_text()
     body = original[original.index('background_update:\n'):original.index('@menu:\n', original.index('background_update:\n'))]

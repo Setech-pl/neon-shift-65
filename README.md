@@ -2,42 +2,28 @@
 
 # NEON SHIFT 65
 
-**Industrial Sokoban for Atari XL/XE PAL, 64 KB.** Guide a service robot through 60 levels. Push every crate onto a dock. You cannot pull crates or push two at once.
+Industrial Sokoban for Atari XL/XE PAL, 64 KB. 60 levels in four areas: Energy (01–15), Hydroponic (16–30), Data Hub (31–45), Reactor (46–60).
 
-[Play in Setech Arcade](https://setech-pl.github.io/setech-arcade/play/neon-shift-65/) · [Download ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.1/neon-shift65.atr) · [How to play](docs/how-to-play.md) · [Windows / macOS setup](docs/quick-start.md) · [Build from source](docs/building.md)
+**Development is suspended.** The owner currently plans no further development. This archival candidate preserves the current local MENUFIX1 + SELECTART1 R6 version, including its graphics, four area scores, level selector, options, up to 256 undo steps, restart, save and Continue.
 
-![NEON SHIFT 65 gameplay](docs/media/neon-shift65.gif)
+[Archival prerelease](https://github.com/Setech-pl/neon-shift-65/releases/tag/v1.0.2-archive-r6) · [Normal ATR](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.2-archive-r6/neon-shift65-r6.atr) · [Player ZIP](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.2-archive-r6/neon-shift65-r6-player.zip) · [Source ZIP](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.2-archive-r6/neon-shift65-r6-source.zip) · [SHA256SUMS](https://github.com/Setech-pl/neon-shift-65/releases/download/v1.0.2-archive-r6/SHA256SUMS)
 
-Four animated areas: Energy (01–15), Hydroponic H2 (16–30), Data Hub (31–45), and Reactor R1 (46–60). Up to 256 undo steps, level restart, progress saving and Continue. All 60 starting layouts have independently verified solutions. A wrong move can trap a crate; use undo or restart.
+Existing stable [v1.0.1](https://github.com/Setech-pl/neon-shift-65/releases/tag/v1.0.1) remains available separately. The repository remains open, without GitHub Archived mode.
 
-| Energy | Hydroponic H2 |
+| Energy | Hydroponic |
 | --- | --- |
-| ![Energy](docs/media/energy.png) | ![Hydroponic](docs/media/hydro.png) |
-| Data Hub | Reactor R1 |
-| ![Data Hub](docs/media/data.png) | ![Reactor](docs/media/reactor.png) |
+| ![Energy](docs/media/area-01.png) | ![Hydroponic](docs/media/area-16.png) |
+| Data Hub | Reactor |
+| ![Data Hub](docs/media/area-31.png) | ![Reactor](docs/media/area-46.png) |
 
-Actual captures of the released ATR; 2× nearest-neighbour scaling. [Media](docs/media/README.md)
+Actual R6 emulator captures; area starts use isolated test save fixtures. [Media provenance](docs/media/README.md).
 
-## Getting started
+Copy the ATR before playing. Mount the writable copy as D1:, select PAL XL/XE 64 KB, BASIC off, MAPRAM off and standard OS SIO. On Atari hold OPTION at power-on to disable BASIC. This is an 8192 × 128-byte sector ATR, not a standard floppy image. A joystick in port 1 is required. NTSC and other storage configurations are unqualified.
 
-Mount a **writable copy** of the normal ATR as **D1:**. Select PAL, XL/XE 64 KB and **BASIC OFF** (hold OPTION during a cold Atari boot). At the menu choose BEGIN SHIFT or CONTINUE with the joystick and FIRE. The image has 8192 sectors of 128 bytes; SIO2SD must support this format and writing.
+[Controls and saving](docs/how-to-play.md) · [Build from source](docs/building.md) · [Release notes](docs/release-notes.md)
 
-**Windows:** follow the [Altirra setup guide](docs/quick-start.md#windows--altirra). **macOS:** follow the [Atari800 setup guide](docs/quick-start.md#macos--atari800). Both explain downloading the game, configuring joystick port 1, console keys and saving progress. No development tools are needed to play.
+Loading/menu delays remain open: **LOAD-FIX1 NOT DONE**. Final graphics acceptance, including Hydroponic, physical Atari PAL/SIO2SD tests and live host F2 handling remain unconfirmed. Emulator checks do not establish hardware acceptance. No new functions or loading fixes were implemented for this publication.
 
-Controls: joystick moves/pushes; FIRE or SELECT undoes; OPTION restarts; START pauses. SELECT while paused saves and returns to the menu. See the manual for saving and configuration.
+Normal ATR SHA-256: `72f1d0643c562937312d71beeaa7965cda5fd5213b9e3891f292bf55f12dc477`.
 
-## Sources
-
-```sh
-python3 tools/build.py --out build/release
-```
-
-Python 3, Node.js, cc65 and clang. No ROM or emulator is needed to build. [Build](docs/building.md)
-
-The normal ATR is reproducible from source and matches the version verified in emulation, including a 60/60 campaign replay. Physical Atari/SIO2SD testing and owner listening remain unconfirmed. NTSC support is not claimed.
-
-## Credits and licences
-
-© 2026 Marcin Krzetowski / **Setech Game Studio**. Developed with assistance from Claude Code and Codex. [Credits](docs/credits.md)
-
-Code, tooling and engineering documentation: [MIT License](LICENSE). Graphics, fonts, maps, creative text and runtime images: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE-ASSETS). The [full CC legal text](docs/licenses/CC-BY-NC-SA-4.0.txt) is included. The licence follows the content in mixed files. The complete ATR is distributed under CC BY-NC-SA 4.0 with MIT and cc65 notices retained. The earlier CC0 grant for “Service Current” remains effective; cc65 and adapted Void Strike components retain their own terms and attribution. Studio names and marks are reserved. [Components and exceptions](THIRD_PARTY_NOTICES.md).
+Code and technical documentation: [MIT](LICENSE). Project-owned creative content: [CC BY-NC-SA 4.0](LICENSE-ASSETS), with existing exceptions. [Third-party notices](THIRD_PARTY_NOTICES.md) preserve cc65, Void Strike, historical Service Current music and First Dock provenance limitations. Publication does not resolve these open rights questions. Marcin Krzetowski / Setech Game Studio; implementation/tooling assistance by Codex, historical independent audit by Claude. Names and marks remain reserved.

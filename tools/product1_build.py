@@ -3,8 +3,8 @@
 import argparse, hashlib, json, os, shutil, subprocess, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-BASE=ROOT/'experiments/eng3-observed-input-3pal'
-PRODUCT=ROOT/'experiments/product1'
+BASE=ROOT/'src/engine'
+PRODUCT=ROOT/'src/product1'
 
 def hardware(source):
     s=(source/'hardware.s').read_text()
@@ -150,7 +150,10 @@ def main():
     if a.visual2 and not a.campaign:p.error('--visual2 requires --campaign')
     if out.exists():raise SystemExit('Refusing existing output: '+str(out))
     source=out/'source';shutil.copytree(BASE,source,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
-    vis=ROOT/'experiments/vis1-energy-industrial-restore'
+    shutil.copytree(ROOT/'tools/engine',source,dirs_exist_ok=True)
+    shutil.copytree(ROOT/'cfg/engine',source,dirs_exist_ok=True)
+    shutil.copytree(ROOT/'assets/engine',source,dirs_exist_ok=True)
+    vis=ROOT/'tools/vis1-energy-industrial-restore'
     shutil.copyfile(vis/'r2/energy.py',source/'vis1_energy.py');shutil.copyfile(vis/'energy.py',source/'vis1_base.py')
     c=source/'compile.py';s=c.read_text().replace("if __name__=='__main__':main()", "import vis1_energy\nvis1_energy.install(sys.modules[__name__])\nif __name__=='__main__':main()")
     c.write_text(s)
@@ -308,6 +311,17 @@ sio_command:
     if os.environ.get('NEON_FINAL_FIX1')=='1':
         from final_fix1_overlay import install
         install(source)
+    if os.environ.get('NEON_ATMOSPHERE1')=='1':
+        from atmosphere1 import install_runtime
+        install_runtime(source)
+    if os.environ.get('NEON_HUD1')=='1':
+        from hud1 import install
+        install(source)
+    if os.environ.get('NEON_LEVELSELECT1')=='1':
+        from levelselect1 import install
+        install(source,out)
+        from menufix1 import install as install_options
+        install_options(source,out)
     env=dict(os.environ,NEON_ART2_BUILD=str(out),NEON_ART2_AREA=str(a.area),NEON_ART2_FIXTURE='obstacles',ART3_VARIANT='B',NEON_VISUAL2=str(int(a.visual2)))
     env['NEON_ART_FINAL']=str(int(a.art_final))
     env['NEON_FINISH1']=str(int(a.finish1))

@@ -6,7 +6,7 @@ root=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--out',default='build/release')
 a=p.parse_args()
-subprocess.run([sys.executable,str(root/'tools/v1_build.py'),'--final-fix1','--out',a.out],cwd=root,check=True)
+subprocess.run([sys.executable,str(root/'tools/v1_build.py'),'--levelselect1','--out',a.out],cwd=root,check=True)
 out=Path(a.out)
 if not out.is_absolute():out=root/out
 disk=out/'candidate.atr'

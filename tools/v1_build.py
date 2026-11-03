@@ -14,6 +14,9 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--out',required=True)
+    p.add_argument('--atmosphere1',action='store_true',help='Distributed local lights and four original area scores')
+    p.add_argument('--hud1',action='store_true',help='Two-colour high-resolution HUD on ATMOSPHERE1')
+    p.add_argument('--levelselect1',action='store_true',help='HUD1 plus 60-level menu selector overlay')
     p.add_argument('--pmg1',action='store_true',help='Isolated PMG1 prototype; never writes dist')
     p.add_argument('--pmg-industrial1',action='store_true',help='Industrial reference artwork with the PMG1 robot, outside dist')
     p.add_argument('--final-fix1',action='store_true',help='Atomic display reveal and deferred auto-save presentation')
@@ -27,6 +30,9 @@ def main():
     p.add_argument('--test-start',type=int,choices=(1,3,16,31,46),help='Hardware area test: full boot, auto-start, isolated save identity')
     p.add_argument('--band-colors-prototype',action='store_true',help='Diagnostic only: DLI shades crossing shared object/device colors; excluded from final')
     a=p.parse_args();os.chdir(ROOT)
+    if a.levelselect1:a.hud1=True
+    if a.hud1:a.atmosphere1=True
+    if a.atmosphere1:a.final_fix1=True
     if a.final_fix1:a.neon_areas1=True
     if a.neon_areas1:a.energy_neon1=True
     if a.energy_neon1:a.energy_fix1=True
@@ -42,6 +48,9 @@ def main():
     levels=json.loads(raw)['levels'];assert len(levels)==60
     env=dict(os.environ,NEON_CAMPAIGN=str(source))
     env['NEON_PMG1']=str(int(a.pmg1))
+    env['NEON_ATMOSPHERE1']=str(int(a.atmosphere1))
+    env['NEON_HUD1']=str(int(a.hud1))
+    env['NEON_LEVELSELECT1']=str(int(a.levelselect1))
     env['NEON_PMG_INDUSTRIAL1']=str(int(a.pmg_industrial1))
     env['NEON_FINAL_FIX1']=str(int(a.final_fix1))
     env['NEON_AREAS1']=str(int(a.neon_areas1))
@@ -63,8 +72,8 @@ def main():
     out=Path(a.out)
     binding=dict(source=str(source.relative_to(ROOT)),source_sha256=hashlib.sha256(raw).hexdigest(),
                  authored_bounds='visual_size embedded in the unchanged source',levels=60,
-                 art='NEON-AREAS1 on ENERGY-NEON1' if a.neon_areas1 else 'ENERGY-NEON1 on ENERGY-FIX1' if a.energy_neon1 else 'ENERGY-FIX1 on ENERGY-FINAL1' if a.energy_fix1 else 'ENERGY-FINAL1' if a.energy_final1 else 'ENERGY-DETAIL1 on PMG-INDUSTRIAL1' if a.energy_detail1 else 'PMG-INDUSTRIAL1 on PMG1/HWVIS1' if a.pmg_industrial1 else 'PMG1 prototype on HWVIS1' if a.pmg1 else 'Historical Energy bands diagnostic' if a.band_colors_prototype else 'FINISH1 RC1' if a.rc1 else 'RELEASE1 on FINISH2 RC2',band_colors=a.band_colors_prototype,
-                 test_start=a.test_start,save_namespace='normal campaign' if not a.test_start else 'FINISH2 test '+str(a.test_start),
+                 art='ATMOSPHERE1 distributed lights and four area scores' if a.atmosphere1 else 'NEON-AREAS1 on ENERGY-NEON1' if a.neon_areas1 else 'ENERGY-NEON1 on ENERGY-FIX1' if a.energy_neon1 else 'ENERGY-FIX1 on ENERGY-FINAL1' if a.energy_fix1 else 'ENERGY-FINAL1' if a.energy_final1 else 'ENERGY-DETAIL1 on PMG-INDUSTRIAL1' if a.energy_detail1 else 'PMG-INDUSTRIAL1 on PMG1/HWVIS1' if a.pmg_industrial1 else 'PMG1 prototype on HWVIS1' if a.pmg1 else 'Historical Energy bands diagnostic' if a.band_colors_prototype else 'FINISH1 RC1' if a.rc1 else 'RELEASE1 on FINISH2 RC2',band_colors=a.band_colors_prototype,
+                 HUD1=a.hud1,LEVELSELECT1=a.levelselect1,test_start=a.test_start,save_namespace='normal campaign' if not a.test_start else 'FINISH2 test '+str(a.test_start),
                  ATR_sha256=hashlib.sha256((out/'candidate.atr').read_bytes()).hexdigest(),
                  source_preserved=True,visual_owner='NOT_RUN')
     (out/'v1-binding.json').write_text(json.dumps(binding,indent=2)+'\n')
